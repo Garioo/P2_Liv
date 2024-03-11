@@ -1857,9 +1857,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 1014422017}
   videoInfos:
-  - tag: TestVideo
+  - cutsceneTag: 
     videoClip: {fileID: 32900000, guid: fba129aeac7674c02951ca225fbb9f47, type: 3}
-  - tag: TestVideo2
+  - cutsceneTag: 
     videoClip: {fileID: 32900000, guid: 2979cab61b1164a0ab1809e7bbdeda93, type: 3}
   storylineManager: {fileID: 2059390413}
 --- !u!4 &1014422019
