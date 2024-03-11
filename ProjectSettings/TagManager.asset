@@ -6,6 +6,8 @@ TagManager:
   tags:
   - NextScene
   - NextWaypoint
+  - TestVideo
+  - TestVideo2
   layers:
   - Default
   - TransparentFX
