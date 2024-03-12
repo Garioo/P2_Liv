@@ -5,13 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Startscene.unity
     guid: b6655f317c2544d878febb0412d1eba3
   - enabled: 1
-    path: Assets/Scenes/Main Scenes/Sidescroller 1a.unity
+    path: Assets/Scenes/Main Scenes/MainScene1.unity
     guid: 85402d9ddedbd403aa5481f71a55aa4a
   - enabled: 1
-    path: Assets/Scenes/Spil/Spil 2.unity
+    path: Assets/Scenes/Spil/Spil2.unity
     guid: bba2258df71184fb39546587e51e41f6
   m_configObjects: {}

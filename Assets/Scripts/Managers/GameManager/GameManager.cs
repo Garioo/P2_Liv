@@ -3,10 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instance;
-
-    // Enum to define different game states
-    [SerializeField] public enum GameState
+    public enum GameState
     {
         MainScene1,
         MainScene2,
@@ -20,14 +17,9 @@ public class GameManager : MonoBehaviour
         // Add more game states as needed
     }
 
-    // Current game state
-    private GameState gameState = GameState.MainScene1;
+    public static GameManager instance;
 
-    // Reference to other managers
-    public StorylineManager storylineManager;
-    public VideoManager videoManager;
-    public AudioManager audioManager;
-    public WaypointManager waypointManager;
+    private GameState gameState = GameState.MainScene1;
 
     void Awake()
     {
@@ -44,7 +36,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        // Start initial game state
+        // Start the initial game state
         EnterState(gameState);
     }
 
@@ -53,11 +45,13 @@ public class GameManager : MonoBehaviour
     {
         gameState = newState;
 
+        Debug.Log("Entering game state: " + gameState);
+
         switch (gameState)
         {
-            case GameState.MainScene1:
+            /*case GameState.MainScene1:
                 LoadSceneWithCutscene("MainScene1", "Cutscene1");
-                break;
+                break;*/
 
             case GameState.MainScene2:
                 LoadSceneWithCutscene("MainScene2", "Cutscene2");
@@ -68,7 +62,7 @@ public class GameManager : MonoBehaviour
                 break;
 
             case GameState.Spil2:
-                LoadSceneWithoutCutscene("Spil2");
+                LoadSceneWithCutscene("Spil2", "Cutscene4");
                 break;
 
             // Add more cases for other game states as needed
@@ -76,41 +70,33 @@ public class GameManager : MonoBehaviour
     }
 
     // Function to load a scene with a cutscene
-    private void LoadSceneWithCutscene(string sceneName, string cutsceneTag)
+    public void LoadSceneWithCutscene(string sceneName, string cutsceneTag)
     {
+        Debug.Log("Loading scene: " + sceneName);
         // Play the cutscene video
-        videoManager.PlayVideo(cutsceneTag);
+        VideoManager.instance.PlayVideo(cutsceneTag);
+
+        // Get the duration of the cutscene video clip
+        float cutsceneDuration = VideoManager.instance.GetVideoDuration(cutsceneTag);
+
+        // Call LoadNextScene after the duration of the cutscene video clip
+        Invoke ("LoadNextScene", cutsceneDuration);
+        Debug.Log("Cutscene duration: " + cutsceneDuration);
     }
 
-    // Load the scene after the cutscene
-    private void LoadSceneAfterCutscene(string sceneName)
+    // Function to load the next scene
+    private void LoadNextScene()
     {
-        SceneManager.LoadScene(sceneName);
-    }
-
-    // Function to load a scene without a cutscene
-    private void LoadSceneWithoutCutscene(string sceneName)
-    {
-        SceneManager.LoadScene(sceneName);
-    }
-
-    // Function to handle completion of video
-    public void OnVideoFinished()
-    {
+        // Handle scene loading based on the current game state
         switch (gameState)
         {
             case GameState.MainScene1:
-                // Load the next scene in the storyline
-                storylineManager.LoadNextScene();
-                break;
-
             case GameState.MainScene2:
-                // Load the next scene in the storyline
-                storylineManager.LoadNextScene();
+                StorylineManager.instance.LoadNextScene();
                 break;
 
             case GameState.Spil2:
-                // Start the toothbrush finding game
+                StorylineManager.instance.LoadNextScene();
                 StartToothbrushGame();
                 break;
 
@@ -118,11 +104,17 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    // Function to be called when a video finishes playing
+    public void OnVideoFinished()
+    {
+        Debug.Log("Video finished playing");
+        // Call LoadNextScene after the video finishes playing (if necessary)
+        LoadNextScene();
+    }
+
     // Function to start the toothbrush finding game
     private void StartToothbrushGame()
     {
         // Implement logic to start the toothbrush finding game
     }
-
-    // Add more functions as needed to handle other aspects of your game
 }

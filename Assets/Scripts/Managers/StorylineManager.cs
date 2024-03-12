@@ -3,10 +3,20 @@ using UnityEngine.SceneManagement;
 
 public class StorylineManager : MonoBehaviour
 {
-    public void Start()
+  public static StorylineManager instance;
+    private void Awake()
     {
-		DontDestroyOnLoad (transform.gameObject);
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
+    
     // Array to hold the names of scenes in the storyline
     public string[] storylineScenes;
 

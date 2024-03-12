@@ -3,14 +3,21 @@ using UnityEngine.SceneManagement;
 
 public class SceneChangeTrigger : MonoBehaviour
 {
-    public GameManager.GameState nextState; // Enum representing the next game state
+     // Reference to the GameManager
+    public GameManager gameManager;
 
-    private void OnTriggerEnter(Collider other)
+    // The target game state to transition to
+    public GameManager.GameState targetState;
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player")) // Check if the colliding object is the player
+        Debug.Log("OnTriggerEnter2D");
+        // Check if the collider belongs to the player
+        if (other.CompareTag("Player"))
         {
-            // Get the GameManager instance and transition to the next game state
-            GameManager.instance.EnterState(nextState);
+            Debug.Log("Player entered trigger");
+            // Transition to the target game state
+            gameManager.EnterState(targetState);
         }
     }
 }

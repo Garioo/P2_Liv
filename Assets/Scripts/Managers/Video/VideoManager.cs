@@ -16,7 +16,7 @@ public class VideoManager : MonoBehaviour
 
     public VideoPlayer videoPlayer; // Assign the VideoPlayer component in the Unity Editor
     public List<VideoInfo> videoInfos; // List of video information (tag and VideoClip)
-    public StorylineManager storylineManager; // Reference to the StorylineManager script
+    public GameManager gameManager; // Reference to the GameManager script
 
     private bool hasPlayed;
 
@@ -37,18 +37,22 @@ public class VideoManager : MonoBehaviour
     void Start()
     {
         videoPlayer.loopPointReached += OnVideoFinished;
+
+        GameObject camera = GameObject.Find("Main Camera");
+        videoPlayer.renderMode = UnityEngine.Video.VideoRenderMode.CameraNearPlane;
     }
 
     private void OnVideoFinished(VideoPlayer vp)
-{
-    // Video finished playing
-    GameManager.instance.OnVideoFinished();
-}
+    {
+        // Notify the GameManager that the video has finished playing
+        gameManager.OnVideoFinished();
+    }
 
     public void PlayVideo(string cutsceneTag)
     {
         if (!hasPlayed)
         {
+            Debug.Log("Tjekker efter video i arrayen 'videoInfos'");
             foreach (VideoInfo videoInfo in videoInfos)
             {
                 if (videoInfo.cutsceneTag == tag)
@@ -60,5 +64,16 @@ public class VideoManager : MonoBehaviour
                 }
             }
         }
+    }
+    public float GetVideoDuration(string cutsceneTag)
+    {
+        foreach (VideoInfo videoInfo in videoInfos)
+        {
+            if (videoInfo.cutsceneTag == cutsceneTag)
+            {
+                return (float)videoInfo.videoClip.length;
+            }
+        }
+        return 0f; // Return 0 if video clip not found
     }
 }
