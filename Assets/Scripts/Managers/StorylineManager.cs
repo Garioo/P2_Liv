@@ -16,7 +16,7 @@ public class StorylineManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    
+
     // Array to hold the names of scenes in the storyline
     public string[] storylineScenes;
 

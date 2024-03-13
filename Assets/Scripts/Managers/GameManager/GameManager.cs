@@ -9,11 +9,11 @@ public class GameManager : MonoBehaviour
         MainScene2,
         MainScene3,
         MainScene4,
-        Spil1,
-        Spil2,
-        Spil3,
-        Spil4,
-        Spil5,
+        Game1,
+        Game2,
+        Game3,
+        Game4,
+        Game5,
         // Add more game states as needed
     }
 
@@ -54,15 +54,15 @@ public class GameManager : MonoBehaviour
                 break;*/
 
             case GameState.MainScene2:
-                LoadSceneWithCutscene("MainScene2", "Cutscene2");
+                LoadSceneWithCutscene("MainScene2", "Cutscene1");
                 break;
 
-            case GameState.Spil1:
-                LoadSceneWithCutscene("Spil1", "Cutscene3");
+            case GameState.Game1:
+                LoadSceneWithCutscene("Game1", "Cutscene3");
                 break;
 
-            case GameState.Spil2:
-                LoadSceneWithCutscene("Spil2", "Cutscene4");
+            case GameState.Game2:
+                LoadSceneWithCutscene("Game2", "Cutscene4");
                 break;
 
             // Add more cases for other game states as needed
@@ -95,9 +95,9 @@ public class GameManager : MonoBehaviour
                 StorylineManager.instance.LoadNextScene();
                 break;
 
-            case GameState.Spil2:
+            case GameState.Game2:
+            Debug.Log("Loading next scene!!");
                 StorylineManager.instance.LoadNextScene();
-                StartToothbrushGame();
                 break;
 
             // Add more cases for other game states as needed

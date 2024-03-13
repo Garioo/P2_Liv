@@ -8,6 +8,7 @@ TagManager:
   - NextWaypoint
   - TestVideo
   - TestVideo2
+  - CameraZone
   layers:
   - Default
   - TransparentFX

@@ -36,10 +36,18 @@ public class VideoManager : MonoBehaviour
 
     void Start()
     {
-        videoPlayer.loopPointReached += OnVideoFinished;
+            videoPlayer.loopPointReached += OnVideoFinished;
 
-        GameObject camera = GameObject.Find("Main Camera");
-        videoPlayer.renderMode = UnityEngine.Video.VideoRenderMode.CameraNearPlane;
+            Camera mainCamera = Camera.main;
+        if (mainCamera != null)
+        {   
+            videoPlayer.renderMode = VideoRenderMode.CameraNearPlane;
+            videoPlayer.targetCamera = mainCamera;
+        }
+        else
+        {
+            Debug.LogWarning("Main camera not found. VideoPlayer render mode not set.");
+        }
     }
 
     private void OnVideoFinished(VideoPlayer vp)
@@ -52,13 +60,14 @@ public class VideoManager : MonoBehaviour
     {
         if (!hasPlayed)
         {
-            Debug.Log("Tjekker efter video i arrayen 'videoInfos'");
+                Debug.Log("Tjekker efter video i arrayen 'videoInfos'");
             foreach (VideoInfo videoInfo in videoInfos)
             {
-                if (videoInfo.cutsceneTag == tag)
+                if (videoInfo.cutsceneTag == cutsceneTag)
                 {
                     videoPlayer.clip = videoInfo.videoClip;
                     videoPlayer.Play();
+                    Debug.Log("Afspiller video");
                     hasPlayed = true;
                     break;
                 }

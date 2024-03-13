@@ -18,6 +18,7 @@ public class SceneChangeTrigger : MonoBehaviour
             Debug.Log("Player entered trigger");
             // Transition to the target game state
             gameManager.EnterState(targetState);
+            Debug.Log("Transitioned to" + targetState);
         }
     }
 }
