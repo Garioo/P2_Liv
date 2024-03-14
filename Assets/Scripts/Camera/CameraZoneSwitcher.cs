@@ -37,10 +37,17 @@ public class CameraZoneSwitcher : MonoBehaviour
     }
 
     private void SwitchToCamera(CinemachineVirtualCamera targetCamera)
+{
+    if (targetCamera != null)
     {
         foreach (CinemachineVirtualCamera camera in virtualCameras)
         {
             camera.enabled = camera == targetCamera;
         }
     }
+    else
+    {
+        Debug.LogError("targetCamera is null!");
+    }
+}
 }

@@ -37,27 +37,30 @@ public class VideoManager : MonoBehaviour
     void Start()
     {
             videoPlayer.loopPointReached += OnVideoFinished;
+    }
 
-            Camera mainCamera = Camera.main;
+   
+    private void OnVideoFinished(VideoPlayer vp)
+    {
+        // Notify the GameManager that the video has finished playing
+        gameManager.OnVideoFinished();
+        hasPlayed = false;
+    }
+
+    public void PlayVideo(string cutsceneTag)
+    {
+        Camera mainCamera = Camera.main;
         if (mainCamera != null)
         {   
             videoPlayer.renderMode = VideoRenderMode.CameraNearPlane;
             videoPlayer.targetCamera = mainCamera;
+            
         }
         else
         {
             Debug.LogWarning("Main camera not found. VideoPlayer render mode not set.");
         }
-    }
 
-    private void OnVideoFinished(VideoPlayer vp)
-    {
-        // Notify the GameManager that the video has finished playing
-        gameManager.OnVideoFinished();
-    }
-
-    public void PlayVideo(string cutsceneTag)
-    {
         if (!hasPlayed)
         {
                 Debug.Log("Tjekker efter video i arrayen 'videoInfos'");

@@ -30,8 +30,8 @@ public class StorylineManager : MonoBehaviour
         if (currentSceneIndex < storylineScenes.Length)
         {
             // Load the next scene
-            SceneManager.LoadScene(storylineScenes[currentSceneIndex]);
             currentSceneIndex++;
+            SceneManager.LoadScene(storylineScenes[currentSceneIndex]);
         }
         else
         {
