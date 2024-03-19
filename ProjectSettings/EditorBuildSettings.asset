@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Scenes/MainScene1.unity
     guid: 85402d9ddedbd403aa5481f71a55aa4a
   - enabled: 1
-    path: Assets/Scenes/Spil/Spil2.unity
+    path: Assets/Scenes/Spil/Game2.unity
     guid: bba2258df71184fb39546587e51e41f6
+  - enabled: 1
+    path: Assets/Scenes/Main Scenes/MainScene2.unity
+    guid: f241aa4b1bb8947f5856bae85dade5dc
+  - enabled: 1
+    path: Assets/Scenes/Spil/Game3.unity
+    guid: ee48e73bfccd74a7f87757a31ede93ad
   m_configObjects: {}

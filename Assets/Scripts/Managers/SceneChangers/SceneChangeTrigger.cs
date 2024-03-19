@@ -9,6 +9,17 @@ public class SceneChangeTrigger : MonoBehaviour
     // The target game state to transition to
     public GameManager.GameState targetState;
 
+    void Start()
+    {
+        gameManager = GameObject.FindWithTag("GameManager").GetComponent<GameManager>();
+        if (gameManager == null)
+        {
+        Debug.LogError("GameManager not found or GameManager component missing!");
+        }
+
+        gameManager.SetGameManagerReference(this);
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("OnTriggerEnter2D");
@@ -18,6 +29,7 @@ public class SceneChangeTrigger : MonoBehaviour
             Debug.Log("Player entered trigger");
             // Transition to the target game state
             gameManager.EnterState(targetState);
+            Debug.Log("Transitioned to" + targetState);
         }
     }
 }

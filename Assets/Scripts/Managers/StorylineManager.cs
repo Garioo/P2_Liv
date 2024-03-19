@@ -16,7 +16,7 @@ public class StorylineManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    
+
     // Array to hold the names of scenes in the storyline
     public string[] storylineScenes;
 
@@ -30,8 +30,8 @@ public class StorylineManager : MonoBehaviour
         if (currentSceneIndex < storylineScenes.Length)
         {
             // Load the next scene
-            SceneManager.LoadScene(storylineScenes[currentSceneIndex]);
             currentSceneIndex++;
+            SceneManager.LoadScene(storylineScenes[currentSceneIndex]);
         }
         else
         {
