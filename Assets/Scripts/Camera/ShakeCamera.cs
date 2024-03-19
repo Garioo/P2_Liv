@@ -1,5 +1,6 @@
 using UnityEngine;
 using Cinemachine;
+using Unity.VisualScripting;
 
 public class ShakeCamera : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class ShakeCamera : MonoBehaviour
     public float shakeAmount = 0.7f;
     public float decreaseFactor = 1.0f;
     public CinemachineVirtualCamera virtualCamera;
+    bool shakeDone;
 
     private Vector3 originalPos;
     private float shakeDuration = 0f;
@@ -32,7 +34,7 @@ public class ShakeCamera : MonoBehaviour
             
             
         }
-        else if (Input.acceleration.sqrMagnitude >= 30f) // Adjust this value as needed for your desired sensitivity
+        else if (Input.acceleration.sqrMagnitude >= 30f && shakeDone == false) // Adjust this value as needed for your desired sensitivity
             {
             Shake();
             VibrationManager.Vibrate(80); // Vibrate for 50 milliseconds
@@ -47,7 +49,7 @@ public class ShakeCamera : MonoBehaviour
                 {
                 Debug.LogError("GameManager object is not initialized.");
                  }
-    
+                 shakeDone = true;
             }
         if (shakeDuration > 0)
         {

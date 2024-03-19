@@ -54,38 +54,38 @@ public class GameManager : MonoBehaviour
                 LoadNextState();
                 break;
 
-            case GameState.MainScene1:
-                LoadSceneWithCutscene("MainScene1", "Cutscene2");
-                break;
-
-            case GameState.MainScene2:
-                LoadSceneWithCutscene("MainScene2", "Cutscene4");
-                break;
-
-            case GameState.MainScene3:
-                LoadSceneWithCutscene("MainScene3", "Cutscene6");
-                break;
-            
-            case GameState.MainScene4:
-                LoadSceneWithCutscene("MainScene4", "Cutscene8");
-                break;
-
             case GameState.Game1:
                 LoadSceneWithCutscene("Game1", "Cutscene1");
+                break;
+
+            case GameState.MainScene1:
+                LoadSceneWithCutscene("MainScene1", "Cutscene2");
                 break;
 
             case GameState.Game2:
                 LoadSceneWithCutscene("Game2", "Cutscene3");
                 break;
 
-            case GameState.Game3:
-                LoadSceneWithCutscene("Game3", "Cutscene5");
+            case GameState.MainScene2:
+                LoadSceneWithCutscene("MainScene2", "Cutscene4");
                 break;
-            
+
+            case GameState.Game3:
+                LoadNextState();
+                break;
+
+            case GameState.MainScene3:
+                LoadSceneWithCutscene("MainScene3", "Cutscene6");
+                break;
+
             case GameState.Game4:
                 LoadSceneWithCutscene("Game4", "Cutscene7");
                 break;
             
+            case GameState.MainScene4:
+                LoadSceneWithCutscene("MainScene4", "Cutscene8");
+                break;
+
             case GameState.Game5:
                 LoadSceneWithCutscene("Game5", "Cutscene9");
                 break;
@@ -132,6 +132,11 @@ public class GameManager : MonoBehaviour
         Debug.LogError("VideoManager instance is null.");
     }
 }
+
+public void LoadSceneWithoutCutscene(string sceneName)
+{
+
+}
     // Function to load the next scene
     private void LoadNextState()
     {
@@ -139,6 +144,8 @@ public class GameManager : MonoBehaviour
         switch (gameState)
         {
             case GameState.MainScene1:
+                StorylineManager.instance.LoadNextScene();
+                break;
 
             case GameState.MainScene2:
                 StorylineManager.instance.LoadNextScene();
@@ -164,7 +171,7 @@ public class GameManager : MonoBehaviour
     }
 
     // Function to be called when a video finishes playing
-    public void OnVideoFinished()
+    public void VideoNextState()
     {
         Debug.Log("Video finished playing");
         // Call LoadNextScene after the video finishes playing (if necessary)
