@@ -5,6 +5,7 @@ public class GameManager : MonoBehaviour
 {
     public enum GameState
     {
+        StartState,
         MainScene1,
         MainScene2,
         MainScene3,
@@ -19,7 +20,7 @@ public class GameManager : MonoBehaviour
 
     public static GameManager instance;
 
-    private GameState gameState = GameState.MainScene1;
+    private GameState gameState = GameState.StartState;
 
     void Awake()
     {
@@ -49,40 +50,44 @@ public class GameManager : MonoBehaviour
 
         switch (gameState)
         {
-            /*case GameState.MainScene1:
-                LoadSceneWithCutscene("MainScene1", "Cutscene1");
-                break;*/
+            case GameState.StartState:
+                LoadNextState();
+                break;
+
+            case GameState.MainScene1:
+                LoadSceneWithCutscene("MainScene1", "Cutscene2");
+                break;
 
             case GameState.MainScene2:
-                LoadSceneWithCutscene("MainScene2", "Cutscene1");
+                LoadSceneWithCutscene("MainScene2", "Cutscene4");
                 break;
 
             case GameState.MainScene3:
-                LoadSceneWithCutscene("MainScene3", "Cutscene1");
+                LoadSceneWithCutscene("MainScene3", "Cutscene6");
                 break;
             
             case GameState.MainScene4:
-                LoadSceneWithCutscene("MainScene4", "Cutscene1");
+                LoadSceneWithCutscene("MainScene4", "Cutscene8");
                 break;
 
             case GameState.Game1:
-                LoadSceneWithCutscene("Game1", "Cutscene3");
+                LoadSceneWithCutscene("Game1", "Cutscene1");
                 break;
 
             case GameState.Game2:
-                LoadSceneWithCutscene("Game2", "Cutscene4");
+                LoadSceneWithCutscene("Game2", "Cutscene3");
                 break;
 
             case GameState.Game3:
-                LoadSceneWithCutscene("Game3", "Cutscene3");
+                LoadSceneWithCutscene("Game3", "Cutscene5");
                 break;
             
             case GameState.Game4:
-                LoadSceneWithCutscene("Game4", "Cutscene3");
+                LoadSceneWithCutscene("Game4", "Cutscene7");
                 break;
             
             case GameState.Game5:
-                LoadSceneWithCutscene("Game5", "Cutscene3");
+                LoadSceneWithCutscene("Game5", "Cutscene9");
                 break;
 
             // Add more cases for other game states as needed
@@ -138,14 +143,19 @@ public class GameManager : MonoBehaviour
             case GameState.MainScene2:
                 StorylineManager.instance.LoadNextScene();
                 break;
+            
+            case GameState.Game1:
+                Debug.Log("Loading next scene!!");
+                StorylineManager.instance.LoadNextScene();
+                break;
 
             case GameState.Game2:
-            Debug.Log("Loading next scene!!");
+                Debug.Log("Loading next scene!!");
                 StorylineManager.instance.LoadNextScene();
                 break;
             
             case GameState.Game3:
-            Debug.Log("Loading next scene!!");
+                Debug.Log("Loading next scene!!");
                 StorylineManager.instance.LoadNextScene();
                 break;
 

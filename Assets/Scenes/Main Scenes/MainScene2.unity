@@ -123,7 +123,40 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &27060716
+--- !u!1 &59019161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 59019162}
+  m_Layer: 0
+  m_Name: CameraZones
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &59019162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59019161}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1287784757}
+  - {fileID: 714006510}
+  m_Father: {fileID: 732911473}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &142934316
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -180,39 +213,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 728b47ec370984a3c8a63a51b9078643, type: 3}
---- !u!1 &59019161
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 59019162}
-  m_Layer: 0
-  m_Name: CameraZones
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &59019162
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 59019161}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1287784757}
-  - {fileID: 714006510}
-  m_Father: {fileID: 732911473}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &223442274
 GameObject:
   m_ObjectHideFlags: 3
@@ -886,6 +886,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1461345447986754047, guid: b00f763d8755045cf8d1751a6d1d5d6e, type: 3}
+      propertyPath: storylineScenes.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1461345447986754047, guid: b00f763d8755045cf8d1751a6d1d5d6e, type: 3}
+      propertyPath: storylineScenes.Array.data[5]
+      value: MainScene3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1461345447986754047, guid: b00f763d8755045cf8d1751a6d1d5d6e, type: 3}
+      propertyPath: storylineScenes.Array.data[6]
+      value: Game4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1461345447986754047, guid: b00f763d8755045cf8d1751a6d1d5d6e, type: 3}
+      propertyPath: storylineScenes.Array.data[7]
+      value: MainScene4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1461345447986754047, guid: b00f763d8755045cf8d1751a6d1d5d6e, type: 3}
+      propertyPath: storylineScenes.Array.data[8]
+      value: Game5
+      objectReference: {fileID: 0}
     - target: {fileID: 2617376400282153673, guid: b00f763d8755045cf8d1751a6d1d5d6e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.527056
@@ -1644,7 +1664,7 @@ Transform:
   m_GameObject: {fileID: 1428690674}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.8756218, y: 0.36183, z: -10}
+  m_LocalPosition: {x: 1.6846666, y: 0.35952997, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2060,4 +2080,4 @@ SceneRoots:
   - {fileID: 833725536}
   - {fileID: 991222491}
   - {fileID: 832844907}
-  - {fileID: 27060716}
+  - {fileID: 142934316}
