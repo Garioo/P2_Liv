@@ -45,7 +45,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   storylineScenes:
+  - Game1
   - MainScene1
   - Game2
   - MainScene2
   - Game3
+  - MainScene3
+  - Game4
+  - MainScene4

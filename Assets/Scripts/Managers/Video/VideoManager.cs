@@ -43,7 +43,8 @@ public class VideoManager : MonoBehaviour
     private void OnVideoFinished(VideoPlayer vp)
     {
         // Notify the GameManager that the video has finished playing
-        gameManager.OnVideoFinished();
+        Debug.Log("Video finished");
+        gameManager.VideoNextState();
         hasPlayed = false;
     }
 
