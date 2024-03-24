@@ -1,0 +1,66 @@
+{
+    "nodes": [
+      {
+        "id": 1,
+        "text": "Hvordan går det egentlig med dig?",
+        "choices": [
+          {
+            "text": "Jeg har det godt",
+            "nextNodeId": 1
+          },
+          {
+            "text": "Alt er fint",
+            "nextNodeId": 2
+          },
+          {
+            "text": "Sagen er egentligt den, at jeg ikke har det så godt",
+            "nextNodeId": 3
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Jeg synes bare ikke jeg har hørt så meget fra dig på det seneste. Er alt okay",
+        "choices": [
+            {
+                "text": "Alt er fint",
+                "nextNodeId": 2
+            },
+            {
+                "text": "Sagen er egentligt den, at jeg ikke har det så godt",
+                "nextNodeId": 3
+            },
+            {
+              "text": "Jeg tror måske... har selvmordstanker",
+              "nextNodeId": -1
+            }
+            
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Er du sikker?",
+        "choices": [
+          {
+            "text": "Sagen er egentligt den, at jeg nok ikke har det så godt",
+            "nextNodeId": 3
+          },
+          {
+            "text": "Jeg tror måske... har selvmordstanker",
+            "nextNodeId": -1
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Det kan jeg faktisk godt mærke. Da vi snakkede tidligere sagde du også, du var så træt, du bare ville dø. Du må altså gerne sige hvis det er noget galt.",
+        "choices": [
+            {
+                "text": "Jeg tror måske... har selvmordstanker",
+                "nextNodeId": -1
+            }
+        ]
+      }
+    ]
+  }
+  

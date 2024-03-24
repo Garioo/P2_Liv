@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Scenes/MainScene3.unity
     guid: d1718d64007d74333af140d936b5e4ab
+  - enabled: 1
+    path: Assets/Scenes/Spil/Game4.unity
+    guid: ef84bf606ebf047f0b93d558fb6c654a
+  - enabled: 1
+    path: Assets/Scenes/Main Scenes/MainScene4.unity
+    guid: a9a6e2695877145fc91eec1064700f8f
   m_configObjects: {}

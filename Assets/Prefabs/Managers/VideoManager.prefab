@@ -57,6 +57,14 @@ MonoBehaviour:
     videoClip: {fileID: 32900000, guid: 9c88353e6c051476faeab3de0ea6f381, type: 3}
   - cutsceneTag: Cutscene5
     videoClip: {fileID: 32900000, guid: 2979cab61b1164a0ab1809e7bbdeda93, type: 3}
+  - cutsceneTag: Cutscene6
+    videoClip: {fileID: 32900000, guid: 2979cab61b1164a0ab1809e7bbdeda93, type: 3}
+  - cutsceneTag: Cutscene7
+    videoClip: {fileID: 32900000, guid: 2979cab61b1164a0ab1809e7bbdeda93, type: 3}
+  - cutsceneTag: Cutscene8
+    videoClip: {fileID: 32900000, guid: 2979cab61b1164a0ab1809e7bbdeda93, type: 3}
+  - cutsceneTag: Cutscene9
+    videoClip: {fileID: 32900000, guid: 2979cab61b1164a0ab1809e7bbdeda93, type: 3}
   gameManager: {fileID: 0}
 --- !u!328 &6854800022771001640
 VideoPlayer:

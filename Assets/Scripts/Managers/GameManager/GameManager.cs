@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -15,6 +16,7 @@ public class GameManager : MonoBehaviour
         Game3,
         Game4,
         Game5,
+        FinalScene,
         // Add more game states as needed
     }
 
@@ -89,6 +91,9 @@ public class GameManager : MonoBehaviour
             case GameState.Game5:
                 LoadSceneWithCutscene("Game5", "Cutscene9");
                 break;
+             case GameState.FinalScene:
+                LoadSceneWithCutscene("FinalScene", "FinalCutscene");
+                break;
 
             // Add more cases for other game states as needed
         }
@@ -151,6 +156,14 @@ public void LoadSceneWithoutCutscene(string sceneName)
                 StorylineManager.instance.LoadNextScene();
                 break;
             
+            case GameState.MainScene3:
+                StorylineManager.instance.LoadNextScene();
+                break;
+
+            case GameState.MainScene4:
+                StorylineManager.instance.LoadNextScene();
+                break;
+            
             case GameState.Game1:
                 Debug.Log("Loading next scene!!");
                 StorylineManager.instance.LoadNextScene();
@@ -162,6 +175,19 @@ public void LoadSceneWithoutCutscene(string sceneName)
                 break;
             
             case GameState.Game3:
+                Debug.Log("Loading next scene!!");
+                StorylineManager.instance.LoadNextScene();
+                break;
+            case GameState.Game4:
+                Debug.Log("Loading next scene!!");
+                StorylineManager.instance.LoadNextScene();
+                break;
+            
+            case GameState.Game5:
+                Debug.Log("Loading next scene!!");
+                StorylineManager.instance.LoadNextScene();
+                break;
+            case GameState.FinalScene:
                 Debug.Log("Loading next scene!!");
                 StorylineManager.instance.LoadNextScene();
                 break;
@@ -181,5 +207,10 @@ public void LoadSceneWithoutCutscene(string sceneName)
     public void SetGameManagerReference(SceneChangeTrigger sceneChangeTrigger)
     {
         sceneChangeTrigger.gameManager = this;
+    }
+
+    internal void SetGameManagerReference(DialogueManager dialogueManager)
+    {
+        throw new NotImplementedException();
     }
 }
