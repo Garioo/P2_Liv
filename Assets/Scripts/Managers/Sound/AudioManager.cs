@@ -1,32 +1,18 @@
 using System;
-using UnityEngine.Audio;
 using UnityEngine;
 
+// Made by the danish youtuber Brackeys https://www.youtube.com/watch?v=6OT43pvUyfY&t=637s&ab_channel=Brackeys
 
 public class AudioManager : MonoBehaviour
 {
-    [System.Serializable]
-public class Sound
-{
-
-    public SoundType soundType;
-    public AudioClip clip;
-    [Range(0f, 1f)] public float volume = 1f;
-    [Range(0.1f, 3f)] public float pitch = 1f;
-
-    [HideInInspector] public AudioSource source;
-}
-
-    public Sound[] sounds;
-
+    
+    public Sound[] sounds; // Renamed the array field
     public static AudioManager instance;
 
     void Awake()
     {
         if (instance == null)
-        {
             instance = this;
-        }
         else
         {
             Destroy(gameObject);
@@ -34,18 +20,51 @@ public class Sound
         }
 
         DontDestroyOnLoad(gameObject);
+
+        foreach (Sound s in sounds) // Updated here as well
+        {
+            s.source = gameObject.AddComponent<AudioSource>();
+            s.source.clip = s.clip;
+
+
+            s.source.volume = s.volume;
+            s.source.pitch = s.pitch;
+            s.source.loop = s.loop;
+        }
+    }
+    void Start()
+    {
+    
     }
 
-    public void Play(SoundType soundType)
+    public void Play(string name)
     {
-        Sound s = Array.Find(this.sounds, sound => sound.soundType == soundType);
+        Debug.Log("Trying to play sound: " + name);
 
-        s.source = gameObject.AddComponent<AudioSource>();
-        s.source.clip = s.clip;
+        Sound s = Array.Find(sounds, sound => sound.name == name);
 
-        // We define volume and pitch here to be able to change them in real time
-        s.source.volume = s.volume;
-        s.source.pitch = s.pitch;
+        if (s == null)
+        {
+            Debug.LogWarning("Sound with name " + name + " not found.");
+            return;
+        }
+
+        Debug.Log("Playing sound: " + s.name + " with volume: " + s.volume);
         s.source.Play();
+    }
+
+
+    public void Stop(string name)   // made with the help from ChatGPT
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == name); 
+
+        // Check if the sound is found before attempting to stop
+        if (s == null)
+        {
+            Debug.LogWarning("Sound with name " + name + " not found.");
+            return;
+        }
+
+        s.source.Stop();
     }
 }

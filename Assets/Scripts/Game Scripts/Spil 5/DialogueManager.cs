@@ -16,13 +16,13 @@ public class DialogueManager : MonoBehaviour
 
     void Start()
     {
-        gameManager = GameObject.FindWithTag("GameManager").GetComponent<GameManager>();
+        gameManager = FindObjectOfType<GameManager>();
+
+        // Check if the GameManager object is found
         if (gameManager == null)
         {
-            Debug.LogError("GameManager not found or GameManager component missing!");
-        }
-
-        gameManager.SetGameManagerReference(this); // Update the argument type to DialogueManager
+            Debug.LogError("GameManager object not found in the scene.");
+        } // Update the argument type to DialogueManager
 
         // Load dialogue data from JSON file
         LoadDialogue();

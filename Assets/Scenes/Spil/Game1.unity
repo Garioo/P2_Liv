@@ -521,7 +521,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetState: 1
-  gameManager: {fileID: 1121528893}
   shakeAmount: 0.7
   decreaseFactor: 1
   virtualCamera: {fileID: 1638542066}

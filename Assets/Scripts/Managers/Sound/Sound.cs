@@ -1,22 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.Audio;
 using UnityEngine;
+
+// // Made by the danish youtuber Brackeys https://www.youtube.com/watch?v=6OT43pvUyfY&t=637s&ab_channel=Brackeys
 
 [System.Serializable]
 public class Sound
 {
-    public SoundType soundType;
+
     public string name;
     public AudioClip clip;
-    [Range(0f, 1f)] public float volume = 1f;
-    [Range(0.1f, 3f)] public float pitch = 1f;
 
-    [HideInInspector] public AudioSource source;
 
+    [Range(0f, 1f)]
+    public float volume;
+    [Range(1f, 3f)]
+    public float pitch;
+    public bool loop;
+
+    [HideInInspector]
+    public AudioSource source; 
 }
-public enum SoundType
-{
-    Music,
-    SFX,
-    // Add more sound types as needed
-}
+

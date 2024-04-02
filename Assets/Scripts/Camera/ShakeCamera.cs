@@ -1,11 +1,9 @@
 using UnityEngine;
 using Cinemachine;
-using Unity.VisualScripting;
 
 public class ShakeCamera : MonoBehaviour
 {
     public GameManager.GameState targetState;
-    public GameManager gameManager;
     public float shakeAmount = 0.7f;
     public float decreaseFactor = 1.0f;
     public CinemachineVirtualCamera virtualCamera;
@@ -31,33 +29,33 @@ public class ShakeCamera : MonoBehaviour
         {
             Shake();
             VibrationManager.Vibrate(50); // Vibrate for 50 milliseconds
-            
-            
         }
-        else if (Input.acceleration.sqrMagnitude >= 30f && shakeDone == false) // Adjust this value as needed for your desired sensitivity
-            {
+        else if (Input.acceleration.sqrMagnitude >= 30f && !shakeDone) // Adjust this value as needed for your desired sensitivity
+        {
             Shake();
-            VibrationManager.Vibrate(80); // Vibrate for 50 milliseconds
-            Debug.Log("Yessirski");
-                if (gameManager != null)
-                {
-                    // Transition to the target game state
+            VibrationManager.Vibrate(80); // Vibrate for 80 milliseconds
+            Debug.Log("Shake detected");
+
+            GameManager gameManager = GameObject.FindObjectOfType<GameManager>();
+            if (gameManager != null)
+            {
+                // Transition to the target game state
                 gameManager.EnterState(targetState);
                 Debug.Log("Transitioned to " + targetState);
-                }
-                else
-                {
-                Debug.LogError("GameManager object is not initialized.");
-                 }
-                 shakeDone = true;
             }
+            else
+            {
+                Debug.LogError("GameManager object is not found in the scene.");
+            }
+            shakeDone = true;
+        }
         if (shakeDuration > 0)
         {
             virtualCamera.transform.localPosition = originalPos + Random.insideUnitSphere * shakeAmount;
 
             shakeDuration -= Time.deltaTime * decreaseFactor;
         }
-        
+
         else
         {
             shakeDuration = 0f;

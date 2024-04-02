@@ -22,6 +22,8 @@ public class GameManager : MonoBehaviour
 
     public static GameManager instance;
 
+    AudioManager audioManager;
+
     private GameState gameState = GameState.StartState;
 
     void Awake()
@@ -40,7 +42,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         // Start the initial game state
-        EnterState(gameState);
+        EnterState(GameState.StartState);
     }
 
     // Function to handle state transitions in the game
@@ -52,12 +54,9 @@ public class GameManager : MonoBehaviour
 
         switch (gameState)
         {
-            case GameState.StartState:
-                LoadNextState();
-                break;
 
             case GameState.Game1:
-                LoadSceneWithCutscene("Game1", "Cutscene1");
+                LoadSceneWithCutsceneAndAudio("Game1", "Cutscene1");
                 break;
 
             case GameState.MainScene1:
@@ -91,6 +90,7 @@ public class GameManager : MonoBehaviour
             case GameState.Game5:
                 LoadSceneWithCutscene("Game5", "Cutscene9");
                 break;
+                
              case GameState.FinalScene:
                 LoadSceneWithCutscene("FinalScene", "FinalCutscene");
                 break;
@@ -98,9 +98,46 @@ public class GameManager : MonoBehaviour
             // Add more cases for other game states as needed
         }
     }
-
     // Function to load a scene with a cutscene
    public void LoadSceneWithCutscene(string sceneName, string cutsceneTag)
+{
+    Debug.Log("Loading scene: " + sceneName);
+
+    // Check if VideoManager.instance is not null
+    if (VideoManager.instance != null)
+    {
+        // Play the cutscene video if the cutscene tag exists
+        bool hasCutscene = false;
+        foreach (VideoManager.VideoInfo videoInfo in VideoManager.instance.videoInfos)
+        {
+            if (videoInfo.cutsceneTag == cutsceneTag)
+            {
+                hasCutscene = true;
+                VideoManager.instance.PlayVideo(cutsceneTag);
+
+                // Get the duration of the cutscene video clip
+                float cutsceneDuration = VideoManager.instance.GetVideoDuration(cutsceneTag);
+
+                // Invoke LoadNextScene after the duration of the cutscene video clip
+                //Invoke("LoadNextState", cutsceneDuration - 0.5f);
+                Debug.Log("Cutscene duration: " + cutsceneDuration);
+
+                break;
+            }
+        }
+
+        if (!hasCutscene)
+        {
+            Debug.LogError("Cutscene tag not found in VideoManager: " + cutsceneTag);
+        }
+    }
+    else
+    {
+        Debug.LogError("VideoManager instance is null.");
+    }
+}
+
+public void LoadSceneWithCutsceneAndAudio(string sceneName, string cutsceneTag)
 {
     Debug.Log("Loading scene: " + sceneName);
 
@@ -148,6 +185,10 @@ public void LoadSceneWithoutCutscene(string sceneName)
         // Handle scene loading based on the current game state
         switch (gameState)
         {
+            case GameState.StartState:
+                StorylineManager.instance.LoadNextScene();
+                break;
+            
             case GameState.MainScene1:
                 StorylineManager.instance.LoadNextScene();
                 break;

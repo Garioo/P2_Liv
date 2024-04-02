@@ -41,12 +41,19 @@ public class VideoManager : MonoBehaviour
 
    
     private void OnVideoFinished(VideoPlayer vp)
+{
+    // Null check for gameManager
+    if (gameManager == null)
     {
-        // Notify the GameManager that the video has finished playing
-        Debug.Log("Video finished");
-        gameManager.VideoNextState();
-        hasPlayed = false;
+        Debug.LogError("GameManager is not assigned in the VideoManager.");
+        return;
     }
+
+    // Notify the GameManager that the video has finished playing
+    Debug.Log("Video finished");
+    gameManager.VideoNextState();
+    hasPlayed = false;
+}
 
     public void PlayVideo(string cutsceneTag)
     {
