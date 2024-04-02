@@ -34,7 +34,7 @@ public class AudioManager : MonoBehaviour
     }
     void Start()
     {
-    
+      AudioManager.instance.Play("Musik");
     }
 
     public void Play(string name)
