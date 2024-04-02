@@ -61,6 +61,7 @@ public class GameManager : MonoBehaviour
 
             case GameState.MainScene1:
                 LoadSceneWithCutscene("MainScene1", "Cutscene2");
+                AudioManager.instance.PlayAudio("event:/Cutscenes/Liv Vågner");
                 break;
 
             case GameState.Game2:

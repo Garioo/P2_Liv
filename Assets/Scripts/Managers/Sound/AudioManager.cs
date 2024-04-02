@@ -1,70 +1,68 @@
-using System;
 using UnityEngine;
-
-// Made by the danish youtuber Brackeys https://www.youtube.com/watch?v=6OT43pvUyfY&t=637s&ab_channel=Brackeys
+using System;
+using System.Collections.Generic;
 
 public class AudioManager : MonoBehaviour
 {
-    
-    public Sound[] sounds; // Renamed the array field
     public static AudioManager instance;
+
+    // Define a dictionary to map event names to their corresponding instances
+    private Dictionary<string, FMOD.Studio.EventInstance> eventInstances = new Dictionary<string, FMOD.Studio.EventInstance>();
 
     void Awake()
     {
         if (instance == null)
+        {
             instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
         else
         {
             Destroy(gameObject);
+        }
+    }
+
+    // Method to play an FMOD event by name
+    public void PlayAudio(string eventName)
+    {
+        if (string.IsNullOrEmpty(eventName))
+        {
+            Debug.LogWarning("Audio event name is empty.");
             return;
         }
 
-        DontDestroyOnLoad(gameObject);
-
-        foreach (Sound s in sounds) // Updated here as well
+        // Check if the event instance already exists
+        if (!eventInstances.ContainsKey(eventName))
         {
-            s.source = gameObject.AddComponent<AudioSource>();
-            s.source.clip = s.clip;
-
-
-            s.source.volume = s.volume;
-            s.source.pitch = s.pitch;
-            s.source.loop = s.loop;
+            // Create a new event instance
+            FMOD.Studio.EventInstance eventInstance = FMODUnity.RuntimeManager.CreateInstance(eventName);
+            eventInstances[eventName] = eventInstance;
         }
+
+        // Start the event instance
+        eventInstances[eventName].start();
     }
-    void Start()
+
+    // Method to stop an FMOD event by name
+    public void StopAudio(string eventName)
     {
-      AudioManager.instance.Play("Musik");
-    }
-
-    public void Play(string name)
-    {
-        Debug.Log("Trying to play sound: " + name);
-
-        Sound s = Array.Find(sounds, sound => sound.name == name);
-
-        if (s == null)
+        if (string.IsNullOrEmpty(eventName))
         {
-            Debug.LogWarning("Sound with name " + name + " not found.");
+            Debug.LogWarning("Audio event name is empty.");
             return;
         }
 
-        Debug.Log("Playing sound: " + s.name + " with volume: " + s.volume);
-        s.source.Play();
-    }
-
-
-    public void Stop(string name)   // made with the help from ChatGPT
-    {
-        Sound s = Array.Find(sounds, sound => sound.name == name); 
-
-        // Check if the sound is found before attempting to stop
-        if (s == null)
+        // Check if the event instance exists
+        if (eventInstances.ContainsKey(eventName))
         {
-            Debug.LogWarning("Sound with name " + name + " not found.");
-            return;
+            // Stop and release the event instance
+            eventInstances[eventName].stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            eventInstances[eventName].release();
+            eventInstances.Remove(eventName);
         }
-
-        s.source.Stop();
+        else
+        {
+            Debug.LogWarning("No event instance found for audio event: " + eventName);
+        }
     }
 }

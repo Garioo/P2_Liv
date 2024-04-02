@@ -28,7 +28,9 @@ public class Toothbrush : MonoBehaviour
         if (gameManager != null)
         {
             // Transition to the target game state
+            AudioManager.instance.StopAudio("event:/Cutscenes/Liv Vågner");
             gameManager.EnterState(targetState);
+            AudioManager.instance.PlayAudio("event:/Cutscenes/Telefon Ringer");
             Debug.Log("Transitioned to " + targetState);
         }
         else

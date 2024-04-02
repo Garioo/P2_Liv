@@ -28,7 +28,9 @@ public class PhoneScript : MonoBehaviour
         if (gameManager != null)
         {
             // Transition to the target game state
+            AudioManager.instance.StopAudio("event:/Cutscenes/Telefon Ringer");
             gameManager.EnterState(targetState);
+            AudioManager.instance.PlayAudio("event:/Cutscenes/Telefon Samtale");
             Debug.Log("Transitioned to " + targetState);
         }
         else

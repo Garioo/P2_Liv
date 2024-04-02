@@ -23,7 +23,7 @@ public class StartSceneManager : MonoBehaviour
         {
             // Enter the next game state
             gameManager.EnterState(nextState);
-            FindObjectOfType<AudioManager>().Play("musik");
+    
         }
         else
         {
