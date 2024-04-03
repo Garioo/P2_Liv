@@ -479,6 +479,7 @@ MonoBehaviour:
   - Master
   Banks:
   - Cutscenes
+  - SFX_Liv
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

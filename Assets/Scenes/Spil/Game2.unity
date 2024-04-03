@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 9392278}
   - component: {fileID: 9392277}
   - component: {fileID: 9392276}
+  - component: {fileID: 9392280}
   m_Layer: 6
   m_Name: pillbottle4 (1)
   m_TagString: Untagged
@@ -294,6 +295,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &9392280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9392274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 393195969
+      Data2: 1073848159
+      Data3: -636493677
+      Data4: 1358225922
+    Path: event:/Sound Effects/sfx_piller_4
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &55848558
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,6 +339,7 @@ GameObject:
   - component: {fileID: 55848562}
   - component: {fileID: 55848561}
   - component: {fileID: 55848560}
+  - component: {fileID: 55848564}
   m_Layer: 6
   m_Name: pillbottle3 (8)
   m_TagString: Untagged
@@ -465,6 +498,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &55848564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55848558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 180658233
+      Data2: 1192450053
+      Data3: 401254039
+      Data4: -647977066
+    Path: event:/Sound Effects/sfx_piller_3
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &104820405
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,6 +542,7 @@ GameObject:
   - component: {fileID: 104820409}
   - component: {fileID: 104820408}
   - component: {fileID: 104820407}
+  - component: {fileID: 104820411}
   m_Layer: 6
   m_Name: pillbottle3 (5)
   m_TagString: Untagged
@@ -636,6 +701,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &104820411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104820405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 180658233
+      Data2: 1192450053
+      Data3: 401254039
+      Data4: -647977066
+    Path: event:/Sound Effects/sfx_piller_3
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &131715882
 GameObject:
   m_ObjectHideFlags: 0
@@ -649,6 +745,7 @@ GameObject:
   - component: {fileID: 131715886}
   - component: {fileID: 131715885}
   - component: {fileID: 131715884}
+  - component: {fileID: 131715888}
   m_Layer: 6
   m_Name: pillbottle2 (6)
   m_TagString: Untagged
@@ -807,6 +904,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &131715888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131715882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1292865264
+      Data2: 1232052586
+      Data3: 144887225
+      Data4: -1972111465
+    Path: event:/Sound Effects/sfx_piller_2
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &154282452
 GameObject:
   m_ObjectHideFlags: 0
@@ -820,6 +948,8 @@ GameObject:
   - component: {fileID: 154282456}
   - component: {fileID: 154282455}
   - component: {fileID: 154282454}
+  - component: {fileID: 154282458}
+  - component: {fileID: 154282459}
   m_Layer: 6
   m_Name: pillbottle3 (12)
   m_TagString: Untagged
@@ -836,7 +966,7 @@ Transform:
   m_GameObject: {fileID: 154282452}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.67, y: 1.71, z: 0}
+  m_LocalPosition: {x: 4.85, y: 1.64, z: 0}
   m_LocalScale: {x: 0.3705956, y: 0.2052862, z: 0.2052862}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -978,6 +1108,68 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &154282458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154282452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 180658233
+      Data2: 1192450053
+      Data3: 401254039
+      Data4: -647977066
+    Path: event:/Sound Effects/sfx_piller_3
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &154282459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154282452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: -1
+  OverrideMaxDistance: -1
 --- !u!1 &198523368
 GameObject:
   m_ObjectHideFlags: 0
@@ -991,6 +1183,7 @@ GameObject:
   - component: {fileID: 198523372}
   - component: {fileID: 198523371}
   - component: {fileID: 198523370}
+  - component: {fileID: 198523374}
   m_Layer: 6
   m_Name: pillbottle1 (6)
   m_TagString: Untagged
@@ -1149,6 +1342,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &198523374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198523368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1880753054
+      Data2: 1231188527
+      Data3: 1024242819
+      Data4: -685772539
+    Path: event:/Sound Effects/sfx_piller_1
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &321227312
 GameObject:
   m_ObjectHideFlags: 0
@@ -1162,6 +1386,7 @@ GameObject:
   - component: {fileID: 321227316}
   - component: {fileID: 321227315}
   - component: {fileID: 321227314}
+  - component: {fileID: 321227318}
   m_Layer: 6
   m_Name: pillbottle1 (5)
   m_TagString: Untagged
@@ -1320,6 +1545,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &321227318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321227312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1880753054
+      Data2: 1231188527
+      Data3: 1024242819
+      Data4: -685772539
+    Path: event:/Sound Effects/sfx_piller_1
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &344747019
 GameObject:
   m_ObjectHideFlags: 0
@@ -1333,6 +1589,7 @@ GameObject:
   - component: {fileID: 344747023}
   - component: {fileID: 344747022}
   - component: {fileID: 344747021}
+  - component: {fileID: 344747025}
   m_Layer: 6
   m_Name: pillbottle3 (2)
   m_TagString: Untagged
@@ -1491,6 +1748,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &344747025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344747019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 180658233
+      Data2: 1192450053
+      Data3: 401254039
+      Data4: -647977066
+    Path: event:/Sound Effects/sfx_piller_3
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &353585891
 GameObject:
   m_ObjectHideFlags: 0
@@ -1504,6 +1792,7 @@ GameObject:
   - component: {fileID: 353585895}
   - component: {fileID: 353585894}
   - component: {fileID: 353585893}
+  - component: {fileID: 353585897}
   m_Layer: 6
   m_Name: pillbottle2 (4)
   m_TagString: Untagged
@@ -1662,6 +1951,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &353585897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353585891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1292865264
+      Data2: 1232052586
+      Data3: 144887225
+      Data4: -1972111465
+    Path: event:/Sound Effects/sfx_piller_2
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &436954342
 GameObject:
   m_ObjectHideFlags: 0
@@ -1675,6 +1995,7 @@ GameObject:
   - component: {fileID: 436954346}
   - component: {fileID: 436954345}
   - component: {fileID: 436954344}
+  - component: {fileID: 436954348}
   m_Layer: 6
   m_Name: pillbottle4 (2)
   m_TagString: Untagged
@@ -1833,6 +2154,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &436954348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436954342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 393195969
+      Data2: 1073848159
+      Data3: -636493677
+      Data4: 1358225922
+    Path: event:/Sound Effects/sfx_piller_4
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &446848928
 GameObject:
   m_ObjectHideFlags: 0
@@ -1846,6 +2198,7 @@ GameObject:
   - component: {fileID: 446848932}
   - component: {fileID: 446848931}
   - component: {fileID: 446848930}
+  - component: {fileID: 446848934}
   m_Layer: 6
   m_Name: pillbottle2 (7)
   m_TagString: Untagged
@@ -2004,6 +2357,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &446848934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446848928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1292865264
+      Data2: 1232052586
+      Data3: 144887225
+      Data4: -1972111465
+    Path: event:/Sound Effects/sfx_piller_2
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &476733414
 GameObject:
   m_ObjectHideFlags: 0
@@ -2109,6 +2493,7 @@ GameObject:
   - component: {fileID: 488126624}
   - component: {fileID: 488126623}
   - component: {fileID: 488126622}
+  - component: {fileID: 488126626}
   m_Layer: 6
   m_Name: pillbottle3 (6)
   m_TagString: Untagged
@@ -2267,6 +2652,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &488126626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488126620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 180658233
+      Data2: 1192450053
+      Data3: 401254039
+      Data4: -647977066
+    Path: event:/Sound Effects/sfx_piller_3
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &518398802
 GameObject:
   m_ObjectHideFlags: 0
@@ -2280,6 +2696,7 @@ GameObject:
   - component: {fileID: 518398807}
   - component: {fileID: 518398806}
   - component: {fileID: 518398805}
+  - component: {fileID: 518398808}
   m_Layer: 6
   m_Name: pillbottle1
   m_TagString: Untagged
@@ -2438,6 +2855,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c4a7e04432f145c1a01bf3e2de6e1ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &518398808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518398802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1880753054
+      Data2: 1231188527
+      Data3: 1024242819
+      Data4: -685772539
+    Path: event:/Sound Effects/sfx_piller_1
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &540522158
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2508,6 +2956,7 @@ GameObject:
   - component: {fileID: 547168054}
   - component: {fileID: 547168053}
   - component: {fileID: 547168052}
+  - component: {fileID: 547168056}
   m_Layer: 6
   m_Name: pillbottle5 (9)
   m_TagString: Untagged
@@ -2666,6 +3115,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &547168056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547168050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1153102563
+      Data2: 1264107723
+      Data3: 1835427001
+      Data4: -468617351
+    Path: event:/Sound Effects/sfx_piller_5
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &587816466
 GameObject:
   m_ObjectHideFlags: 0
@@ -2679,6 +3159,7 @@ GameObject:
   - component: {fileID: 587816470}
   - component: {fileID: 587816469}
   - component: {fileID: 587816468}
+  - component: {fileID: 587816472}
   m_Layer: 6
   m_Name: pillbottle2 (2)
   m_TagString: Untagged
@@ -2837,6 +3318,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &587816472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587816466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1292865264
+      Data2: 1232052586
+      Data3: 144887225
+      Data4: -1972111465
+    Path: event:/Sound Effects/sfx_piller_2
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &657338832
 GameObject:
   m_ObjectHideFlags: 0
@@ -2928,6 +3440,7 @@ GameObject:
   - component: {fileID: 753634850}
   - component: {fileID: 753634849}
   - component: {fileID: 753634848}
+  - component: {fileID: 753634852}
   m_Layer: 6
   m_Name: pillbottle5 (7)
   m_TagString: Untagged
@@ -3086,6 +3599,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &753634852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753634846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1153102563
+      Data2: 1264107723
+      Data3: 1835427001
+      Data4: -468617351
+    Path: event:/Sound Effects/sfx_piller_5
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &754328075
 GameObject:
   m_ObjectHideFlags: 0
@@ -3099,6 +3643,7 @@ GameObject:
   - component: {fileID: 754328079}
   - component: {fileID: 754328078}
   - component: {fileID: 754328077}
+  - component: {fileID: 754328081}
   m_Layer: 6
   m_Name: pillbottle2 (5)
   m_TagString: Untagged
@@ -3257,6 +3802,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &754328081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754328075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1292865264
+      Data2: 1232052586
+      Data3: 144887225
+      Data4: -1972111465
+    Path: event:/Sound Effects/sfx_piller_2
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &768053733
 GameObject:
   m_ObjectHideFlags: 0
@@ -3270,6 +3846,7 @@ GameObject:
   - component: {fileID: 768053737}
   - component: {fileID: 768053736}
   - component: {fileID: 768053735}
+  - component: {fileID: 768053739}
   m_Layer: 6
   m_Name: pillbottle3 (1)
   m_TagString: Untagged
@@ -3428,6 +4005,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &768053739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768053733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 180658233
+      Data2: 1192450053
+      Data3: 401254039
+      Data4: -647977066
+    Path: event:/Sound Effects/sfx_piller_3
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &794938424
 GameObject:
   m_ObjectHideFlags: 0
@@ -3441,6 +4049,7 @@ GameObject:
   - component: {fileID: 794938428}
   - component: {fileID: 794938427}
   - component: {fileID: 794938426}
+  - component: {fileID: 794938430}
   m_Layer: 6
   m_Name: pillbottle5 (8)
   m_TagString: Untagged
@@ -3599,6 +4208,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &794938430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794938424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1153102563
+      Data2: 1264107723
+      Data3: 1835427001
+      Data4: -468617351
+    Path: event:/Sound Effects/sfx_piller_5
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &807766742
 GameObject:
   m_ObjectHideFlags: 0
@@ -3753,6 +4393,7 @@ GameObject:
   - component: {fileID: 878425712}
   - component: {fileID: 878425711}
   - component: {fileID: 878425710}
+  - component: {fileID: 878425713}
   m_Layer: 6
   m_Name: pillbottle3
   m_TagString: Untagged
@@ -3911,6 +4552,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c4a7e04432f145c1a01bf3e2de6e1ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &878425713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878425707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 180658233
+      Data2: 1192450053
+      Data3: 401254039
+      Data4: -647977066
+    Path: event:/Sound Effects/sfx_piller_3
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &884911363
 GameObject:
   m_ObjectHideFlags: 0
@@ -3924,6 +4596,7 @@ GameObject:
   - component: {fileID: 884911367}
   - component: {fileID: 884911366}
   - component: {fileID: 884911365}
+  - component: {fileID: 884911369}
   m_Layer: 6
   m_Name: pillbottle3 (10)
   m_TagString: Untagged
@@ -4082,6 +4755,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &884911369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884911363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 180658233
+      Data2: 1192450053
+      Data3: 401254039
+      Data4: -647977066
+    Path: event:/Sound Effects/sfx_piller_3
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &899146408
 GameObject:
   m_ObjectHideFlags: 0
@@ -4095,6 +4799,7 @@ GameObject:
   - component: {fileID: 899146412}
   - component: {fileID: 899146411}
   - component: {fileID: 899146410}
+  - component: {fileID: 899146414}
   m_Layer: 6
   m_Name: pillbottle5 (2)
   m_TagString: Untagged
@@ -4253,6 +4958,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &899146414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 899146408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1153102563
+      Data2: 1264107723
+      Data3: 1835427001
+      Data4: -468617351
+    Path: event:/Sound Effects/sfx_piller_5
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &915647273
 GameObject:
   m_ObjectHideFlags: 0
@@ -4266,6 +5002,7 @@ GameObject:
   - component: {fileID: 915647277}
   - component: {fileID: 915647276}
   - component: {fileID: 915647275}
+  - component: {fileID: 915647279}
   m_Layer: 6
   m_Name: pillbottle1 (1)
   m_TagString: Untagged
@@ -4424,6 +5161,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &915647279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915647273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1880753054
+      Data2: 1231188527
+      Data3: 1024242819
+      Data4: -685772539
+    Path: event:/Sound Effects/sfx_piller_1
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1040747800
 GameObject:
   m_ObjectHideFlags: 0
@@ -4437,6 +5205,7 @@ GameObject:
   - component: {fileID: 1040747804}
   - component: {fileID: 1040747803}
   - component: {fileID: 1040747802}
+  - component: {fileID: 1040747806}
   m_Layer: 6
   m_Name: pillbottle2 (1)
   m_TagString: Untagged
@@ -4595,6 +5364,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1040747806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040747800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1292865264
+      Data2: 1232052586
+      Data3: 144887225
+      Data4: -1972111465
+    Path: event:/Sound Effects/sfx_piller_2
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1111128991
 GameObject:
   m_ObjectHideFlags: 0
@@ -4608,6 +5408,7 @@ GameObject:
   - component: {fileID: 1111128995}
   - component: {fileID: 1111128994}
   - component: {fileID: 1111128993}
+  - component: {fileID: 1111128997}
   m_Layer: 6
   m_Name: pillbottle2 (8)
   m_TagString: Untagged
@@ -4766,6 +5567,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1111128997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111128991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1292865264
+      Data2: 1232052586
+      Data3: 144887225
+      Data4: -1972111465
+    Path: event:/Sound Effects/sfx_piller_2
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!114 &1145279665 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2791796307728900726, guid: c053625ded2d94f2cb3eaa963514c4af, type: 3}
@@ -4790,6 +5622,7 @@ GameObject:
   - component: {fileID: 1146445560}
   - component: {fileID: 1146445559}
   - component: {fileID: 1146445558}
+  - component: {fileID: 1146445562}
   m_Layer: 6
   m_Name: pillbottle3 (11)
   m_TagString: Untagged
@@ -4948,6 +5781,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1146445562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146445556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 180658233
+      Data2: 1192450053
+      Data3: 401254039
+      Data4: -647977066
+    Path: event:/Sound Effects/sfx_piller_3
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1156002198
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5018,6 +5882,7 @@ GameObject:
   - component: {fileID: 1204950724}
   - component: {fileID: 1204950723}
   - component: {fileID: 1204950722}
+  - component: {fileID: 1204950726}
   m_Layer: 6
   m_Name: pillbottle3 (3)
   m_TagString: Untagged
@@ -5176,6 +6041,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1204950726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204950720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 180658233
+      Data2: 1192450053
+      Data3: 401254039
+      Data4: -647977066
+    Path: event:/Sound Effects/sfx_piller_3
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1289546306
 GameObject:
   m_ObjectHideFlags: 0
@@ -5334,6 +6230,7 @@ GameObject:
   - component: {fileID: 1369100024}
   - component: {fileID: 1369100023}
   - component: {fileID: 1369100022}
+  - component: {fileID: 1369100026}
   m_Layer: 6
   m_Name: pillbottle4 (4)
   m_TagString: Untagged
@@ -5492,6 +6389,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1369100026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369100020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 393195969
+      Data2: 1073848159
+      Data3: -636493677
+      Data4: 1358225922
+    Path: event:/Sound Effects/sfx_piller_4
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1375758485
 GameObject:
   m_ObjectHideFlags: 0
@@ -5505,6 +6433,7 @@ GameObject:
   - component: {fileID: 1375758489}
   - component: {fileID: 1375758488}
   - component: {fileID: 1375758487}
+  - component: {fileID: 1375758491}
   m_Layer: 6
   m_Name: pillbottle5 (1)
   m_TagString: Untagged
@@ -5663,6 +6592,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1375758491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375758485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1153102563
+      Data2: 1264107723
+      Data3: 1835427001
+      Data4: -468617351
+    Path: event:/Sound Effects/sfx_piller_5
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1403760915
 GameObject:
   m_ObjectHideFlags: 0
@@ -5676,6 +6636,7 @@ GameObject:
   - component: {fileID: 1403760919}
   - component: {fileID: 1403760918}
   - component: {fileID: 1403760917}
+  - component: {fileID: 1403760921}
   m_Layer: 6
   m_Name: pillbottle5 (6)
   m_TagString: Untagged
@@ -5834,6 +6795,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1403760921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403760915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1153102563
+      Data2: 1264107723
+      Data3: 1835427001
+      Data4: -468617351
+    Path: event:/Sound Effects/sfx_piller_5
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1417311130
 GameObject:
   m_ObjectHideFlags: 0
@@ -5847,6 +6839,7 @@ GameObject:
   - component: {fileID: 1417311135}
   - component: {fileID: 1417311134}
   - component: {fileID: 1417311133}
+  - component: {fileID: 1417311136}
   m_Layer: 6
   m_Name: pillbottle2
   m_TagString: Untagged
@@ -6005,6 +6998,37 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.169483, y: 8.911636}
   m_EdgeRadius: 0
+--- !u!114 &1417311136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417311130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1292865264
+      Data2: 1232052586
+      Data3: 144887225
+      Data4: -1972111465
+    Path: event:/Sound Effects/sfx_piller_2
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1485325023
 GameObject:
   m_ObjectHideFlags: 0
@@ -6018,6 +7042,7 @@ GameObject:
   - component: {fileID: 1485325027}
   - component: {fileID: 1485325026}
   - component: {fileID: 1485325025}
+  - component: {fileID: 1485325029}
   m_Layer: 6
   m_Name: pillbottle5 (3)
   m_TagString: Untagged
@@ -6176,6 +7201,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1485325029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485325023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1153102563
+      Data2: 1264107723
+      Data3: 1835427001
+      Data4: -468617351
+    Path: event:/Sound Effects/sfx_piller_5
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1494443814
 GameObject:
   m_ObjectHideFlags: 0
@@ -6189,6 +7245,8 @@ GameObject:
   - component: {fileID: 1494443818}
   - component: {fileID: 1494443817}
   - component: {fileID: 1494443816}
+  - component: {fileID: 1494443820}
+  - component: {fileID: 1494443821}
   m_Layer: 6
   m_Name: pillbottle1 (4)
   m_TagString: Untagged
@@ -6347,6 +7405,68 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1494443820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494443814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1880753054
+      Data2: 1231188527
+      Data3: 1024242819
+      Data4: -685772539
+    Path: event:/Sound Effects/sfx_piller_1
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1494443821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494443814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: -1
+  OverrideMaxDistance: -1
 --- !u!1 &1563647678
 GameObject:
   m_ObjectHideFlags: 0
@@ -6360,6 +7480,7 @@ GameObject:
   - component: {fileID: 1563647682}
   - component: {fileID: 1563647681}
   - component: {fileID: 1563647680}
+  - component: {fileID: 1563647684}
   m_Layer: 6
   m_Name: pillbottle4 (5)
   m_TagString: Untagged
@@ -6518,6 +7639,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1563647684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563647678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 393195969
+      Data2: 1073848159
+      Data3: -636493677
+      Data4: 1358225922
+    Path: event:/Sound Effects/sfx_piller_4
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1605885752
 GameObject:
   m_ObjectHideFlags: 0
@@ -6531,6 +7683,7 @@ GameObject:
   - component: {fileID: 1605885756}
   - component: {fileID: 1605885755}
   - component: {fileID: 1605885754}
+  - component: {fileID: 1605885758}
   m_Layer: 6
   m_Name: pillbottle5 (4)
   m_TagString: Untagged
@@ -6689,6 +7842,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1605885758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605885752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1153102563
+      Data2: 1264107723
+      Data3: 1835427001
+      Data4: -468617351
+    Path: event:/Sound Effects/sfx_piller_5
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1623132904
 GameObject:
   m_ObjectHideFlags: 0
@@ -6702,6 +7886,7 @@ GameObject:
   - component: {fileID: 1623132908}
   - component: {fileID: 1623132907}
   - component: {fileID: 1623132906}
+  - component: {fileID: 1623132910}
   m_Layer: 6
   m_Name: pillbottle2 (9)
   m_TagString: Untagged
@@ -6860,6 +8045,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1623132910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623132904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1292865264
+      Data2: 1232052586
+      Data3: 144887225
+      Data4: -1972111465
+    Path: event:/Sound Effects/sfx_piller_2
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1644727965
 GameObject:
   m_ObjectHideFlags: 0
@@ -6873,6 +8089,7 @@ GameObject:
   - component: {fileID: 1644727969}
   - component: {fileID: 1644727968}
   - component: {fileID: 1644727967}
+  - component: {fileID: 1644727971}
   m_Layer: 6
   m_Name: pillbottle2 (3)
   m_TagString: Untagged
@@ -7031,6 +8248,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1644727971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644727965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1292865264
+      Data2: 1232052586
+      Data3: 144887225
+      Data4: -1972111465
+    Path: event:/Sound Effects/sfx_piller_2
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1765536489
 GameObject:
   m_ObjectHideFlags: 0
@@ -7044,6 +8292,7 @@ GameObject:
   - component: {fileID: 1765536493}
   - component: {fileID: 1765536492}
   - component: {fileID: 1765536491}
+  - component: {fileID: 1765536495}
   m_Layer: 6
   m_Name: pillbottle3 (7)
   m_TagString: Untagged
@@ -7202,6 +8451,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1765536495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765536489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 180658233
+      Data2: 1192450053
+      Data3: 401254039
+      Data4: -647977066
+    Path: event:/Sound Effects/sfx_piller_3
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1813972553
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7276,6 +8556,7 @@ GameObject:
   - component: {fileID: 1835093013}
   - component: {fileID: 1835093012}
   - component: {fileID: 1835093011}
+  - component: {fileID: 1835093015}
   m_Layer: 6
   m_Name: pillbottle3 (9)
   m_TagString: Untagged
@@ -7434,6 +8715,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1835093015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835093009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 180658233
+      Data2: 1192450053
+      Data3: 401254039
+      Data4: -647977066
+    Path: event:/Sound Effects/sfx_piller_3
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1857661033
 GameObject:
   m_ObjectHideFlags: 0
@@ -7783,6 +9095,7 @@ GameObject:
   - component: {fileID: 1879211963}
   - component: {fileID: 1879211962}
   - component: {fileID: 1879211961}
+  - component: {fileID: 1879211965}
   m_Layer: 6
   m_Name: pillbottle1 (3)
   m_TagString: Untagged
@@ -7941,6 +9254,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1879211965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879211959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1880753054
+      Data2: 1231188527
+      Data3: 1024242819
+      Data4: -685772539
+    Path: event:/Sound Effects/sfx_piller_1
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1892609752
 GameObject:
   m_ObjectHideFlags: 0
@@ -7954,6 +9298,7 @@ GameObject:
   - component: {fileID: 1892609756}
   - component: {fileID: 1892609755}
   - component: {fileID: 1892609754}
+  - component: {fileID: 1892609758}
   m_Layer: 6
   m_Name: pillbottle5 (5)
   m_TagString: Untagged
@@ -8112,6 +9457,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1892609758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892609752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1153102563
+      Data2: 1264107723
+      Data3: 1835427001
+      Data4: -468617351
+    Path: event:/Sound Effects/sfx_piller_5
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1899897656
 GameObject:
   m_ObjectHideFlags: 0
@@ -8125,6 +9501,7 @@ GameObject:
   - component: {fileID: 1899897660}
   - component: {fileID: 1899897659}
   - component: {fileID: 1899897658}
+  - component: {fileID: 1899897662}
   m_Layer: 6
   m_Name: pillbottle5
   m_TagString: Untagged
@@ -8283,6 +9660,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1899897662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899897656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1153102563
+      Data2: 1264107723
+      Data3: 1835427001
+      Data4: -468617351
+    Path: event:/Sound Effects/sfx_piller_5
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1905212821
 GameObject:
   m_ObjectHideFlags: 0
@@ -8296,6 +9704,7 @@ GameObject:
   - component: {fileID: 1905212826}
   - component: {fileID: 1905212825}
   - component: {fileID: 1905212824}
+  - component: {fileID: 1905212827}
   m_Layer: 6
   m_Name: pillbottle4
   m_TagString: Untagged
@@ -8454,6 +9863,37 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &1905212827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905212821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 393195969
+      Data2: 1073848159
+      Data3: -636493677
+      Data4: 1358225922
+    Path: event:/Sound Effects/sfx_piller_4
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2065966720
 GameObject:
   m_ObjectHideFlags: 0
@@ -8467,6 +9907,7 @@ GameObject:
   - component: {fileID: 2065966724}
   - component: {fileID: 2065966723}
   - component: {fileID: 2065966722}
+  - component: {fileID: 2065966726}
   m_Layer: 6
   m_Name: pillbottle4 (3)
   m_TagString: Untagged
@@ -8483,7 +9924,7 @@ Transform:
   m_GameObject: {fileID: 2065966720}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.63, y: 1.41, z: 0}
+  m_LocalPosition: {x: 3.61, y: 1.72, z: 0}
   m_LocalScale: {x: 0.3047284, y: 0.1688, z: 0.1688}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8625,6 +10066,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2065966726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065966720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 393195969
+      Data2: 1073848159
+      Data3: -636493677
+      Data4: 1358225922
+    Path: event:/Sound Effects/sfx_piller_4
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2089965868
 GameObject:
   m_ObjectHideFlags: 0
@@ -8638,6 +10110,7 @@ GameObject:
   - component: {fileID: 2089965872}
   - component: {fileID: 2089965871}
   - component: {fileID: 2089965870}
+  - component: {fileID: 2089965874}
   m_Layer: 6
   m_Name: pillbottle4 (6)
   m_TagString: Untagged
@@ -8796,6 +10269,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2089965874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089965868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 393195969
+      Data2: 1073848159
+      Data3: -636493677
+      Data4: 1358225922
+    Path: event:/Sound Effects/sfx_piller_4
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2093922942
 GameObject:
   m_ObjectHideFlags: 0
@@ -8809,6 +10313,7 @@ GameObject:
   - component: {fileID: 2093922946}
   - component: {fileID: 2093922945}
   - component: {fileID: 2093922944}
+  - component: {fileID: 2093922948}
   m_Layer: 6
   m_Name: pillbottle3 (4)
   m_TagString: Untagged
@@ -8967,6 +10472,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2093922948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093922942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 180658233
+      Data2: 1192450053
+      Data3: 401254039
+      Data4: -647977066
+    Path: event:/Sound Effects/sfx_piller_3
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2143905535
 GameObject:
   m_ObjectHideFlags: 0
@@ -8980,6 +10516,7 @@ GameObject:
   - component: {fileID: 2143905539}
   - component: {fileID: 2143905538}
   - component: {fileID: 2143905537}
+  - component: {fileID: 2143905541}
   m_Layer: 6
   m_Name: pillbottle1 (2)
   m_TagString: Untagged
@@ -9138,6 +10675,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2143905541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143905535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1880753054
+      Data2: 1231188527
+      Data3: 1024242819
+      Data4: -685772539
+    Path: event:/Sound Effects/sfx_piller_1
+  Event: 
+  PlayEvent: 15
+  StopEvent: 16
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
