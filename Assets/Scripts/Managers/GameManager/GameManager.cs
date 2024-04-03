@@ -57,10 +57,6 @@ public class GameManager : MonoBehaviour
         switch (gameState)
         {
 
-            case GameState.Intro:
-                LoadSceneWithoutCutscene("Intro");
-                break;
-
             case GameState.Game1:
                 LoadSceneWithCutscene("Game1", "Cutscene1");
                 break;
@@ -145,6 +141,7 @@ public class GameManager : MonoBehaviour
  public void LoadSceneWithoutCutscene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+
     }
 
     
@@ -158,10 +155,7 @@ public class GameManager : MonoBehaviour
             case GameState.StartState:
                 StorylineManager.instance.LoadNextScene();
                 break;
-            case GameState.Intro:
-                StorylineManager.instance.LoadNextScene();
-                break;
-
+                
             case GameState.MainScene1:
                 StorylineManager.instance.LoadNextScene();
                 break;
