@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public enum GameState
     {
         StartState,
+        Intro,
         MainScene1,
         MainScene2,
         MainScene3,
@@ -45,6 +46,7 @@ public class GameManager : MonoBehaviour
         EnterState(GameState.StartState);
     }
 
+
     // Function to handle state transitions in the game
     public void EnterState(GameState newState)
     {
@@ -54,6 +56,10 @@ public class GameManager : MonoBehaviour
 
         switch (gameState)
         {
+            case GameState.Intro:
+                LoadNextState();
+                break;
+
             case GameState.Game1:
                 LoadSceneWithCutsceneAndAudio("Game1", "Cutscene1");
                 break;
@@ -188,7 +194,11 @@ public void LoadSceneWithoutCutscene(string sceneName)
             case GameState.StartState:
                 StorylineManager.instance.LoadNextScene();
                 break;
-            
+
+            case GameState.Intro:
+                StorylineManager.instance.LoadNextScene();
+                break;
+
             case GameState.MainScene1:
                 StorylineManager.instance.LoadNextScene();
                 break;

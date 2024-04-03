@@ -3560,54 +3560,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1461345447986754047, guid: b00f763d8755045cf8d1751a6d1d5d6e, type: 3}
-      propertyPath: storylineScenes.Array.size
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 1461345447986754047, guid: b00f763d8755045cf8d1751a6d1d5d6e, type: 3}
-      propertyPath: storylineScenes.Array.data[0]
-      value: StartState
-      objectReference: {fileID: 0}
-    - target: {fileID: 1461345447986754047, guid: b00f763d8755045cf8d1751a6d1d5d6e, type: 3}
-      propertyPath: storylineScenes.Array.data[1]
-      value: Game1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1461345447986754047, guid: b00f763d8755045cf8d1751a6d1d5d6e, type: 3}
-      propertyPath: storylineScenes.Array.data[2]
-      value: MainScene1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1461345447986754047, guid: b00f763d8755045cf8d1751a6d1d5d6e, type: 3}
-      propertyPath: storylineScenes.Array.data[3]
-      value: Game2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1461345447986754047, guid: b00f763d8755045cf8d1751a6d1d5d6e, type: 3}
-      propertyPath: storylineScenes.Array.data[4]
-      value: MainScene2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1461345447986754047, guid: b00f763d8755045cf8d1751a6d1d5d6e, type: 3}
-      propertyPath: storylineScenes.Array.data[5]
-      value: Game3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1461345447986754047, guid: b00f763d8755045cf8d1751a6d1d5d6e, type: 3}
-      propertyPath: storylineScenes.Array.data[6]
-      value: MainScene3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1461345447986754047, guid: b00f763d8755045cf8d1751a6d1d5d6e, type: 3}
-      propertyPath: storylineScenes.Array.data[7]
-      value: Game4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1461345447986754047, guid: b00f763d8755045cf8d1751a6d1d5d6e, type: 3}
-      propertyPath: storylineScenes.Array.data[8]
-      value: MainScene4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1461345447986754047, guid: b00f763d8755045cf8d1751a6d1d5d6e, type: 3}
-      propertyPath: storylineScenes.Array.data[9]
-      value: Game5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1461345447986754047, guid: b00f763d8755045cf8d1751a6d1d5d6e, type: 3}
-      propertyPath: storylineScenes.Array.data[10]
-      value: FinalScene
-      objectReference: {fileID: 0}
     - target: {fileID: 2617376400282153673, guid: b00f763d8755045cf8d1751a6d1d5d6e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.527056
