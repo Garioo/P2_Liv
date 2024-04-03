@@ -850,9 +850,9 @@ MonoBehaviour:
     m_Options:
     - m_Text: Samsung
       m_Image: {fileID: 0}
-    - m_Text: Iphone
+    - m_Text: iPhone
       m_Image: {fileID: 0}
-    - m_Text: Android
+    - m_Text: iPad
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
