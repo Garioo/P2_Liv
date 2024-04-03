@@ -54,7 +54,6 @@ public class GameManager : MonoBehaviour
 
         switch (gameState)
         {
-
             case GameState.Game1:
                 LoadSceneWithCutsceneAndAudio("Game1", "Cutscene1");
                 break;

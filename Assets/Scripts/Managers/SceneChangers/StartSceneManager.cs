@@ -22,7 +22,7 @@ public class StartSceneManager : MonoBehaviour
         if (gameManager != null)
         {
             // Enter the next game state
-            gameManager.EnterState(nextState);
+            gameManager.EnterState(GameManager.GameState.Game1);
     
         }
         else

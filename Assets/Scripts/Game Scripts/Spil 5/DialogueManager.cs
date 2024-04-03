@@ -105,6 +105,7 @@ public class DialogueManager : MonoBehaviour
     {
         // If nextNodeIndex is -1, start playing the video
         gameManager.EnterState(targetState);
+        AudioManager.instance.PlayAudio("event:/Cutscenes/Sidste Cutscene");
     }
     else
     {
