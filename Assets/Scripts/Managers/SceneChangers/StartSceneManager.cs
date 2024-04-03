@@ -21,8 +21,9 @@ public class StartSceneManager : MonoBehaviour
         // Check if the GameManager instance is found
         if (gameManager != null)
         {
-            // Enter the next game state
-            gameManager.EnterState(nextState);
+
+            // Transition to the next game state
+            gameManager.EnterState(nextState);  
     
         }
         else
