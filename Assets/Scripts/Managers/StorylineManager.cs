@@ -3,7 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class StorylineManager : MonoBehaviour
 {
-    
   public static StorylineManager instance;
     private void Awake()
     {
@@ -39,5 +38,4 @@ public class StorylineManager : MonoBehaviour
             Debug.Log("End of storyline reached."); // Optionally, handle end of storyline
         }
     }
-     
 }
