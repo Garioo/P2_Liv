@@ -4,7 +4,8 @@ using UnityEngine.Video;
 
 public class ShakeCamera : MonoBehaviour
 {
-    public GameManager.GameState targetState;
+    
+    //public GameManager.GameState targetState;
     public float shakeAmount = 0.7f;
     public float decreaseFactor = 1.0f;
     public CinemachineVirtualCamera virtualCamera;
@@ -68,8 +69,8 @@ public class ShakeCamera : MonoBehaviour
             if (gameManager != null)
             {
                 // Transition to the target game state
-                gameManager.EnterState(targetState);
-                Debug.Log("Transitioned to " + targetState);
+                gameManager.ChangeGameState();
+                //Debug.Log("Transitioned to " + targetState);
             }
             else
             {
@@ -95,4 +96,5 @@ public class ShakeCamera : MonoBehaviour
     {
         shakeDuration = 0.5f; // Adjust the duration of the shake
     }
+     
 }

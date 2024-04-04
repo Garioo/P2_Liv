@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PhoneScript : MonoBehaviour
 {
-   public GameManager.GameState targetState;
+   //public GameManager.GameState targetState;
     public GameManager gameManager;
 
     // Start is called before the first frame update
@@ -29,13 +29,14 @@ public class PhoneScript : MonoBehaviour
         {
             // Transition to the target game state
             AudioManager.instance.StopAudio("event:/Cutscenes/Telefon Ringer");
-            gameManager.EnterState(targetState);
+            gameManager.ChangeGameState();
             AudioManager.instance.PlayAudio("event:/Cutscenes/Telefon Samtale");
-            Debug.Log("Transitioned to " + targetState);
+            //Debug.Log("Transitioned to " + targetState);
         }
         else
         {
             Debug.LogError("GameManager object is not initialized.");
         }
     }
+     
 }

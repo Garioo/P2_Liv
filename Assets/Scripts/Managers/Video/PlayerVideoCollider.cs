@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PlayerVideoCollider : MonoBehaviour
 {
+    
     [SerializeField]
     private string videoTag; // Tag of the video to play
 
@@ -20,4 +21,5 @@ public class PlayerVideoCollider : MonoBehaviour
             VideoManager.instance.PlayVideo(videoTag);
         }
     }
+     
 }
