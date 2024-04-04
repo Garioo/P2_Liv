@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Toothbrush : MonoBehaviour
 {
-    //public GameManager.GameState targetState;
+    public GameManager.GameState targetState;
     public GameManager gameManager;
 
     // Start is called before the first frame update
@@ -29,14 +29,13 @@ public class Toothbrush : MonoBehaviour
         {
             // Transition to the target game state
             AudioManager.instance.StopAudio("event:/Cutscenes/Liv Vågner");
-            gameManager.ChangeGameState();
+            gameManager.EnterState(targetState);
             AudioManager.instance.PlayAudio("event:/Cutscenes/Telefon Ringer");
-            //ebug.Log("Transitioned to " + targetState);
+            Debug.Log("Transitioned to " + targetState);
         }
         else
         {
             Debug.LogError("GameManager object is not initialized.");
         }
     }
-     
 }

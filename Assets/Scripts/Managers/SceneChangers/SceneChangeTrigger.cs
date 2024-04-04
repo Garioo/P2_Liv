@@ -7,7 +7,7 @@ public class SceneChangeTrigger : MonoBehaviour
     public GameManager gameManager;
 
     // The target game state to transition to
-    //public GameManager.GameState targetState;
+    public GameManager.GameState targetState;
 
     void Start()
     {
@@ -28,9 +28,8 @@ public class SceneChangeTrigger : MonoBehaviour
         {
             Debug.Log("Player entered trigger");
             // Transition to the target game state
-            gameManager.ChangeGameState();
-            //Debug.Log("Transitioned to" + targetState);
+            gameManager.EnterState(targetState);
+            Debug.Log("Transitioned to" + targetState);
         }
     }
-    
 }

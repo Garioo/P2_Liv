@@ -11,7 +11,7 @@ public class DialogueManager : MonoBehaviour
     private DialogueNode[] dialogueNodes; // Array to store dialogue nodes
     private int currentNodeIndex; // Index to track the current dialogue node
 
-    //public GameManager.GameState targetState;
+    public GameManager.GameState targetState;
     GameManager gameManager; // Reference to the GameManager
 
     void Start()
@@ -103,8 +103,8 @@ public class DialogueManager : MonoBehaviour
 {
     if (nextNodeIndex == -1)
     {
-            // If nextNodeIndex is -1, start playing the video
-            gameManager.ChangeGameState();
+        // If nextNodeIndex is -1, start playing the video
+        gameManager.EnterState(targetState);
         AudioManager.instance.PlayAudio("event:/Cutscenes/Sidste Cutscene");
     }
     else
@@ -135,5 +135,4 @@ public class DialogueManager : MonoBehaviour
         public string text;
         public int nextNodeId;
     }
-      
 }

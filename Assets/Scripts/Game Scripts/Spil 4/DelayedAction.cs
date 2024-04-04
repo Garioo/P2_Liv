@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class DelayedAction : MonoBehaviour
 {
-    
-//public GameManager.GameState targetState;
+
+public GameManager.GameState targetState;
     public GameManager gameManager;
 
     public float delayTime;
@@ -31,13 +31,12 @@ public class DelayedAction : MonoBehaviour
         if (gameManager != null)
         {
             // Transition to the target game state
-            gameManager.ChangeGameState();
-            //Debug.Log("Transitioned to " + targetState);
+            gameManager.EnterState(targetState);
+            Debug.Log("Transitioned to " + targetState);
         }
         else
         {
             Debug.LogError("GameManager object is not initialized.");
         }
     }
-      
 }

@@ -5,7 +5,6 @@ using UnityEngine.Video;
 
 public class VideoManager : MonoBehaviour
 {
-    
     [Serializable]
     public struct VideoInfo
     {
@@ -37,25 +36,24 @@ public class VideoManager : MonoBehaviour
 
     void Start()
     {
-        videoPlayer.loopPointReached += OnVideoFinished;
+            videoPlayer.loopPointReached += OnVideoFinished;
     }
 
+   
     private void OnVideoFinished(VideoPlayer vp)
-    {
+{
     // Null check for gameManager
-        if (gameManager == null)
-        {
-            Debug.LogError("GameManager is not assigned in the VideoManager.");
-            return;
-        }
-
-        // Notify the GameManager that the video has finished playing
-        Debug.Log("Video finished HELLOOOOOOOOO");
-        Debug.Log(gameManager.currentGameState);
-        gameManager.LoadNextScene();
-        //gameManager.ChangeGameState(); lav metode der kalder næste scene
-        hasPlayed = false;
+    if (gameManager == null)
+    {
+        Debug.LogError("GameManager is not assigned in the VideoManager.");
+        return;
     }
+
+    // Notify the GameManager that the video has finished playing
+    Debug.Log("Video finished");
+    gameManager.VideoNextState();
+    hasPlayed = false;
+}
 
     public void PlayVideo(string cutsceneTag)
     {
@@ -64,6 +62,7 @@ public class VideoManager : MonoBehaviour
         {   
             videoPlayer.renderMode = VideoRenderMode.CameraNearPlane;
             videoPlayer.targetCamera = mainCamera;
+            
         }
         else
         {
@@ -82,7 +81,6 @@ public class VideoManager : MonoBehaviour
                     Debug.Log("Afspiller video");
                     hasPlayed = true;
                     break;
-                   
                 }
             }
         }
@@ -98,5 +96,4 @@ public class VideoManager : MonoBehaviour
         }
         return 0f; // Return 0 if video clip not found
     }
-    
 }
