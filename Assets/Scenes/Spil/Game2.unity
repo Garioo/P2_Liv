@@ -8498,6 +8498,14 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 1145279665}
+    - target: {fileID: 2958286765442897942, guid: 728b47ec370984a3c8a63a51b9078643, type: 3}
+      propertyPath: videoInfos.Array.data[1].videoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: 9ae29d1e98883416ab0b0494b03f3717, type: 3}
+    - target: {fileID: 2958286765442897942, guid: 728b47ec370984a3c8a63a51b9078643, type: 3}
+      propertyPath: videoInfos.Array.data[8].videoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: 1458bd43999774b268ea39b7591ae02a, type: 3}
     - target: {fileID: 6486880500500728264, guid: 728b47ec370984a3c8a63a51b9078643, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.939126
