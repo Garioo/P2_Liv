@@ -332,6 +332,7 @@ GameObject:
   m_Component:
   - component: {fileID: 378386064}
   - component: {fileID: 378386063}
+  - component: {fileID: 378386065}
   m_Layer: 0
   m_Name: Bedroom new
   m_TagString: Untagged
@@ -409,6 +410,42 @@ Transform:
   - {fileID: 1937295492}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!328 &378386065
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378386062}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 32900000, guid: a9ed35fc5d1034407b636c09173e6754, type: 3}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera3DLayout: 0
+  m_TargetCamera: {fileID: 0}
+  m_TargetTexture: {fileID: 0}
+  m_TimeReference: 0
+  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialProperty: <noninit>
+  m_RenderMode: 3
+  m_AspectRatio: 2
+  m_DataSource: 0
+  m_TimeUpdateMode: 2
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 2
+  m_TargetAudioSources:
+  - {fileID: 0}
+  m_DirectAudioVolumes:
+  - 1
+  m_Url: 
+  m_EnabledAudioTracks: 01
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
+  m_PlayOnAwake: 1
+  m_SkipOnDrop: 1
+  m_Looping: 0
+  m_WaitForFirstFrame: 1
+  m_FrameReadyEventEnabled: 0
+  m_VideoShaders: []
 --- !u!1 &387394520
 GameObject:
   m_ObjectHideFlags: 0
@@ -741,7 +778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 958345784}
-  targetState: 5
+  targetState: 0
 --- !u!212 &603243032
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -980,7 +1017,7 @@ Transform:
   m_GameObject: {fileID: 829096032}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 30.132547, y: 0.33069992, z: -10}
+  m_LocalPosition: {x: 30.138493, y: 0.36482, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1817,6 +1854,8 @@ GameObject:
   - component: {fileID: 1774226593}
   - component: {fileID: 1774226596}
   - component: {fileID: 1774226595}
+  - component: {fileID: 1774226599}
+  - component: {fileID: 1774226598}
   m_Layer: 0
   m_Name: Liv
   m_TagString: Player
@@ -1897,9 +1936,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: d0706ba3e775343c0b406b705e11633f, type: 3}
+  m_Sprite: {fileID: -1030597102, guid: b4cb6c2fae54f4b5595b073e8d549f37, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 20.48, y: 15.36}
@@ -1944,7 +1983,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 20.48, y: 15.36}
+    oldSize: {x: 5.800887, y: 13.09}
     newSize: {x: 20.48, y: 15.36}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1997,6 +2036,41 @@ MonoBehaviour:
   moveSpeeds:
   - 5
   waitTimes: []
+--- !u!95 &1774226598
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774226591}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ec41bd5e7ab744fbd81108291df24d5b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1774226599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774226591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c29cff538c195c249b69c6f2236de67b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library: []
+  m_SpriteLibraryAsset: {fileID: 0}
 --- !u!1 &1937295491
 GameObject:
   m_ObjectHideFlags: 0
