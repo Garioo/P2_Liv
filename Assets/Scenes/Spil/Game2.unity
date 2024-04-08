@@ -6215,7 +6215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f17350ac1ad3452bb47c8b5acc1b3e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetState: 2
+  targetState: 3
   gameManager: {fileID: 1145279665}
 --- !u!1 &1369100020
 GameObject:

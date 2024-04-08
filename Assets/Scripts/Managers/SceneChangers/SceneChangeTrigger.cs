@@ -1,10 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class SceneChangeTrigger : MonoBehaviour
 {
      // Reference to the GameManager
     public GameManager gameManager;
+    public float delayTime;
 
     // The target game state to transition to
     public GameManager.GameState targetState;
@@ -20,16 +22,22 @@ public class SceneChangeTrigger : MonoBehaviour
         gameManager.SetGameManagerReference(this);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("OnTriggerEnter2D");
-        // Check if the collider belongs to the player
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Player entered trigger");
-            // Transition to the target game state
-            gameManager.EnterState(targetState);
-            Debug.Log("Transitioned to" + targetState);
+            StartCoroutine(DoActionAfterDelay());
         }
     }
+
+    IEnumerator DoActionAfterDelay()
+    {
+        Debug.Log("OnTriggerEnter2D");
+        yield return new WaitForSeconds(delayTime);
+        Debug.Log("Player entered trigger");
+        // Transition to the target game state
+        gameManager.EnterState(targetState);
+        Debug.Log("Transitioned to " + targetState);
+    }
 }
+
