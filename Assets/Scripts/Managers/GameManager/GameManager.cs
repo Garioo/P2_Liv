@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     public enum GameState
     {
         StartState,
-        Intro,
+        //Intro,
         MainScene1,
         MainScene2,
         MainScene3,
@@ -75,9 +75,9 @@ public class GameManager : MonoBehaviour
                 break;
 
             case GameState.Game3:
-                LoadNextState();
+                LoadSceneWithCutscene("Game3", "Cutscene5");
                 break;
-
+    
             case GameState.MainScene3:
                 LoadSceneWithCutscene("MainScene3", "Cutscene6");
                 break;

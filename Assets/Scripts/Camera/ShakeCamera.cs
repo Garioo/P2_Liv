@@ -29,6 +29,7 @@ public class ShakeCamera : MonoBehaviour
         // Play the initial video
         if (initialVideoPlayer != null)
         {
+            GetComponent<VideoPlayer>().isLooping = true;
             initialVideoPlayer.Play();
         }
     }
@@ -45,7 +46,12 @@ public class ShakeCamera : MonoBehaviour
             initialVideoPlayed = true;
         }
 
-        if (Input.acceleration.sqrMagnitude >= 3f && Input.acceleration.sqrMagnitude < 30f) // Adjust this value as needed for your desired sensitivity
+        if (Input.acceleration.sqrMagnitude >= 3f && Input.acceleration.sqrMagnitude < 20f) // Adjust this value as needed for your desired sensitivity
+        {
+            Shake();
+            VibrationManager.Vibrate(50); // Vibrate for 50 milliseconds
+        }
+        else if (Input.acceleration.sqrMagnitude >= 20f && Input.acceleration.sqrMagnitude < 30f) // Adjust this value as needed for your desired sensitivity
         {
             Shake();
             VibrationManager.Vibrate(50); // Vibrate for 50 milliseconds

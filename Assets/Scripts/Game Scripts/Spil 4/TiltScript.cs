@@ -6,9 +6,11 @@ public class TiltScript : MonoBehaviour
    float dirx;
    public float moveSpeed;
 
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        moveSpeed = Random.Range(3f, 18f);
     }
 
     void Update()
