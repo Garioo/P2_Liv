@@ -1,0 +1,3449 @@
+fileFormatVersion: 2
+guid: 3342486bd84f696439794311e02bc68f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Move Pill Box Icon_0
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 13482
+        width: 133
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e064973bf6b9b64409b111fe7baee182
+      internalID: 1672535334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_1
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 13346
+        width: 196
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428e41a637d435e40bf98ac621e8290f
+      internalID: -831003299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_2
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 13482
+        width: 127
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9859befaa850370428a49de31d947f0f
+      internalID: 821586796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_3
+      rect:
+        serializedVersion: 2
+        x: 3353
+        y: 13346
+        width: 196
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a848e873467bc0449423ff14d1fc045
+      internalID: -1732215449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_4
+      rect:
+        serializedVersion: 2
+        x: 5612
+        y: 13482
+        width: 134
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f1644576f811c4bb55b7bfbbcbd538
+      internalID: 557982475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_5
+      rect:
+        serializedVersion: 2
+        x: 5753
+        y: 13346
+        width: 197
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c51296d25ed8764697a7d88f078c673
+      internalID: -2095385603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_6
+      rect:
+        serializedVersion: 2
+        x: 8012
+        y: 13482
+        width: 133
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3261405e8e1c5a54e98627b36cf58309
+      internalID: 1986162591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_7
+      rect:
+        serializedVersion: 2
+        x: 8153
+        y: 13346
+        width: 196
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44a7033acba5b94e9a5e1e9181e0d3f
+      internalID: 189914603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_8
+      rect:
+        serializedVersion: 2
+        x: 10418
+        y: 13482
+        width: 127
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074ac7385e9e6ac4bab60955bad02871
+      internalID: 1679642777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_9
+      rect:
+        serializedVersion: 2
+        x: 10559
+        y: 13346
+        width: 196
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b9668a05fed654a864c25aaf3b0d9b
+      internalID: 806383366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_10
+      rect:
+        serializedVersion: 2
+        x: 12839
+        y: 13482
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62f9f9c36ce60a479364ad4118fa9d1
+      internalID: 2065876960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_11
+      rect:
+        serializedVersion: 2
+        x: 12959
+        y: 13346
+        width: 197
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c301d91c85f92842bafba6643a9f2af
+      internalID: 1340963016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_12
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 12402
+        width: 133
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e1ab0809613b444ab0ba213bbf31f9
+      internalID: 1023363848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_13
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 12268
+        width: 196
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724c9d81169d33d45967c965850c24c8
+      internalID: -1945926717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_14
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 12402
+        width: 127
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371791d38f122474cad7257049daeeed
+      internalID: 1255371927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_15
+      rect:
+        serializedVersion: 2
+        x: 3353
+        y: 12268
+        width: 196
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac76ce268746d840afe0ec9dc01925e
+      internalID: 643664189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_16
+      rect:
+        serializedVersion: 2
+        x: 5612
+        y: 12402
+        width: 134
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf6ceb5fb3ed844eab3caaf50d748f4
+      internalID: 341329349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_17
+      rect:
+        serializedVersion: 2
+        x: 5753
+        y: 12268
+        width: 197
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78e6320858ca0d40b1d4bdc9437516c
+      internalID: -236000688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_18
+      rect:
+        serializedVersion: 2
+        x: 8012
+        y: 12402
+        width: 133
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d90d8890a3f904890dc4758c158687
+      internalID: 1499728599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_19
+      rect:
+        serializedVersion: 2
+        x: 8153
+        y: 12268
+        width: 196
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a498680b2884c2349a38a1c790eb2767
+      internalID: -573713316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_20
+      rect:
+        serializedVersion: 2
+        x: 10418
+        y: 12402
+        width: 127
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd88b0bbddf7669469318134cc5e3fa6
+      internalID: 97573996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_21
+      rect:
+        serializedVersion: 2
+        x: 10559
+        y: 12268
+        width: 196
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8edd3d6e837714983321b1b5522bca
+      internalID: -1603060061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_22
+      rect:
+        serializedVersion: 2
+        x: 12839
+        y: 12402
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09a171e4dd9aa547a6fee33aacec591
+      internalID: -1797378327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_23
+      rect:
+        serializedVersion: 2
+        x: 12959
+        y: 12268
+        width: 197
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649b987f01625334fb4cb48943c54e9d
+      internalID: -1831350575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_24
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 11312
+        width: 133
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bdcc9fe146b514fadc8a4ecfab00fb
+      internalID: -1896342850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_25
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 11185
+        width: 195
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb0e46937d02d14881e2503cdcd9118
+      internalID: 1965223172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_26
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 11185
+        width: 324
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a3cf234fc8bd643ab780297602a93e
+      internalID: -1744702463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_27
+      rect:
+        serializedVersion: 2
+        x: 5612
+        y: 11179
+        width: 317
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fe17707b7144747986075f95f29589
+      internalID: 412901698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_28
+      rect:
+        serializedVersion: 2
+        x: 8012
+        y: 11178
+        width: 316
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba33abcfca8861e4c8f486674e390f59
+      internalID: 2133452491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_29
+      rect:
+        serializedVersion: 2
+        x: 10418
+        y: 11178
+        width: 310
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de9ab3845143ed41977e58c51ad0cb3
+      internalID: -1259853563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_30
+      rect:
+        serializedVersion: 2
+        x: 12839
+        y: 11318
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee4cfeff15ad9a47852dbe66d4bf2d4
+      internalID: -702001961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_31
+      rect:
+        serializedVersion: 2
+        x: 12959
+        y: 11185
+        width: 197
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4dec5ce9ae895439a36aecdec1ed5f
+      internalID: -647483312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_32
+      rect:
+        serializedVersion: 2
+        x: 10405
+        y: 11285
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ad8152dd56fbb46a64eed8cd3268af
+      internalID: -1263466289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_33
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 10094
+        width: 309
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cd42ad8cb87bb4ebc76b8ec4194e91
+      internalID: -1017281616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_34
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 10094
+        width: 303
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483f7209f15d7d044b800441f64c2600
+      internalID: 925497136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_35
+      rect:
+        serializedVersion: 2
+        x: 5612
+        y: 10094
+        width: 303
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d784d27fc4c43394392ee96957b03b84
+      internalID: 443637999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_36
+      rect:
+        serializedVersion: 2
+        x: 8012
+        y: 10094
+        width: 302
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601aad63536a84a49ad2ecd1cbeb9ad3
+      internalID: 802903970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_37
+      rect:
+        serializedVersion: 2
+        x: 10418
+        y: 10094
+        width: 296
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14006d7ef2676034b9c51bfd4a1cbfb7
+      internalID: 982491465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_38
+      rect:
+        serializedVersion: 2
+        x: 12839
+        y: 10235
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a78671d06651de42800323d948a1f83
+      internalID: 508846576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_39
+      rect:
+        serializedVersion: 2
+        x: 12959
+        y: 10101
+        width: 197
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f5829aabd776241a23d29610fca354
+      internalID: -1883498584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_40
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 10200
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e4a72ee77eede4ba28ba9ac086a2c5
+      internalID: -1962096295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_41
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 10193
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1a071975030b24dbe380b6937ae410
+      internalID: 10128762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_42
+      rect:
+        serializedVersion: 2
+        x: 5591
+        y: 10186
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c711bb477aa784180f58e07a292847
+      internalID: -198842513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_43
+      rect:
+        serializedVersion: 2
+        x: 7984
+        y: 10179
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfaadbe9b5a15c4883ff23d1f0f2054
+      internalID: -59115375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_44
+      rect:
+        serializedVersion: 2
+        x: 10383
+        y: 10172
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09739521c5005ec44840f9d257a2ba3a
+      internalID: 1388953421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_45
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 9010
+        width: 295
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baffca59baa6bc546a8eaa529f35fb4b
+      internalID: 984966675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_46
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 9010
+        width: 288
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351abc3482a0eb247a165d82d6fde561
+      internalID: 189595593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_47
+      rect:
+        serializedVersion: 2
+        x: 5612
+        y: 9010
+        width: 282
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be25dea2d762d3443ace531363eef09b
+      internalID: -186039805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_48
+      rect:
+        serializedVersion: 2
+        x: 8012
+        y: 9010
+        width: 281
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c841583c105984d9921c37abb4ec79
+      internalID: -1228979569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_49
+      rect:
+        serializedVersion: 2
+        x: 10418
+        y: 9011
+        width: 275
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f271e9fa22b674dbb75cec440cdf13
+      internalID: -1532494787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_50
+      rect:
+        serializedVersion: 2
+        x: 12839
+        y: 9153
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b9d864191b2ca488ba72713225c7b1
+      internalID: -1909070032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_51
+      rect:
+        serializedVersion: 2
+        x: 12959
+        y: 9018
+        width: 197
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2c0bb37a868a647a7095ad8be53113
+      internalID: 223470004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_52
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 9088
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d6a60b9c22f9e4ab3e87aa253c3b24
+      internalID: 1405058023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_53
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 9081
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9854a3ee16772ca46a5329051ee8616c
+      internalID: -687670821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_54
+      rect:
+        serializedVersion: 2
+        x: 5566
+        y: 9074
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5e41708779cc0488aced22a3934874
+      internalID: 1645891714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_55
+      rect:
+        serializedVersion: 2
+        x: 7963
+        y: 9067
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ded7dfac71c0684db2471198bd42523
+      internalID: 1384393970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_56
+      rect:
+        serializedVersion: 2
+        x: 10362
+        y: 9060
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0a131bb567629458d58a65e2c53824
+      internalID: -931323769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_57
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 7928
+        width: 280
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d3aed38016a404c9628cd9845b83e7
+      internalID: -1577958185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_58
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 7930
+        width: 275
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbea34dd55b1828418087566b4cb3479
+      internalID: -2080513780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_59
+      rect:
+        serializedVersion: 2
+        x: 5612
+        y: 7929
+        width: 275
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f3533ecaf8cf74ba00f8b75c0f64bf
+      internalID: 1415528730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_60
+      rect:
+        serializedVersion: 2
+        x: 8012
+        y: 7928
+        width: 280
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a477d361cfed8ba479aa57b98a7cf669
+      internalID: -90899243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_61
+      rect:
+        serializedVersion: 2
+        x: 10418
+        y: 7930
+        width: 275
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa20d45ddcf2404aafafe275ee5df9e
+      internalID: 2142225128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_62
+      rect:
+        serializedVersion: 2
+        x: 12839
+        y: 8075
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46dc0d6179001a84a842bf0245043118
+      internalID: -7443683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_63
+      rect:
+        serializedVersion: 2
+        x: 12959
+        y: 7941
+        width: 197
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c198bd1773403a4089d38ffd1ae89c4
+      internalID: 1243503697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_64
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 7979
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15c229765a0b1f43a835c7c4fc9a601
+      internalID: 766262058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_65
+      rect:
+        serializedVersion: 2
+        x: 3157
+        y: 7980
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b1ec9a6aef56b4cb6ddcbeacc3d7ac
+      internalID: 1963850242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_66
+      rect:
+        serializedVersion: 2
+        x: 5558
+        y: 7980
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934b92279bffc0941934e6f3af20433b
+      internalID: -1698112797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_67
+      rect:
+        serializedVersion: 2
+        x: 7963
+        y: 7979
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a503ce302d4de499fac255df77a6c4
+      internalID: -1749141300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_68
+      rect:
+        serializedVersion: 2
+        x: 10363
+        y: 7980
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8991f0dbe5bdaab4da9cd3a215c0b03d
+      internalID: 546036470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_69
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 6850
+        width: 280
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d027c975689444aa1a144068ca833d
+      internalID: 693427519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_70
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 6850
+        width: 275
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23eace2e2933e44ea49ada3dbf851e6
+      internalID: 470710138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_71
+      rect:
+        serializedVersion: 2
+        x: 5612
+        y: 6850
+        width: 275
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f9ba80a525bcd40b74609b254584f1
+      internalID: 1215668856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_72
+      rect:
+        serializedVersion: 2
+        x: 8012
+        y: 6850
+        width: 280
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff37a67b0afe1f04c88bf1e0bf7a905e
+      internalID: 192736772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_73
+      rect:
+        serializedVersion: 2
+        x: 10418
+        y: 6850
+        width: 275
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68752ad9cf33e584aabcbe4f189dfa46
+      internalID: -2138702047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_74
+      rect:
+        serializedVersion: 2
+        x: 12839
+        y: 6991
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef15713c9a6a49e43a670e6e6c0e1dd0
+      internalID: -1037783706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_75
+      rect:
+        serializedVersion: 2
+        x: 12959
+        y: 6857
+        width: 197
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09af07abe53107846a08bf318ef629c7
+      internalID: 331650104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_76
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 6900
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3445cad5baf04a746b1a7fed4686d256
+      internalID: -2144238586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_77
+      rect:
+        serializedVersion: 2
+        x: 3157
+        y: 6899
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9fa4cda9e6bef4392448060e3cae0d
+      internalID: -225925646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_78
+      rect:
+        serializedVersion: 2
+        x: 5558
+        y: 6899
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0638b7d7078364a48aff46314424a658
+      internalID: 1580591068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_79
+      rect:
+        serializedVersion: 2
+        x: 7963
+        y: 6900
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4938b37de58704e9066c5e0f91a6ea
+      internalID: 1718089307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_80
+      rect:
+        serializedVersion: 2
+        x: 10363
+        y: 6899
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b884cb0d81d061a4e8e3582726796962
+      internalID: -1167878525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_81
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 5767
+        width: 281
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5d695dcf9154c4f9ef6619d09d2cf8
+      internalID: 1241625401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_82
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 5767
+        width: 275
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3adffd3f2e62e642af781e7030e97b0
+      internalID: -1103032559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_83
+      rect:
+        serializedVersion: 2
+        x: 5612
+        y: 5767
+        width: 275
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cbc75939b163c44bf39be9c7f75746
+      internalID: 159168174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_84
+      rect:
+        serializedVersion: 2
+        x: 8019
+        y: 5767
+        width: 274
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f010f1d0f56f45459334cfbda0f80a7
+      internalID: 1133292129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_85
+      rect:
+        serializedVersion: 2
+        x: 10426
+        y: 5767
+        width: 273
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc341d9592f0a344bfbd1e67adc89bf
+      internalID: -154778982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_86
+      rect:
+        serializedVersion: 2
+        x: 12839
+        y: 5908
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6386405033a842409bdcaedb5ca4b43
+      internalID: -104270934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_87
+      rect:
+        serializedVersion: 2
+        x: 12959
+        y: 5774
+        width: 197
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2119b5a6bcb300e4e9a51571f8ee04bc
+      internalID: 1719064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_88
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 5816
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb59f3682fd333479f81c840a9245a2
+      internalID: 1622741855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_89
+      rect:
+        serializedVersion: 2
+        x: 3157
+        y: 5816
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ef3539875037b42aee0d6dbbb6961d
+      internalID: -235271485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_90
+      rect:
+        serializedVersion: 2
+        x: 5558
+        y: 5816
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83abbe8b0e791c04c9d9751c0797735a
+      internalID: -1298107388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_91
+      rect:
+        serializedVersion: 2
+        x: 7963
+        y: 5819
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9433bf2e2e8374ab238cf9bdc7a74b
+      internalID: -1886681638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_92
+      rect:
+        serializedVersion: 2
+        x: 10369
+        y: 5823
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df054f1699e29d043a2d1e6883924903
+      internalID: -778607681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_93
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 4683
+        width: 267
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16cb3d306d7deba41bd9ec8fd06ed3d6
+      internalID: -120332805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_94
+      rect:
+        serializedVersion: 2
+        x: 3234
+        y: 4683
+        width: 260
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29ee8cfc2dde8c4a8a52a4016bf10d5
+      internalID: 951482477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_95
+      rect:
+        serializedVersion: 2
+        x: 5647
+        y: 4683
+        width: 254
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b267856d5f7ae4446b4dfef1de4c333e
+      internalID: 1226564921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_96
+      rect:
+        serializedVersion: 2
+        x: 8054
+        y: 4683
+        width: 253
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002cc9749b15f314d913cb605300512c
+      internalID: 1132504621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_97
+      rect:
+        serializedVersion: 2
+        x: 10461
+        y: 4683
+        width: 246
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563e54e70ff587443a48ecf9bbf49f67
+      internalID: -1189017955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_98
+      rect:
+        serializedVersion: 2
+        x: 12839
+        y: 4824
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90540c69b7051614288ec8c1dfe84cd5
+      internalID: -290498599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_99
+      rect:
+        serializedVersion: 2
+        x: 12959
+        y: 4690
+        width: 197
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63fe63c4cefed943b298b37c16f6d5e
+      internalID: -1763059856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_100
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 4746
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d84cf48e6dfe874eb81c03dfcada49a
+      internalID: 1765905724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_101
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 4747
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380950a0af3bdaf40a607bd1931debbc
+      internalID: 1406390268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_102
+      rect:
+        serializedVersion: 2
+        x: 5570
+        y: 4753
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6350264798455d4daefc48264fbcd20
+      internalID: 521717478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_103
+      rect:
+        serializedVersion: 2
+        x: 7977
+        y: 4755
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a3b0791a7b24c49a4bf2a9fa3a73c2
+      internalID: -592322811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_104
+      rect:
+        serializedVersion: 2
+        x: 10383
+        y: 4760
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e6dd6e845b2fe40976fdfb0c2f5afc
+      internalID: -1496559260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_105
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 3600
+        width: 239
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83b2fdab27a3584482c7ccbecfb8cc1
+      internalID: -1915816937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_106
+      rect:
+        serializedVersion: 2
+        x: 3269
+        y: 3601
+        width: 239
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e91b84918278a4d9498f9bec887b0f
+      internalID: 6197168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_107
+      rect:
+        serializedVersion: 2
+        x: 5676
+        y: 3603
+        width: 238
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98df5b09f9e69274a8faddb53769f2d6
+      internalID: 336335163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_108
+      rect:
+        serializedVersion: 2
+        x: 8083
+        y: 3606
+        width: 231
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b103ad6d87cf041ad5dfccee750560
+      internalID: 1168261075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_109
+      rect:
+        serializedVersion: 2
+        x: 10496
+        y: 3606
+        width: 225
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48089fafcc3da94f8956120450edee0
+      internalID: 741965882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_110
+      rect:
+        serializedVersion: 2
+        x: 12839
+        y: 3747
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53158935431f69a41a1f677b9066b773
+      internalID: 1318881001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_111
+      rect:
+        serializedVersion: 2
+        x: 12959
+        y: 3613
+        width: 197
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc050480d144e64a9b762a1370ec9f2
+      internalID: 1618523804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_112
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 3684
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12aa3a57f2b71714aa3799a016ebe5c2
+      internalID: -1278014319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_113
+      rect:
+        serializedVersion: 2
+        x: 3178
+        y: 3684
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9f708acfe45314bb817689b4080fd6
+      internalID: 868420687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_114
+      rect:
+        serializedVersion: 2
+        x: 5584
+        y: 3691
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b5bcc7faa232f4fabb70db695458ec
+      internalID: -577702669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_115
+      rect:
+        serializedVersion: 2
+        x: 7991
+        y: 3692
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807b4d0f553c74a4d96d11165e1d27c6
+      internalID: -682099759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_116
+      rect:
+        serializedVersion: 2
+        x: 10398
+        y: 3698
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acb8ab4c4b459042b7ac1158230bb1c
+      internalID: -1368481615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_117
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 2523
+        width: 225
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf258fb7527a2148b35395da134fa47
+      internalID: 159026235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_118
+      rect:
+        serializedVersion: 2
+        x: 3299
+        y: 2523
+        width: 219
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f007e7d8ffe79734bafd53aaae1ac083
+      internalID: -2112616815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_119
+      rect:
+        serializedVersion: 2
+        x: 5711
+        y: 2523
+        width: 211
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662e44db405ebbd4389b7ac11df5f501
+      internalID: -56811652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_120
+      rect:
+        serializedVersion: 2
+        x: 8117
+        y: 2523
+        width: 211
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcd9a725f468cb47bd233ae1e9c873b
+      internalID: 1957703701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_121
+      rect:
+        serializedVersion: 2
+        x: 10524
+        y: 2523
+        width: 204
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9f5148f20173541b379d789208f3dc
+      internalID: 30608692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_122
+      rect:
+        serializedVersion: 2
+        x: 12839
+        y: 2664
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd32f62c51c9c1488e0f59bf6132736
+      internalID: -1707981560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_123
+      rect:
+        serializedVersion: 2
+        x: 12959
+        y: 2530
+        width: 197
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff71b76506cd5e145bd5fb42a96c53f6
+      internalID: -326000576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_124
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 2621
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05fe47b628f2e84bae6b23f4ee95a15
+      internalID: 1647013314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_125
+      rect:
+        serializedVersion: 2
+        x: 3193
+        y: 2622
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21a602a9101c8e4f8595062aa42ef07
+      internalID: 2037011766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_126
+      rect:
+        serializedVersion: 2
+        x: 5599
+        y: 2628
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7c9f26e8a63a54689a56d4333b6393
+      internalID: -1160506499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_127
+      rect:
+        serializedVersion: 2
+        x: 8005
+        y: 2629
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf8526a6039eb441bfa51ccd9e66055
+      internalID: 1028281715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_128
+      rect:
+        serializedVersion: 2
+        x: 10412
+        y: 2635
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f33bc2cd9358024a896c6213a4d588a
+      internalID: -1130034452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_129
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1440
+        width: 197
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8928d152c35384f8452c3e79c5ec1c
+      internalID: -668318209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_130
+      rect:
+        serializedVersion: 2
+        x: 3213
+        y: 1559
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e45d0e0d6987b4bac0f958237077f9
+      internalID: -1427840621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_131
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 1446
+        width: 197
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509bab01fabb3544f8ce3557e3c1217c
+      internalID: 13031419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_132
+      rect:
+        serializedVersion: 2
+        x: 5619
+        y: 1566
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b26e41cdbe99f44b5fb38def9b21bc
+      internalID: 1982490927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_133
+      rect:
+        serializedVersion: 2
+        x: 5739
+        y: 1446
+        width: 197
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0497c7e94f63b74ea386b6d1c051a08
+      internalID: 642655485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_134
+      rect:
+        serializedVersion: 2
+        x: 8020
+        y: 1567
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa780ceac5d255d46b6d4b0281675df8
+      internalID: 1140187097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_135
+      rect:
+        serializedVersion: 2
+        x: 8145
+        y: 1446
+        width: 197
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802b627a33303b9419856f62dbb4b530
+      internalID: 1693327755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_136
+      rect:
+        serializedVersion: 2
+        x: 10426
+        y: 1573
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cb08ca52cf1a4489e54ae7eca13a7d
+      internalID: -616922605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_137
+      rect:
+        serializedVersion: 2
+        x: 10552
+        y: 1446
+        width: 190
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293a0c57acaaffb4d99beb1649893208
+      internalID: 134908813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_138
+      rect:
+        serializedVersion: 2
+        x: 12839
+        y: 1580
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af7a0c80b4d6f148a51d49d0d15a7b2
+      internalID: 1208736747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_139
+      rect:
+        serializedVersion: 2
+        x: 12959
+        y: 1446
+        width: 197
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361eeba24a2af9d4392a83c5b287c9ef
+      internalID: -135419665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_140
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1559
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454c12f1918c4fd42a38a3fadd64ae59
+      internalID: 1838016386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_141
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 496
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244e85df69a394749b0f7d36614d11f4
+      internalID: 156052279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_142
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 363
+        width: 196
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce5706c17366174ab00efd34230850e
+      internalID: 192124469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_143
+      rect:
+        serializedVersion: 2
+        x: 3227
+        y: 497
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc83ce5c6e95985428b3e417adb2a6e6
+      internalID: -1067297302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_144
+      rect:
+        serializedVersion: 2
+        x: 3353
+        y: 363
+        width: 196
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2338ae4f55554114bb4d1440e1e123e7
+      internalID: 1539691862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_145
+      rect:
+        serializedVersion: 2
+        x: 5633
+        y: 497
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d074377f97cd974ab71efd0694165b8
+      internalID: -1297023369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_146
+      rect:
+        serializedVersion: 2
+        x: 5753
+        y: 363
+        width: 197
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332f3a95c82f1ff4a9141a5e03643bfa
+      internalID: 183333297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_147
+      rect:
+        serializedVersion: 2
+        x: 8033
+        y: 497
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56755feb38150a40bdcfb2bc34d6436
+      internalID: -1036706967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_148
+      rect:
+        serializedVersion: 2
+        x: 8153
+        y: 363
+        width: 196
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72f3888cef7471409fdceef38e34e95
+      internalID: -1044714588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_149
+      rect:
+        serializedVersion: 2
+        x: 10433
+        y: 497
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32bd2215fb6eb6a46870be9059aeb704
+      internalID: -1987341293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move Pill Box Icon_150
+      rect:
+        serializedVersion: 2
+        x: 10559
+        y: 363
+        width: 196
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fd7f0d4962f054dac37f688882921f
+      internalID: -564142962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Move Pill Box Icon_0: 1672535334
+      Move Pill Box Icon_1: -831003299
+      Move Pill Box Icon_10: 2065876960
+      Move Pill Box Icon_100: 1765905724
+      Move Pill Box Icon_101: 1406390268
+      Move Pill Box Icon_102: 521717478
+      Move Pill Box Icon_103: -592322811
+      Move Pill Box Icon_104: -1496559260
+      Move Pill Box Icon_105: -1915816937
+      Move Pill Box Icon_106: 6197168
+      Move Pill Box Icon_107: 336335163
+      Move Pill Box Icon_108: 1168261075
+      Move Pill Box Icon_109: 741965882
+      Move Pill Box Icon_11: 1340963016
+      Move Pill Box Icon_110: 1318881001
+      Move Pill Box Icon_111: 1618523804
+      Move Pill Box Icon_112: -1278014319
+      Move Pill Box Icon_113: 868420687
+      Move Pill Box Icon_114: -577702669
+      Move Pill Box Icon_115: -682099759
+      Move Pill Box Icon_116: -1368481615
+      Move Pill Box Icon_117: 159026235
+      Move Pill Box Icon_118: -2112616815
+      Move Pill Box Icon_119: -56811652
+      Move Pill Box Icon_12: 1023363848
+      Move Pill Box Icon_120: 1957703701
+      Move Pill Box Icon_121: 30608692
+      Move Pill Box Icon_122: -1707981560
+      Move Pill Box Icon_123: -326000576
+      Move Pill Box Icon_124: 1647013314
+      Move Pill Box Icon_125: 2037011766
+      Move Pill Box Icon_126: -1160506499
+      Move Pill Box Icon_127: 1028281715
+      Move Pill Box Icon_128: -1130034452
+      Move Pill Box Icon_129: -668318209
+      Move Pill Box Icon_13: -1945926717
+      Move Pill Box Icon_130: -1427840621
+      Move Pill Box Icon_131: 13031419
+      Move Pill Box Icon_132: 1982490927
+      Move Pill Box Icon_133: 642655485
+      Move Pill Box Icon_134: 1140187097
+      Move Pill Box Icon_135: 1693327755
+      Move Pill Box Icon_136: -616922605
+      Move Pill Box Icon_137: 134908813
+      Move Pill Box Icon_138: 1208736747
+      Move Pill Box Icon_139: -135419665
+      Move Pill Box Icon_14: 1255371927
+      Move Pill Box Icon_140: 1838016386
+      Move Pill Box Icon_141: 156052279
+      Move Pill Box Icon_142: 192124469
+      Move Pill Box Icon_143: -1067297302
+      Move Pill Box Icon_144: 1539691862
+      Move Pill Box Icon_145: -1297023369
+      Move Pill Box Icon_146: 183333297
+      Move Pill Box Icon_147: -1036706967
+      Move Pill Box Icon_148: -1044714588
+      Move Pill Box Icon_149: -1987341293
+      Move Pill Box Icon_15: 643664189
+      Move Pill Box Icon_150: -564142962
+      Move Pill Box Icon_16: 341329349
+      Move Pill Box Icon_17: -236000688
+      Move Pill Box Icon_18: 1499728599
+      Move Pill Box Icon_19: -573713316
+      Move Pill Box Icon_2: 821586796
+      Move Pill Box Icon_20: 97573996
+      Move Pill Box Icon_21: -1603060061
+      Move Pill Box Icon_22: -1797378327
+      Move Pill Box Icon_23: -1831350575
+      Move Pill Box Icon_24: -1896342850
+      Move Pill Box Icon_25: 1965223172
+      Move Pill Box Icon_26: -1744702463
+      Move Pill Box Icon_27: 412901698
+      Move Pill Box Icon_28: 2133452491
+      Move Pill Box Icon_29: -1259853563
+      Move Pill Box Icon_3: -1732215449
+      Move Pill Box Icon_30: -702001961
+      Move Pill Box Icon_31: -647483312
+      Move Pill Box Icon_32: -1263466289
+      Move Pill Box Icon_33: -1017281616
+      Move Pill Box Icon_34: 925497136
+      Move Pill Box Icon_35: 443637999
+      Move Pill Box Icon_36: 802903970
+      Move Pill Box Icon_37: 982491465
+      Move Pill Box Icon_38: 508846576
+      Move Pill Box Icon_39: -1883498584
+      Move Pill Box Icon_4: 557982475
+      Move Pill Box Icon_40: -1962096295
+      Move Pill Box Icon_41: 10128762
+      Move Pill Box Icon_42: -198842513
+      Move Pill Box Icon_43: -59115375
+      Move Pill Box Icon_44: 1388953421
+      Move Pill Box Icon_45: 984966675
+      Move Pill Box Icon_46: 189595593
+      Move Pill Box Icon_47: -186039805
+      Move Pill Box Icon_48: -1228979569
+      Move Pill Box Icon_49: -1532494787
+      Move Pill Box Icon_5: -2095385603
+      Move Pill Box Icon_50: -1909070032
+      Move Pill Box Icon_51: 223470004
+      Move Pill Box Icon_52: 1405058023
+      Move Pill Box Icon_53: -687670821
+      Move Pill Box Icon_54: 1645891714
+      Move Pill Box Icon_55: 1384393970
+      Move Pill Box Icon_56: -931323769
+      Move Pill Box Icon_57: -1577958185
+      Move Pill Box Icon_58: -2080513780
+      Move Pill Box Icon_59: 1415528730
+      Move Pill Box Icon_6: 1986162591
+      Move Pill Box Icon_60: -90899243
+      Move Pill Box Icon_61: 2142225128
+      Move Pill Box Icon_62: -7443683
+      Move Pill Box Icon_63: 1243503697
+      Move Pill Box Icon_64: 766262058
+      Move Pill Box Icon_65: 1963850242
+      Move Pill Box Icon_66: -1698112797
+      Move Pill Box Icon_67: -1749141300
+      Move Pill Box Icon_68: 546036470
+      Move Pill Box Icon_69: 693427519
+      Move Pill Box Icon_7: 189914603
+      Move Pill Box Icon_70: 470710138
+      Move Pill Box Icon_71: 1215668856
+      Move Pill Box Icon_72: 192736772
+      Move Pill Box Icon_73: -2138702047
+      Move Pill Box Icon_74: -1037783706
+      Move Pill Box Icon_75: 331650104
+      Move Pill Box Icon_76: -2144238586
+      Move Pill Box Icon_77: -225925646
+      Move Pill Box Icon_78: 1580591068
+      Move Pill Box Icon_79: 1718089307
+      Move Pill Box Icon_8: 1679642777
+      Move Pill Box Icon_80: -1167878525
+      Move Pill Box Icon_81: 1241625401
+      Move Pill Box Icon_82: -1103032559
+      Move Pill Box Icon_83: 159168174
+      Move Pill Box Icon_84: 1133292129
+      Move Pill Box Icon_85: -154778982
+      Move Pill Box Icon_86: -104270934
+      Move Pill Box Icon_87: 1719064
+      Move Pill Box Icon_88: 1622741855
+      Move Pill Box Icon_89: -235271485
+      Move Pill Box Icon_9: 806383366
+      Move Pill Box Icon_90: -1298107388
+      Move Pill Box Icon_91: -1886681638
+      Move Pill Box Icon_92: -778607681
+      Move Pill Box Icon_93: -120332805
+      Move Pill Box Icon_94: 951482477
+      Move Pill Box Icon_95: 1226564921
+      Move Pill Box Icon_96: 1132504621
+      Move Pill Box Icon_97: -1189017955
+      Move Pill Box Icon_98: -290498599
+      Move Pill Box Icon_99: -1763059856
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
