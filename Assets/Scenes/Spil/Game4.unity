@@ -2598,9 +2598,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4167cb33c7d64bc7918bff827861c83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetState: 4
+  targetState: 5
   gameManager: {fileID: 522321101}
-  delayTime: 15
+  delayTime: 26.05
 --- !u!1 &733893221
 GameObject:
   m_ObjectHideFlags: 0

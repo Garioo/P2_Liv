@@ -509,7 +509,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 855996844}
-  targetState: 9
+  delayTime: 0
+  targetState: 10
 --- !u!212 &1190613319
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -552,7 +553,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -626,6 +627,7 @@ GameObject:
   - component: {fileID: 1194247045}
   - component: {fileID: 1194247046}
   - component: {fileID: 1194247047}
+  - component: {fileID: 1194247048}
   m_Layer: 0
   m_Name: Liv
   m_TagString: Player
@@ -645,8 +647,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b59b2e583d44970abeeddb08f3b755, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Waypoints:
+  waypoints:
   - {fileID: 1190613320}
+  animator: {fileID: 1194247048}
   moveSpeeds:
   - 5
   waitTimes: []
@@ -805,6 +808,27 @@ MonoBehaviour:
   primaryCamera: {fileID: 1485100891}
   virtualCameras:
   - {fileID: 1415377427}
+--- !u!95 &1194247048
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194247041}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ec41bd5e7ab744fbd81108291df24d5b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1274696488
 GameObject:
   m_ObjectHideFlags: 0
