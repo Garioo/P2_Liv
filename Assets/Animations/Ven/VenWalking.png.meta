@@ -1,0 +1,919 @@
+fileFormatVersion: 2
+guid: 85ad2e4f12e01456a8d3cf0310e309bf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VenWalking_0
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 11415
+        width: 693
+        height: 1320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ee5cebd2a78466ba3484070d7b97f6
+      internalID: 132424723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_1
+      rect:
+        serializedVersion: 2
+        x: 3487
+        y: 11411
+        width: 664
+        height: 1324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e90f1e6089934426963b3919ca3531a
+      internalID: -1008815844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_2
+      rect:
+        serializedVersion: 2
+        x: 6143
+        y: 11407
+        width: 634
+        height: 1328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a31492b9a4a473386e72a28bcc8cc8
+      internalID: -97522731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_3
+      rect:
+        serializedVersion: 2
+        x: 8800
+        y: 11400
+        width: 602
+        height: 1335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d360a8e931b49ecac09f8a8fc432f4
+      internalID: 1815797810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_4
+      rect:
+        serializedVersion: 2
+        x: 11457
+        y: 11392
+        width: 571
+        height: 1343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0dd9462e64942dba3383aa801bbdea
+      internalID: -732195559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_5
+      rect:
+        serializedVersion: 2
+        x: 14036
+        y: 11423
+        width: 679
+        height: 1312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f591a7cdea45c4db6a30544f50bd201b
+      internalID: 446487926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_6
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 9524
+        width: 533
+        height: 1350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91c61acb92454b0c9704d58036933db
+      internalID: 1318408465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_7
+      rect:
+        serializedVersion: 2
+        x: 3595
+        y: 9516
+        width: 502
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb3fa0719a094f49a45b5d4437ecc0c
+      internalID: -1989733183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_8
+      rect:
+        serializedVersion: 2
+        x: 6275
+        y: 9518
+        width: 440
+        height: 1357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42aae79ee8f824235a6ecd85738eebdd
+      internalID: -360353668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_9
+      rect:
+        serializedVersion: 2
+        x: 8940
+        y: 9524
+        width: 399
+        height: 1351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41096fccfdf34803a90f94076795ffb
+      internalID: 822474871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_10
+      rect:
+        serializedVersion: 2
+        x: 11576
+        y: 9524
+        width: 382
+        height: 1351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9060986d361d4d7f85770d16ceda734
+      internalID: 1793378041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_11
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 7663
+        width: 363
+        height: 1349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b86e62a1ad9444f796caeb60cf5e43d
+      internalID: -2029768040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_12
+      rect:
+        serializedVersion: 2
+        x: 3665
+        y: 7663
+        width: 416
+        height: 1350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04cf75b08d2404042810b1e0dd6dd19d
+      internalID: -744907729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_13
+      rect:
+        serializedVersion: 2
+        x: 6301
+        y: 7671
+        width: 475
+        height: 1342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d34bfa3019ae46edaec05f8fae6b4f5
+      internalID: 1049046597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_14
+      rect:
+        serializedVersion: 2
+        x: 8931
+        y: 7671
+        width: 487
+        height: 1342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9304698b3b83482bb541eeeb26cbeb6
+      internalID: 1464971080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_15
+      rect:
+        serializedVersion: 2
+        x: 11549
+        y: 7671
+        width: 516
+        height: 1342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44733ed2d70a4d7abe3b4537333bbd2
+      internalID: 39809334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_16
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 5810
+        width: 533
+        height: 1335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf815fb92f9764813a40e4961e4d8323
+      internalID: -789940445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_17
+      rect:
+        serializedVersion: 2
+        x: 3610
+        y: 5818
+        width: 564
+        height: 1327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb0277f2978a4325a7cc5f4a326bb5f
+      internalID: -43432003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_18
+      rect:
+        serializedVersion: 2
+        x: 6228
+        y: 5818
+        width: 587
+        height: 1327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32828b414a44f4578adf2e89bf232262
+      internalID: 91750552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_19
+      rect:
+        serializedVersion: 2
+        x: 8854
+        y: 5825
+        width: 602
+        height: 1320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0976ce23094434af796d758a7c5fd4de
+      internalID: -1785487828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_20
+      rect:
+        serializedVersion: 2
+        x: 11503
+        y: 5818
+        width: 594
+        height: 1327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5280e4c515e914ea381560736ad701d7
+      internalID: 1192380785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_21
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 3949
+        width: 579
+        height: 1336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3735f8d8fda1840879da5fabcdbe92f5
+      internalID: 974557999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_22
+      rect:
+        serializedVersion: 2
+        x: 3626
+        y: 3941
+        width: 571
+        height: 1344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe48a15a73e24e93966e470ae6c6a54
+      internalID: 1785512315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_23
+      rect:
+        serializedVersion: 2
+        x: 6275
+        y: 3942
+        width: 540
+        height: 1343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00851c541569542ac9d846d9da30bc72
+      internalID: -1463516128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_24
+      rect:
+        serializedVersion: 2
+        x: 8931
+        y: 3949
+        width: 494
+        height: 1336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb80d242228d42f69bda9b07cbf02a3
+      internalID: 2037168210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_25
+      rect:
+        serializedVersion: 2
+        x: 11576
+        y: 3957
+        width: 459
+        height: 1328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9e030165f704ebe849b6407b9dd6ae
+      internalID: 1821297971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_26
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 2089
+        width: 394
+        height: 1327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f60e28404ae443699e6be0c16c432f
+      internalID: 1902888628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_27
+      rect:
+        serializedVersion: 2
+        x: 3680
+        y: 2088
+        width: 370
+        height: 1328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9acbb90105340fa957b69ab436682e
+      internalID: 1806479980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_28
+      rect:
+        serializedVersion: 2
+        x: 6321
+        y: 2088
+        width: 363
+        height: 1328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00283cafc620b407085accc3bd355e97
+      internalID: -1197118697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_29
+      rect:
+        serializedVersion: 2
+        x: 8954
+        y: 2088
+        width: 425
+        height: 1328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9120538f328c84fdaa0af3c03d634bf2
+      internalID: 943011047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_30
+      rect:
+        serializedVersion: 2
+        x: 11565
+        y: 2096
+        width: 509
+        height: 1320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d028a0d3f5e4a43bf9789eb8e77e9992
+      internalID: -92761069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_31
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 236
+        width: 602
+        height: 1319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058263bba04764637a93a0772cc981d2
+      internalID: -443845581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_32
+      rect:
+        serializedVersion: 2
+        x: 3587
+        y: 236
+        width: 618
+        height: 1319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7994215666c482393aa9818c2a86eb
+      internalID: -644665684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_33
+      rect:
+        serializedVersion: 2
+        x: 6198
+        y: 236
+        width: 640
+        height: 1319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05dee412616b4a59a66ea09fddaa66c
+      internalID: -174428309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_34
+      rect:
+        serializedVersion: 2
+        x: 8808
+        y: 236
+        width: 656
+        height: 1319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0998e8806d71b472e853d8ff248fcffd
+      internalID: -1412402686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VenWalking_35
+      rect:
+        serializedVersion: 2
+        x: 11426
+        y: 243
+        width: 664
+        height: 1312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7288ff531a31b44d4b57b5025bad133c
+      internalID: 755831771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      VenWalking_0: 132424723
+      VenWalking_1: -1008815844
+      VenWalking_10: 1793378041
+      VenWalking_11: -2029768040
+      VenWalking_12: -744907729
+      VenWalking_13: 1049046597
+      VenWalking_14: 1464971080
+      VenWalking_15: 39809334
+      VenWalking_16: -789940445
+      VenWalking_17: -43432003
+      VenWalking_18: 91750552
+      VenWalking_19: -1785487828
+      VenWalking_2: -97522731
+      VenWalking_20: 1192380785
+      VenWalking_21: 974557999
+      VenWalking_22: 1785512315
+      VenWalking_23: -1463516128
+      VenWalking_24: 2037168210
+      VenWalking_25: 1821297971
+      VenWalking_26: 1902888628
+      VenWalking_27: 1806479980
+      VenWalking_28: -1197118697
+      VenWalking_29: 943011047
+      VenWalking_3: 1815797810
+      VenWalking_30: -92761069
+      VenWalking_31: -443845581
+      VenWalking_32: -644665684
+      VenWalking_33: -174428309
+      VenWalking_34: -1412402686
+      VenWalking_35: 755831771
+      VenWalking_4: -732195559
+      VenWalking_5: 446487926
+      VenWalking_6: 1318408465
+      VenWalking_7: -1989733183
+      VenWalking_8: -360353668
+      VenWalking_9: 822474871
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
