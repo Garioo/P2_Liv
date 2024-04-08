@@ -1,0 +1,919 @@
+fileFormatVersion: 2
+guid: 2fd3594e9395f403192074307debbe3c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LivWalkingLeft_0
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 9671
+        width: 493
+        height: 1296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84ce3bf92f184c2ba1f7ed2d3e9a6f0
+      internalID: 2089792146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_1
+      rect:
+        serializedVersion: 2
+        x: 3342
+        y: 9665
+        width: 530
+        height: 1303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44109b31fdbe842f59da108b5d3afdfe
+      internalID: -1441914713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_2
+      rect:
+        serializedVersion: 2
+        x: 5504
+        y: 9665
+        width: 543
+        height: 1302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c22ccff937f342afb78e1dfe2515c98
+      internalID: -1169551542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_3
+      rect:
+        serializedVersion: 2
+        x: 7666
+        y: 9665
+        width: 550
+        height: 1303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d418f26d8d5aa44ab9105518778b05d0
+      internalID: 2014655193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_4
+      rect:
+        serializedVersion: 2
+        x: 9822
+        y: 9659
+        width: 569
+        height: 1309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0fc89439a994ab88270ae0638cd3b0
+      internalID: 2008546984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_5
+      rect:
+        serializedVersion: 2
+        x: 11984
+        y: 9659
+        width: 580
+        height: 1309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385708d7084fb4ec09b26fe84ec1d1b2
+      internalID: -458412533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_6
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 7793
+        width: 509
+        height: 1296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806f0eb6beb1649799ecd5fdbb4e431f
+      internalID: 1890365469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_7
+      rect:
+        serializedVersion: 2
+        x: 3335
+        y: 7781
+        width: 455
+        height: 1327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bf44ae3071a4a1d838fde0c81024f6
+      internalID: -898154991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_8
+      rect:
+        serializedVersion: 2
+        x: 5497
+        y: 7781
+        width: 468
+        height: 1321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4f407b554654d7a897e8e7e137a227
+      internalID: 1043117075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_9
+      rect:
+        serializedVersion: 2
+        x: 7653
+        y: 7781
+        width: 487
+        height: 1321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d83d521682a849dba1a6b87f6fe4512
+      internalID: 1158564527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_10
+      rect:
+        serializedVersion: 2
+        x: 9815
+        y: 7787
+        width: 506
+        height: 1309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086cd27f04c694906ae5e49657dc3dc9
+      internalID: -38486949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_11
+      rect:
+        serializedVersion: 2
+        x: 11973
+        y: 7787
+        width: 517
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cca25986db044714b4a0ad825775b05
+      internalID: 2060982085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_12
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 5915
+        width: 524
+        height: 1296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e8236ce65804fd18bd035a111cc848
+      internalID: -64104167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_13
+      rect:
+        serializedVersion: 2
+        x: 3323
+        y: 5911
+        width: 480
+        height: 1326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5d6a50d8df8457f965d1b601d70165
+      internalID: -1780216253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_14
+      rect:
+        serializedVersion: 2
+        x: 5485
+        y: 5915
+        width: 435
+        height: 1322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bdfea02c6f54a77990869b9eecbace
+      internalID: -1769629415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_15
+      rect:
+        serializedVersion: 2
+        x: 7647
+        y: 5915
+        width: 410
+        height: 1322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8388953fcf5f44a2b497071564e5222
+      internalID: -80032717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_16
+      rect:
+        serializedVersion: 2
+        x: 9803
+        y: 5909
+        width: 417
+        height: 1327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1923a9f6b2be4bb98403ca606581115
+      internalID: 445565337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_17
+      rect:
+        serializedVersion: 2
+        x: 11965
+        y: 5909
+        width: 436
+        height: 1322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29208ea07b0ce4830a7c9cabdc47b503
+      internalID: 319124232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_18
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 4037
+        width: 537
+        height: 1296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8539b2858d52940a89ddfdaa629453fc
+      internalID: 190857598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_19
+      rect:
+        serializedVersion: 2
+        x: 3316
+        y: 4037
+        width: 623
+        height: 1312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b240739a3d064bc4b78e632434c4d4e
+      internalID: 683544650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_20
+      rect:
+        serializedVersion: 2
+        x: 5472
+        y: 4037
+        width: 645
+        height: 1315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55fa5cd907024a14bb488716977729a
+      internalID: -210595486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_21
+      rect:
+        serializedVersion: 2
+        x: 7634
+        y: 4032
+        width: 607
+        height: 1321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6c9944b9de0433a8526322486c99b9
+      internalID: 869655190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_22
+      rect:
+        serializedVersion: 2
+        x: 9793
+        y: 4031
+        width: 566
+        height: 1322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23bdb601df1a4c42b8894189bd12814
+      internalID: -1223301608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_23
+      rect:
+        serializedVersion: 2
+        x: 11952
+        y: 4031
+        width: 525
+        height: 1325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d6c2bcb23394d0095d558c72a362bb
+      internalID: -666853078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_24
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 2159
+        width: 550
+        height: 1297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc8442c986574c15b43303b6c0d2584
+      internalID: 1669098318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_25
+      rect:
+        serializedVersion: 2
+        x: 3329
+        y: 2159
+        width: 505
+        height: 1297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68aa34492f86448ba882f8cebd73add9
+      internalID: 1615816213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_26
+      rect:
+        serializedVersion: 2
+        x: 5485
+        y: 2159
+        width: 530
+        height: 1302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccbb0ed00cf144b3b05afe22f4bd013
+      internalID: 1724925152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_27
+      rect:
+        serializedVersion: 2
+        x: 7640
+        y: 2154
+        width: 550
+        height: 1308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83d9a19f333e4dbbaef6c5f6c03e56e
+      internalID: -121822595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_28
+      rect:
+        serializedVersion: 2
+        x: 9796
+        y: 2153
+        width: 576
+        height: 1314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b1e39b4decf4f969f22c06cf5abec1
+      internalID: 4416037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_29
+      rect:
+        serializedVersion: 2
+        x: 11952
+        y: 2153
+        width: 601
+        height: 1315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e40448bf6ff43b1adae14f7064e816
+      internalID: -1178441028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_30
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 281
+        width: 562
+        height: 1297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127c980150c1d49b993f48fcd370d79c
+      internalID: -736184096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_31
+      rect:
+        serializedVersion: 2
+        x: 3335
+        y: 281
+        width: 477
+        height: 1293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe52cb9121244be7a4f74557fa8162b
+      internalID: 1465591365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_32
+      rect:
+        serializedVersion: 2
+        x: 5491
+        y: 281
+        width: 461
+        height: 1290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec68ed1d8b5534b45ba7961f25b65c6f
+      internalID: 391543861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_33
+      rect:
+        serializedVersion: 2
+        x: 7647
+        y: 281
+        width: 467
+        height: 1296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e007dae77f2e42bd98160732cc08ab1
+      internalID: -2100109403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_34
+      rect:
+        serializedVersion: 2
+        x: 9803
+        y: 281
+        width: 480
+        height: 1296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51eb8450472440818996738e12a344c
+      internalID: -1755240352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LivWalkingLeft_35
+      rect:
+        serializedVersion: 2
+        x: 11959
+        y: 281
+        width: 493
+        height: 1297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8febe68ebdf244858005b26ee5483bf
+      internalID: 868442343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LivWalkingLeft_0: 2089792146
+      LivWalkingLeft_1: -1441914713
+      LivWalkingLeft_10: -38486949
+      LivWalkingLeft_11: 2060982085
+      LivWalkingLeft_12: -64104167
+      LivWalkingLeft_13: -1780216253
+      LivWalkingLeft_14: -1769629415
+      LivWalkingLeft_15: -80032717
+      LivWalkingLeft_16: 445565337
+      LivWalkingLeft_17: 319124232
+      LivWalkingLeft_18: 190857598
+      LivWalkingLeft_19: 683544650
+      LivWalkingLeft_2: -1169551542
+      LivWalkingLeft_20: -210595486
+      LivWalkingLeft_21: 869655190
+      LivWalkingLeft_22: -1223301608
+      LivWalkingLeft_23: -666853078
+      LivWalkingLeft_24: 1669098318
+      LivWalkingLeft_25: 1615816213
+      LivWalkingLeft_26: 1724925152
+      LivWalkingLeft_27: -121822595
+      LivWalkingLeft_28: 4416037
+      LivWalkingLeft_29: -1178441028
+      LivWalkingLeft_3: 2014655193
+      LivWalkingLeft_30: -736184096
+      LivWalkingLeft_31: 1465591365
+      LivWalkingLeft_32: 391543861
+      LivWalkingLeft_33: -2100109403
+      LivWalkingLeft_34: -1755240352
+      LivWalkingLeft_35: 868442343
+      LivWalkingLeft_4: 2008546984
+      LivWalkingLeft_5: -458412533
+      LivWalkingLeft_6: 1890365469
+      LivWalkingLeft_7: -898154991
+      LivWalkingLeft_8: 1043117075
+      LivWalkingLeft_9: 1158564527
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
