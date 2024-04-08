@@ -7,10 +7,23 @@ public class StartSceneManager : MonoBehaviour
     public Button startButton; // Reference to the start button in the UI
     public GameManager.GameState nextState; // The next game state to transition to
 
+    private const int game1SceneIndex = 2;
+    private const int  introSceneIndex = 1;
+
+    public void LoadGame1()
+    {
+        SceneManager.LoadScene(game1SceneIndex);
+    }
+
+    public void LoadIntro()
+    {
+        SceneManager.LoadScene(introSceneIndex);
+    }
+
     void Start()
     {
         // Add an onClick listener to the start button
-        startButton.onClick.AddListener(StartGame);
+        //startButton.onClick.AddListener(StartGame);
     }
 
     public void StartGame()
