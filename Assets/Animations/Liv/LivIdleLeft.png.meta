@@ -1,0 +1,1183 @@
+fileFormatVersion: 2
+guid: d4f56fa9f716f44a7923287ce92e6680
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Livstanding Left_0
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 11556
+        width: 375
+        height: 1291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e625c6ee7c1a40b7a7b42e710d6b9f3
+      internalID: 97402907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_1
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 11556
+        width: 375
+        height: 1291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe0b6b2fd780479bb361756905baa0a
+      internalID: 1582978345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_2
+      rect:
+        serializedVersion: 2
+        x: 5543
+        y: 11556
+        width: 369
+        height: 1291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4260ac28ea00c404a89704d65c63f160
+      internalID: -1959244131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_3
+      rect:
+        serializedVersion: 2
+        x: 7697
+        y: 11556
+        width: 376
+        height: 1291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a473cb8d06240129ee6cd4605197c1
+      internalID: 501011717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_4
+      rect:
+        serializedVersion: 2
+        x: 9858
+        y: 11556
+        width: 373
+        height: 1291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0591e956ff944a28bce1593b739895
+      internalID: 613463270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_5
+      rect:
+        serializedVersion: 2
+        x: 12012
+        y: 11556
+        width: 376
+        height: 1291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6f13cd6323b4a4d861e329fc66a4f8
+      internalID: -1323914426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_6
+      rect:
+        serializedVersion: 2
+        x: 14173
+        y: 11556
+        width: 374
+        height: 1291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7c4d920b71747b082520c074ae50ad
+      internalID: 184617962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_7
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 9675
+        width: 375
+        height: 1298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552f381ebb1714019994b853201d9c61
+      internalID: 1170275133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_8
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 9675
+        width: 369
+        height: 1298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ae0b844633c4ef2867a8001754a951
+      internalID: -2047464002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_9
+      rect:
+        serializedVersion: 2
+        x: 5537
+        y: 9675
+        width: 375
+        height: 1298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21084eb50a7f4b84a31aac4a7e3c068
+      internalID: 785617207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_10
+      rect:
+        serializedVersion: 2
+        x: 7697
+        y: 9675
+        width: 375
+        height: 1298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e19a75cc97548218da2750c2cc9f72
+      internalID: 843943625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_11
+      rect:
+        serializedVersion: 2
+        x: 9858
+        y: 9675
+        width: 369
+        height: 1298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03855ae8285bb4640a15cb3a8f434723
+      internalID: -153217766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_12
+      rect:
+        serializedVersion: 2
+        x: 12012
+        y: 9675
+        width: 376
+        height: 1298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1484745c0ce041be90497787b2a65ab
+      internalID: 44494683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_13
+      rect:
+        serializedVersion: 2
+        x: 14173
+        y: 9675
+        width: 373
+        height: 1298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b174bebf84b543c7a1ea0b2be50a82e
+      internalID: 821133798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_14
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 7796
+        width: 376
+        height: 1296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f080f4f5b004482bba029b52f94ce10
+      internalID: -1762821576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_15
+      rect:
+        serializedVersion: 2
+        x: 3376
+        y: 7796
+        width: 374
+        height: 1296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7337c9acbb914fd89a2b27325079380
+      internalID: 284823172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_16
+      rect:
+        serializedVersion: 2
+        x: 5536
+        y: 7796
+        width: 374
+        height: 1296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f621185948a44233b1433e21a010360
+      internalID: 1460800462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_17
+      rect:
+        serializedVersion: 2
+        x: 7697
+        y: 7796
+        width: 369
+        height: 1296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9848d24a0092e497f87fc110c95e7678
+      internalID: -610697350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_18
+      rect:
+        serializedVersion: 2
+        x: 9851
+        y: 7796
+        width: 375
+        height: 1296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e7c19c497fc4332b60a4d1d8aa552c
+      internalID: -1133957481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_19
+      rect:
+        serializedVersion: 2
+        x: 12012
+        y: 7796
+        width: 372
+        height: 1296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f71b0888157e496ab4985ef21a708ae
+      internalID: -537411774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_20
+      rect:
+        serializedVersion: 2
+        x: 14173
+        y: 7796
+        width: 369
+        height: 1296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfa71d3b51634af2b63f1b67f51852a
+      internalID: 564614784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_21
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 5920
+        width: 376
+        height: 1297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a366f84d70b1a4b69a7186a9a5fa04f4
+      internalID: 2091947810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_22
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 5920
+        width: 368
+        height: 1291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e717476939574d83a8d0470e22b68de
+      internalID: 1899789914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_23
+      rect:
+        serializedVersion: 2
+        x: 5536
+        y: 5920
+        width: 368
+        height: 1291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abde777f06b5d4e25a5e781594e06f9b
+      internalID: -1280903990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_24
+      rect:
+        serializedVersion: 2
+        x: 7690
+        y: 5920
+        width: 375
+        height: 1291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911f8c22ade64477989b7334f950e1f8
+      internalID: -1027355827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_25
+      rect:
+        serializedVersion: 2
+        x: 9851
+        y: 5920
+        width: 368
+        height: 1291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de97334d79a548208be7d76403155d1
+      internalID: -1035351055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_26
+      rect:
+        serializedVersion: 2
+        x: 12012
+        y: 5920
+        width: 368
+        height: 1291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dfee8e6bcb64b4a99d72c435ff68dd
+      internalID: 994564768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_27
+      rect:
+        serializedVersion: 2
+        x: 14166
+        y: 5920
+        width: 375
+        height: 1291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de7ca1dcc5334aa6aef510e4a33bb43
+      internalID: -21310051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_28
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 4039
+        width: 376
+        height: 1298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ba455513a28465b85fd2331828bfb0
+      internalID: 392062051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_29
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 4039
+        width: 368
+        height: 1298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482d325003b0a4c8889cb3fa8e19d206
+      internalID: -1124579100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_30
+      rect:
+        serializedVersion: 2
+        x: 5536
+        y: 4039
+        width: 368
+        height: 1298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907b262e788b84812b18915139e9fd13
+      internalID: 2119797131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_31
+      rect:
+        serializedVersion: 2
+        x: 7690
+        y: 4039
+        width: 368
+        height: 1298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e58b9b33862422d98d22d93a690c4e
+      internalID: 1581741584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_32
+      rect:
+        serializedVersion: 2
+        x: 9851
+        y: 4039
+        width: 368
+        height: 1298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f98d6466b2ed49609c102213cc87c9e
+      internalID: 1347396207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_33
+      rect:
+        serializedVersion: 2
+        x: 12005
+        y: 4039
+        width: 374
+        height: 1298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e609fcb99dbe34e50a645cfdb76ba76c
+      internalID: -981359300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_34
+      rect:
+        serializedVersion: 2
+        x: 14166
+        y: 4039
+        width: 368
+        height: 1298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73bc4cbf321c541ee968c72937dd5502
+      internalID: -820354387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_35
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 2165
+        width: 376
+        height: 1291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c3ca2f45e3747828d921c792088ddb
+      internalID: 120510153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_36
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 2165
+        width: 368
+        height: 1291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2639a8e78f5c7437bafb0f2f5336a3e8
+      internalID: -2034763704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_37
+      rect:
+        serializedVersion: 2
+        x: 5536
+        y: 2165
+        width: 368
+        height: 1291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a7c2b13dbbc45dc9fada4f864bc75f
+      internalID: -355784932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_38
+      rect:
+        serializedVersion: 2
+        x: 7690
+        y: 2165
+        width: 368
+        height: 1291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed218b0a63514d2b9cc12ab69a8af9a
+      internalID: 683476988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_39
+      rect:
+        serializedVersion: 2
+        x: 9851
+        y: 2165
+        width: 368
+        height: 1291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efeb9b7013d33489c95068968d7de950
+      internalID: -1174479149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_40
+      rect:
+        serializedVersion: 2
+        x: 12005
+        y: 2165
+        width: 374
+        height: 1291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4ad9ce418044f85a613a89f1a3e1a3
+      internalID: -554225888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_41
+      rect:
+        serializedVersion: 2
+        x: 14166
+        y: 2165
+        width: 368
+        height: 1291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0764b8d815c7f46ea99df90d05542f80
+      internalID: 2057423835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_42
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 284
+        width: 369
+        height: 1298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a2238afbd7e45009b0a13ed03acac8
+      internalID: 1210278436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_43
+      rect:
+        serializedVersion: 2
+        x: 5536
+        y: 284
+        width: 374
+        height: 1298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4dee540798049be946b191fd2a8e17
+      internalID: -551201464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_44
+      rect:
+        serializedVersion: 2
+        x: 7697
+        y: 284
+        width: 368
+        height: 1298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a27328438e6d477ba2f9e8689697ce6
+      internalID: 1927149602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_45
+      rect:
+        serializedVersion: 2
+        x: 9851
+        y: 284
+        width: 368
+        height: 1298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd36b84bc514435295b9a5f2e49f450
+      internalID: 532511906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_46
+      rect:
+        serializedVersion: 2
+        x: 12012
+        y: 284
+        width: 368
+        height: 1298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d40c9398179b482da232dafa93d08f5
+      internalID: -1498835561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livstanding Left_47
+      rect:
+        serializedVersion: 2
+        x: 14166
+        y: 284
+        width: 368
+        height: 1298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78763c39b8b4d4e3eac0a64a1d10c21e
+      internalID: -695108361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Livstanding Left_0: 97402907
+      Livstanding Left_1: 1582978345
+      Livstanding Left_10: 843943625
+      Livstanding Left_11: -153217766
+      Livstanding Left_12: 44494683
+      Livstanding Left_13: 821133798
+      Livstanding Left_14: -1762821576
+      Livstanding Left_15: 284823172
+      Livstanding Left_16: 1460800462
+      Livstanding Left_17: -610697350
+      Livstanding Left_18: -1133957481
+      Livstanding Left_19: -537411774
+      Livstanding Left_2: -1959244131
+      Livstanding Left_20: 564614784
+      Livstanding Left_21: 2091947810
+      Livstanding Left_22: 1899789914
+      Livstanding Left_23: -1280903990
+      Livstanding Left_24: -1027355827
+      Livstanding Left_25: -1035351055
+      Livstanding Left_26: 994564768
+      Livstanding Left_27: -21310051
+      Livstanding Left_28: 392062051
+      Livstanding Left_29: -1124579100
+      Livstanding Left_3: 501011717
+      Livstanding Left_30: 2119797131
+      Livstanding Left_31: 1581741584
+      Livstanding Left_32: 1347396207
+      Livstanding Left_33: -981359300
+      Livstanding Left_34: -820354387
+      Livstanding Left_35: 120510153
+      Livstanding Left_36: -2034763704
+      Livstanding Left_37: -355784932
+      Livstanding Left_38: 683476988
+      Livstanding Left_39: -1174479149
+      Livstanding Left_4: 613463270
+      Livstanding Left_40: -554225888
+      Livstanding Left_41: 2057423835
+      Livstanding Left_42: 1210278436
+      Livstanding Left_43: -551201464
+      Livstanding Left_44: 1927149602
+      Livstanding Left_45: 532511906
+      Livstanding Left_46: -1498835561
+      Livstanding Left_47: -695108361
+      Livstanding Left_5: -1323914426
+      Livstanding Left_6: 184617962
+      Livstanding Left_7: 1170275133
+      Livstanding Left_8: -2047464002
+      Livstanding Left_9: 785617207
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
