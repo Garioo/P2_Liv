@@ -13,7 +13,7 @@
             "nextNodeId": 2
           },
           {
-            "text": "Sagen er egentligt den, at jeg ikke har det så godt",
+            "text": "Jeg har det ikke så godt",
             "nextNodeId": 3
           }
         ]
@@ -27,11 +27,11 @@
                 "nextNodeId": 2
             },
             {
-                "text": "Sagen er egentligt den, at jeg ikke har det så godt",
+                "text": "Jeg har det ikke så godt",
                 "nextNodeId": 3
             },
             {
-              "text": "Jeg tror måske... har selvmordstanker",
+              "text": "Jeg har selvmordstanker",
               "nextNodeId": -1
             }
             
@@ -42,13 +42,13 @@
         "text": "Er du sikker?",
         "choices": [
           {
-            "text": "Sagen er egentligt den, at jeg nok ikke har det så godt",
+            "text": "Jeg har det ikke så godt",
             "nextNodeId": 3
           },
-          {
-            "text": "Jeg tror måske... har selvmordstanker",
-            "nextNodeId": -1
-          }
+            {
+                "text": "Jeg har selvmordstanker",
+                "nextNodeId": -1
+            }
         ]
       },
       {
@@ -56,7 +56,7 @@
         "text": "Det kan jeg faktisk godt mærke. Da vi snakkede tidligere sagde du også, du var så træt, du bare ville dø. Du må altså gerne sige hvis det er noget galt.",
         "choices": [
             {
-                "text": "Jeg tror måske... har selvmordstanker",
+                "text": "Jeg har selvmordstanker",
                 "nextNodeId": -1
             }
         ]
