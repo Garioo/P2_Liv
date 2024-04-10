@@ -8,9 +8,11 @@ public class ShakeCamera : MonoBehaviour
     public float shakeAmount = 0.7f;
     public float decreaseFactor = 1.0f;
     public CinemachineVirtualCamera virtualCamera;
-    public VideoPlayer initialVideoPlayer; // Add this variable to reference the initial VideoPlayer component
-    public VideoPlayer shakeVideoPlayer; // Add this variable to reference the VideoPlayer component to switch to
+    public VideoPlayer initialVideoPlayer; 
+    public VideoPlayer shakeVideoPlayer; 
     bool shakeDone;
+    private int shakeCount = 0;
+    private const int shakeThreshold = 30; // Set the shake threshold to 20 shakes
 
     private Vector3 originalPos;
     private float shakeDuration = 0f;
@@ -29,6 +31,8 @@ public class ShakeCamera : MonoBehaviour
         // Play the initial video
         if (initialVideoPlayer != null)
         {
+            shakeVideoPlayer.gameObject.SetActive(false);
+            initialVideoPlayer.gameObject.SetActive(true);
             GetComponent<VideoPlayer>().isLooping = true;
             initialVideoPlayer.Play();
         }
@@ -46,42 +50,46 @@ public class ShakeCamera : MonoBehaviour
             initialVideoPlayed = true;
         }
 
-        if (Input.acceleration.sqrMagnitude >= 3f && Input.acceleration.sqrMagnitude < 20f) // Adjust this value as needed for your desired sensitivity
+        if (Input.acceleration.sqrMagnitude >= 3f && Input.acceleration.sqrMagnitude < 20f)
         {
+            shakeCount++;
             Shake();
-            VibrationManager.Vibrate(50); // Vibrate for 50 milliseconds
+            VibrationManager.Vibrate(10); 
         }
-        else if (Input.acceleration.sqrMagnitude >= 10f && Input.acceleration.sqrMagnitude < 30f) // Adjust this value as needed for your desired sensitivity
+        else if (Input.acceleration.sqrMagnitude >= 5f && Input.acceleration.sqrMagnitude < 20f)
         {
+            shakeCount++;
             Shake();
-            VibrationManager.Vibrate(50); // Vibrate for 50 milliseconds
+            VibrationManager.Vibrate(40); 
             
             // Switch to the shake video when shaking detected
             if(shakeVideoPlayer != null)
             {
+                shakeVideoPlayer.gameObject.SetActive(true);
                 shakeVideoPlayer.Play();
                 Debug.Log("Shake Video Playing");
                 Object.Destroy(initialVideoPlayer.gameObject);
             }
         }
-        else if (Input.acceleration.sqrMagnitude >= 20f && !shakeDone) // Adjust this value as needed for your desired sensitivity
+        else if (Input.acceleration.sqrMagnitude >= 20f && !shakeDone || shakeCount >= shakeThreshold)
         {
-            Shake();
-            VibrationManager.Vibrate(80); // Vibrate for 80 milliseconds
-            Debug.Log("Shake detected");
+                Shake();
+                VibrationManager.Vibrate(80); 
+                Debug.Log("Shake detected");
 
-            GameManager gameManager = GameObject.FindObjectOfType<GameManager>();
-            if (gameManager != null)
-            {
-                // Transition to the target game state
-                gameManager.EnterState(targetState);
-                Debug.Log("Transitioned to " + targetState);
-            }
-            else
-            {
-                Debug.LogError("GameManager object is not found in the scene.");
-            }
-            shakeDone = true;
+                GameManager gameManager = GameObject.FindObjectOfType<GameManager>();
+                if (gameManager != null)
+                {
+                    // Transition to the target game state
+                    gameManager.EnterState(targetState);
+                    AudioManager.instance.PlayAudio("event:/Cutscenes/Liv Vågner");
+                    Debug.Log("Transitioned to " + targetState);
+                }
+                else
+                {
+                    Debug.LogError("GameManager object is not found in the scene.");
+                }
+                shakeDone = true;
         }
         if (shakeDuration > 0)
         {
@@ -99,6 +107,6 @@ public class ShakeCamera : MonoBehaviour
 
     void Shake()
     {
-        shakeDuration = 0.5f; // Adjust the duration of the shake
+        shakeDuration = 0.5f; 
     }
 }
