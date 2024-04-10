@@ -51,7 +51,7 @@ public class ShakeCamera : MonoBehaviour
             Shake();
             VibrationManager.Vibrate(50); // Vibrate for 50 milliseconds
         }
-        else if (Input.acceleration.sqrMagnitude >= 20f && Input.acceleration.sqrMagnitude < 30f) // Adjust this value as needed for your desired sensitivity
+        else if (Input.acceleration.sqrMagnitude >= 10f && Input.acceleration.sqrMagnitude < 30f) // Adjust this value as needed for your desired sensitivity
         {
             Shake();
             VibrationManager.Vibrate(50); // Vibrate for 50 milliseconds
@@ -64,7 +64,7 @@ public class ShakeCamera : MonoBehaviour
                 Object.Destroy(initialVideoPlayer.gameObject);
             }
         }
-        else if (Input.acceleration.sqrMagnitude >= 30f && !shakeDone) // Adjust this value as needed for your desired sensitivity
+        else if (Input.acceleration.sqrMagnitude >= 20f && !shakeDone) // Adjust this value as needed for your desired sensitivity
         {
             Shake();
             VibrationManager.Vibrate(80); // Vibrate for 80 milliseconds
