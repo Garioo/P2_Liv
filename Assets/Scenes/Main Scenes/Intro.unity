@@ -240,12 +240,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Dette spil indeholder temaer og skildringer af selvmord, herunder diskussioner,
-    repr\xE6sentationer og referencer til selvmordstanker, -adf\xE6rd og handlinger.
-    Det anbefales, at spilleren udviser forsigtighed, da dette indhold kan v\xE6re
-    udl\xF8sende eller foruroligende for personer, der har oplevet selvmordstanker
-    eller er blevet p\xE5virket af selvmord p\xE5 nogen m\xE5de. Tilskuerdiskretion
-    anbefales."
+  m_text: Dette spil indeholder temaer og skildringer af selvmord. Spillerdiskretion
+    anbefales.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -254,7 +250,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 16777215
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -850,9 +846,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "For den bedste oplevelse anbefales det at spille spillet med lyd i h\xF8retelefoner
-    i et uforstyrrende milj\xF8. Lyden er en vigtig del af spiloplevelsen og bidrager
-    til at fordybe dig i spillets atmosf\xE6re."
+  m_text: "Spillet opleves bedst med h\xF8retelefoner og aldrig uden lyd."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -1726,7 +1720,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 16777215
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
