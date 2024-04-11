@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 59720626}
   - component: {fileID: 59720625}
   - component: {fileID: 59720624}
+  - component: {fileID: 59720627}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -215,6 +216,42 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!328 &59720627
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59720623}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 0}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera3DLayout: 0
+  m_TargetCamera: {fileID: 59720625}
+  m_TargetTexture: {fileID: 0}
+  m_TimeReference: 0
+  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialProperty: <noninit>
+  m_RenderMode: 1
+  m_AspectRatio: 2
+  m_DataSource: 0
+  m_TimeUpdateMode: 1
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 0
+  m_TargetAudioSources:
+  - {fileID: 0}
+  m_DirectAudioVolumes:
+  - 1
+  m_Url: 
+  m_EnabledAudioTracks: 01
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
+  m_PlayOnAwake: 1
+  m_SkipOnDrop: 1
+  m_Looping: 0
+  m_WaitForFirstFrame: 1
+  m_FrameReadyEventEnabled: 0
+  m_VideoShaders: []
 --- !u!1 &149352585
 GameObject:
   m_ObjectHideFlags: 0
@@ -689,7 +726,10 @@ MonoBehaviour:
   - {fileID: 2132351510}
   - {fileID: 149352586}
   - {fileID: 2123211368}
-  targetState: 10
+  videoPlayer: {fileID: 59720627}
+  DialogVideos:
+  - {fileID: 32900000, guid: c78056c26e57145748ff3ee677cdbd44, type: 3}
+  targetState: 11
 --- !u!1001 &892610206
 PrefabInstance:
   m_ObjectHideFlags: 0

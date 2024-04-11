@@ -6,15 +6,18 @@
         "choices": [
           {
             "text": "Jeg har det godt",
-            "nextNodeId": 1
+            "nextNodeId": 1,
+            "videoClipIdentifier": "Surprised 2"
           },
           {
             "text": "Alt er fint",
-            "nextNodeId": 2
+            "nextNodeId": 2,
+            "videoClipIdentifier": "Surprised 2"
           },
           {
             "text": "Jeg har det ikke så godt",
-            "nextNodeId": 3
+            "nextNodeId": 3,
+            "videoClipIdentifier": "Surprised 2"
           }
         ]
       },
@@ -24,11 +27,13 @@
         "choices": [
             {
                 "text": "Alt er fint",
-                "nextNodeId": 2
+                "nextNodeId": 2,
+                "videoClipIdentifier": "Surprised 2"
             },
             {
                 "text": "Jeg har det ikke så godt",
-                "nextNodeId": 3
+                "nextNodeId": 3,
+                "videoClipIdentifier": "Surprised 2"
             },
             {
               "text": "Jeg har selvmordstanker",
@@ -43,7 +48,8 @@
         "choices": [
           {
             "text": "Jeg har det ikke så godt",
-            "nextNodeId": 3
+            "nextNodeId": 3,
+            "videoClipIdentifier": "Surprised 2"
           },
             {
                 "text": "Jeg har selvmordstanker",

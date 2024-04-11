@@ -5,17 +5,16 @@ using UnityEngine.Video;
 public class ShakeCamera : MonoBehaviour
 {
     public GameManager.GameState targetState;
-    public float shakeAmount = 0.7f;
-    public float decreaseFactor = 1.0f;
+    private float shakeDuration;
+    public float shakeAmount;
+    public float decreaseFactor;
     public CinemachineVirtualCamera virtualCamera;
     public VideoPlayer initialVideoPlayer; 
     public VideoPlayer shakeVideoPlayer; 
     bool shakeDone;
     private int shakeCount = 0;
-    private const int shakeThreshold = 30; // Set the shake threshold to 20 shakes
-
+    private const int shakeThreshold = 70;
     private Vector3 originalPos;
-    private float shakeDuration = 0f;
     private bool initialVideoPlayed = false;
 
     void Start()
@@ -50,16 +49,16 @@ public class ShakeCamera : MonoBehaviour
             initialVideoPlayed = true;
         }
 
-        if (Input.acceleration.sqrMagnitude >= 3f && Input.acceleration.sqrMagnitude < 20f)
+        if (Input.acceleration.sqrMagnitude >= 3f && Input.acceleration.sqrMagnitude < 10f && shakeCount < shakeThreshold)
         {
             shakeCount++;
-            Shake();
+            Shake(0.6f);
             VibrationManager.Vibrate(10); 
         }
-        else if (Input.acceleration.sqrMagnitude >= 5f && Input.acceleration.sqrMagnitude < 20f)
+        else if (Input.acceleration.sqrMagnitude >= 10 && shakeCount < shakeThreshold)
         {
             shakeCount++;
-            Shake();
+            Shake(0.9f);
             VibrationManager.Vibrate(40); 
             
             // Switch to the shake video when shaking detected
@@ -71,9 +70,10 @@ public class ShakeCamera : MonoBehaviour
                 Object.Destroy(initialVideoPlayer.gameObject);
             }
         }
-        else if (Input.acceleration.sqrMagnitude >= 20f && !shakeDone || shakeCount >= shakeThreshold)
+        
+        if (shakeCount == shakeThreshold)
         {
-                Shake();
+                shakeCount++;
                 VibrationManager.Vibrate(80); 
                 Debug.Log("Shake detected");
 
@@ -81,8 +81,8 @@ public class ShakeCamera : MonoBehaviour
                 if (gameManager != null)
                 {
                     // Transition to the target game state
-                    gameManager.EnterState(targetState);
                     AudioManager.instance.PlayAudio("event:/Cutscenes/Liv Vågner");
+                    gameManager.EnterState(targetState);
                     Debug.Log("Transitioned to " + targetState);
                 }
                 else
@@ -91,13 +91,13 @@ public class ShakeCamera : MonoBehaviour
                 }
                 shakeDone = true;
         }
+        
         if (shakeDuration > 0)
         {
             virtualCamera.transform.localPosition = originalPos + Random.insideUnitSphere * shakeAmount;
 
             shakeDuration -= Time.deltaTime * decreaseFactor;
         }
-
         else
         {
             shakeDuration = 0f;
@@ -105,8 +105,9 @@ public class ShakeCamera : MonoBehaviour
         }
     }
 
-    void Shake()
+    void Shake(float shakeForce)
     {
         shakeDuration = 0.5f; 
+        shakeAmount = shakeForce;
     }
 }

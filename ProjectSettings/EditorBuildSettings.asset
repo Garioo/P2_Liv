@@ -39,6 +39,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Spil/Game5.unity
     guid: 7a8a2312868ce4b88a5ebedf2b857606
   - enabled: 1
-    path: Assets/Items/FinalScene.unity
+    path: Assets/Scenes/Main Scenes/FinalScene.unity
     guid: cec52f4843c424dd4b8353effed5d09c
   m_configObjects: {}

@@ -109,7 +109,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: LivWalkingRight
-  m_Speed: 1
+  m_Speed: 1.2
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -3792108343776796341}
@@ -207,7 +207,7 @@ AnimatorStateMachine:
     m_Position: {x: 580, y: -330, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6119931420169037881}
-    m_Position: {x: 300, y: -150, z: 0}
+    m_Position: {x: 230, y: -150, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -307,7 +307,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: LivWalkingLeft
-  m_Speed: 1
+  m_Speed: 1.2
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -940287524694017425}

@@ -1,38 +1,36 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Video;
 
 public class DialogueManager : MonoBehaviour
 {
-    public TextAsset dialogueJson; // Reference to the JSON file containing dialogue data
-    public TextMeshProUGUI dialogueText; // Reference to the UI text element for displaying dialogue
-    public Button[] choiceButtons; // Array of UI buttons for displaying dialogue choices
-
-    private DialogueNode[] dialogueNodes; // Array to store dialogue nodes
-    private int currentNodeIndex; // Index to track the current dialogue node
+    public TextAsset dialogueJson; 
+    public TextMeshProUGUI dialogueText; 
+    public Button[] choiceButtons; 
+    public VideoPlayer videoPlayer;
+    public VideoClip[] DialogVideos; 
+    private DialogueNode[] dialogueNodes; 
+    private int currentNodeIndex; 
 
     public GameManager.GameState targetState;
-    GameManager gameManager; // Reference to the GameManager
+    GameManager gameManager; 
 
     void Start()
     {
         gameManager = FindObjectOfType<GameManager>();
 
-        // Check if the GameManager object is found
         if (gameManager == null)
         {
             Debug.LogError("GameManager object not found in the scene.");
-        } // Update the argument type to DialogueManager
-
-        // Load dialogue data from JSON file
+        } 
+        videoPlayer.loopPointReached += OnDialogVideoFinished;
         LoadDialogue();
-        // Start dialogue from the first node
         StartDialogue(0);
     }
 
     void LoadDialogue()
     {
-        // Load JSON data from "dialogue_tree.json" file
         dialogueJson = Resources.Load<TextAsset>("dialogue_tree");
         if (dialogueJson != null)
         {
@@ -43,17 +41,13 @@ public class DialogueManager : MonoBehaviour
             Debug.LogError("Failed to load dialogue JSON.");
         }
 
-        // Deserialize JSON data into DialogueData object
         DialogueData dialogueData = JsonUtility.FromJson<DialogueData>(dialogueJson.text);
-        // Get dialogue nodes from DialogueData object
         dialogueNodes = dialogueData.nodes;
     }
 
     void StartDialogue(int nodeIndex)
     {
-        // Set current node index
         currentNodeIndex = nodeIndex;
-        // Display dialogue
         DisplayDialogue();
     }
 
@@ -65,11 +59,9 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        // Get current dialogue node
         DialogueNode currentNode = dialogueNodes[currentNodeIndex];
         Debug.Log("Displaying dialogue node " + currentNode.id + ": " + currentNode.text);
 
-        // Display dialogue text
         if (currentNode != null && currentNode.text != null)
         {
             dialogueText.text = currentNode.text;
@@ -79,42 +71,69 @@ public class DialogueManager : MonoBehaviour
             Debug.LogError("Dialogue text is null!");
         }
 
-        // Hide all choice buttons
         foreach (Button button in choiceButtons)
         {
             button.gameObject.SetActive(false);
         }
 
-        // Display choice buttons for available choices
         for (int i = 0; i < currentNode.choices.Length && i < choiceButtons.Length; i++)
         {
-            // Activate choice button
             choiceButtons[i].gameObject.SetActive(true);
-            // Set choice button text
             choiceButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = currentNode.choices[i].text;
-            // Set up click event to handle choice
             int nextNodeIndex = currentNode.choices[i].nextNodeId;
             choiceButtons[i].onClick.RemoveAllListeners();
-            choiceButtons[i].onClick.AddListener(() => OnChoiceSelected(nextNodeIndex));
+            int choiceIndex = i;
+            choiceButtons[i].onClick.AddListener(() => OnChoiceSelected(nextNodeIndex, currentNode.choices[choiceIndex].videoClipIdentifier));
         }
     }
 
-    public void OnChoiceSelected(int nextNodeIndex)
-{
-    if (nextNodeIndex == -1)
+    public void OnChoiceSelected(int nextNodeIndex, string videoClipIdentifier)
     {
-        // If nextNodeIndex is -1, start playing the video
-        gameManager.EnterState(targetState);
-        AudioManager.instance.StopAudio("event:/Cutscenes/Telefon Samtale");
-        AudioManager.instance.PlayAudio("event:/Cutscenes/Sidste Cutscene");
+        if (nextNodeIndex == -1)
+        {
+            gameManager.EnterState(targetState);
+            AudioManager.instance.StopAudio("event:/Cutscenes/Telefon Samtale");
+            AudioManager.instance.PlayAudio("event:/Cutscenes/Sidste Cutscene");
+        }
+        else
+        {
+            Debug.Log("Player selected choice leading to node " + nextNodeIndex);
+            if (!string.IsNullOrEmpty(videoClipIdentifier))
+            {
+                // Find the index of the video clip with the matching identifier
+                int clipIndex = FindVideoClipIndex(videoClipIdentifier);
+                if (clipIndex != -1)
+                {
+                    // Play the video clip
+                    videoPlayer.clip = DialogVideos[clipIndex];
+                    videoPlayer.Play();
+                }
+                else
+                {
+                    Debug.LogError("Video clip with identifier " + videoClipIdentifier + " not found!");
+                }
+            }
+            StartDialogue(nextNodeIndex);
+        }
     }
-    else
+
+    // Helper method to find the index of the video clip with the given identifier
+    private int FindVideoClipIndex(string identifier)
     {
-        Debug.Log("Player selected choice leading to node " + nextNodeIndex);
-        // Progress the dialogue to the next node
-        StartDialogue(nextNodeIndex);
+        for (int i = 0; i < DialogVideos.Length; i++)
+        {
+            if (DialogVideos[i].name == identifier)
+            {
+                return i;
+            }
+        }
+        return -1; // Return -1 if not found
     }
-}
+
+    private void OnDialogVideoFinished(VideoPlayer vp)
+    {
+        videoPlayer.clip = null;
+    }
 
     [System.Serializable]
     public class DialogueData
@@ -135,5 +154,6 @@ public class DialogueManager : MonoBehaviour
     {
         public string text;
         public int nextNodeId;
+        public string videoClipIdentifier; // Identifier for the associated video clip
     }
 }
