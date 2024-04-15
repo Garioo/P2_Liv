@@ -48,7 +48,7 @@ MonoBehaviour:
   videoPlayer: {fileID: 6854800022771001640}
   videoInfos:
   - cutsceneTag: Cutscene1
-    videoClip: {fileID: 32900000, guid: 754435d8777e24c6b9a795cdef1a9e61, type: 3}
+    videoClip: {fileID: 32900000, guid: 66be249c14cee4774adf0b2ada6f05db, type: 3}
   - cutsceneTag: Cutscene2
     videoClip: {fileID: 32900000, guid: 9ae29d1e98883416ab0b0494b03f3717, type: 3}
   - cutsceneTag: Cutscene3
