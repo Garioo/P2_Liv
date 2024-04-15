@@ -113,7 +113,6 @@ public class DialogueManager : MonoBehaviour
                     Debug.LogError("Video clip with identifier " + videoClipIdentifier + " not found!");
                 }
             }
-            StartDialogue(nextNodeIndex);
         }
     }
 
@@ -130,9 +129,15 @@ public class DialogueManager : MonoBehaviour
         return -1; // Return -1 if not found
     }
 
-    private void OnDialogVideoFinished(VideoPlayer vp)
+    public void OnDialogVideoFinished(VideoPlayer vp)
     {
         videoPlayer.clip = null;
+        NextDialogueNode(currentNodeIndex + 1); // Pass the nextNodeIndex argument
+    }
+
+    public void NextDialogueNode(int nextNodeIndex)
+    {
+        StartDialogue(nextNodeIndex);
     }
 
     [System.Serializable]
