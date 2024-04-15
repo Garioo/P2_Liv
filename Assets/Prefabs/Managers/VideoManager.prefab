@@ -58,7 +58,7 @@ MonoBehaviour:
   - cutsceneTag: Cutscene5
     videoClip: {fileID: 32900000, guid: c78056c26e57145748ff3ee677cdbd44, type: 3}
   - cutsceneTag: Cutscene6
-    videoClip: {fileID: 32900000, guid: ccb2c171d2103477bb0c94bf2d986286, type: 3}
+    videoClip: {fileID: 32900000, guid: a43c8e3b39c6d41b6b1ef116b5cd6301, type: 3}
   - cutsceneTag: Cutscene7
     videoClip: {fileID: 32900000, guid: c78056c26e57145748ff3ee677cdbd44, type: 3}
   - cutsceneTag: Cutscene8

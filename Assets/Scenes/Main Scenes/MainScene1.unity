@@ -725,7 +725,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 958345784}
-  delayTime: 1.5
+  delayTime: 3.5
   targetState: 7
 --- !u!212 &603243032
 SpriteRenderer:
@@ -1903,7 +1903,7 @@ MonoBehaviour:
   - 3.5
   - 4
   waitTimes:
-  - 14.5
+  - 15.5
   - 5
 --- !u!95 &1774226598
 Animator:
