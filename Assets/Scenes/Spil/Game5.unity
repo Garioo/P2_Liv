@@ -726,7 +726,7 @@ MonoBehaviour:
   - {fileID: 2132351510}
   - {fileID: 149352586}
   - {fileID: 2123211368}
-  videoPlayer: {fileID: 59720627}
+  videoPlayer: {fileID: 1795479123}
   DialogVideos:
   - {fileID: 32900000, guid: c78056c26e57145748ff3ee677cdbd44, type: 3}
   targetState: 11

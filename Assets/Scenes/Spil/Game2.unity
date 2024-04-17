@@ -310,11 +310,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -111337004
-      Data2: 1099737374
-      Data3: 371044258
-      Data4: 1366997858
-    Path: event:/Sound Effects/sfx_piller_4
+      Data1: -600425408
+      Data2: 1269737676
+      Data3: 1541908126
+      Data4: -1480826269
+    Path: event:/SFX/pills_sfx/pill_4
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -513,11 +513,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -663523935
-      Data2: 1114549986
-      Data3: -2006416458
-      Data4: -553516685
-    Path: event:/Sound Effects/sfx_piller_3
+      Data1: 2086812610
+      Data2: 1293841598
+      Data3: -1628118651
+      Data4: 1443217267
+    Path: event:/SFX/pills_sfx/pill_3
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -716,11 +716,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -663523935
-      Data2: 1114549986
-      Data3: -2006416458
-      Data4: -553516685
-    Path: event:/Sound Effects/sfx_piller_3
+      Data1: 2086812610
+      Data2: 1293841598
+      Data3: -1628118651
+      Data4: 1443217267
+    Path: event:/SFX/pills_sfx/pill_3
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -919,11 +919,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1901546664
-      Data2: 1273585341
-      Data3: -126100589
-      Data4: -185395736
-    Path: event:/Sound Effects/sfx_piller_2
+      Data1: 1050909311
+      Data2: 1124541840
+      Data3: 1229802626
+      Data4: -742336831
+    Path: event:/SFX/pills_sfx/pill_2
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -1123,11 +1123,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -663523935
-      Data2: 1114549986
-      Data3: -2006416458
-      Data4: -553516685
-    Path: event:/Sound Effects/sfx_piller_3
+      Data1: 2086812610
+      Data2: 1293841598
+      Data3: -1628118651
+      Data4: 1443217267
+    Path: event:/SFX/pills_sfx/pill_3
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -1357,11 +1357,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1294918272
-      Data2: 1092311928
-      Data3: -534829430
-      Data4: 801425812
-    Path: event:/Sound Effects/sfx_piller_1
+      Data1: 795528621
+      Data2: 1318812345
+      Data3: -1234420607
+      Data4: -710189133
+    Path: event:/SFX/pills_sfx/pill_1
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -1560,11 +1560,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1294918272
-      Data2: 1092311928
-      Data3: -534829430
-      Data4: 801425812
-    Path: event:/Sound Effects/sfx_piller_1
+      Data1: 795528621
+      Data2: 1318812345
+      Data3: -1234420607
+      Data4: -710189133
+    Path: event:/SFX/pills_sfx/pill_1
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -1763,11 +1763,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -663523935
-      Data2: 1114549986
-      Data3: -2006416458
-      Data4: -553516685
-    Path: event:/Sound Effects/sfx_piller_3
+      Data1: 2086812610
+      Data2: 1293841598
+      Data3: -1628118651
+      Data4: 1443217267
+    Path: event:/SFX/pills_sfx/pill_3
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -1966,11 +1966,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1901546664
-      Data2: 1273585341
-      Data3: -126100589
-      Data4: -185395736
-    Path: event:/Sound Effects/sfx_piller_2
+      Data1: 1050909311
+      Data2: 1124541840
+      Data3: 1229802626
+      Data4: -742336831
+    Path: event:/SFX/pills_sfx/pill_2
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -2169,11 +2169,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -111337004
-      Data2: 1099737374
-      Data3: 371044258
-      Data4: 1366997858
-    Path: event:/Sound Effects/sfx_piller_4
+      Data1: -600425408
+      Data2: 1269737676
+      Data3: 1541908126
+      Data4: -1480826269
+    Path: event:/SFX/pills_sfx/pill_4
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -2372,11 +2372,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1901546664
-      Data2: 1273585341
-      Data3: -126100589
-      Data4: -185395736
-    Path: event:/Sound Effects/sfx_piller_2
+      Data1: 1050909311
+      Data2: 1124541840
+      Data3: 1229802626
+      Data4: -742336831
+    Path: event:/SFX/pills_sfx/pill_2
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -2672,11 +2672,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -663523935
-      Data2: 1114549986
-      Data3: -2006416458
-      Data4: -553516685
-    Path: event:/Sound Effects/sfx_piller_3
+      Data1: 2086812610
+      Data2: 1293841598
+      Data3: -1628118651
+      Data4: 1443217267
+    Path: event:/SFX/pills_sfx/pill_3
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -2875,11 +2875,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1294918272
-      Data2: 1092311928
-      Data3: -534829430
-      Data4: 801425812
-    Path: event:/Sound Effects/sfx_piller_1
+      Data1: 795528621
+      Data2: 1318812345
+      Data3: -1234420607
+      Data4: -710189133
+    Path: event:/SFX/pills_sfx/pill_1
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -3135,11 +3135,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1153102563
-      Data2: 1264107723
-      Data3: 1835427001
-      Data4: -468617351
-    Path: event:/Sound Effects/sfx_piller_5
+      Data1: 1298281779
+      Data2: 1243701619
+      Data3: 958876056
+      Data4: 1273188021
+    Path: event:/SFX/pills_sfx/pill_5
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -3338,11 +3338,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1901546664
-      Data2: 1273585341
-      Data3: -126100589
-      Data4: -185395736
-    Path: event:/Sound Effects/sfx_piller_2
+      Data1: 1050909311
+      Data2: 1124541840
+      Data3: 1229802626
+      Data4: -742336831
+    Path: event:/SFX/pills_sfx/pill_2
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -3619,11 +3619,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1153102563
-      Data2: 1264107723
-      Data3: 1835427001
-      Data4: -468617351
-    Path: event:/Sound Effects/sfx_piller_5
+      Data1: 1298281779
+      Data2: 1243701619
+      Data3: 958876056
+      Data4: 1273188021
+    Path: event:/SFX/pills_sfx/pill_5
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -3822,11 +3822,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1901546664
-      Data2: 1273585341
-      Data3: -126100589
-      Data4: -185395736
-    Path: event:/Sound Effects/sfx_piller_2
+      Data1: 1050909311
+      Data2: 1124541840
+      Data3: 1229802626
+      Data4: -742336831
+    Path: event:/SFX/pills_sfx/pill_2
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -4025,11 +4025,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -663523935
-      Data2: 1114549986
-      Data3: -2006416458
-      Data4: -553516685
-    Path: event:/Sound Effects/sfx_piller_3
+      Data1: 2086812610
+      Data2: 1293841598
+      Data3: -1628118651
+      Data4: 1443217267
+    Path: event:/SFX/pills_sfx/pill_3
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -4228,11 +4228,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1153102563
-      Data2: 1264107723
-      Data3: 1835427001
-      Data4: -468617351
-    Path: event:/Sound Effects/sfx_piller_5
+      Data1: 1298281779
+      Data2: 1243701619
+      Data3: 958876056
+      Data4: 1273188021
+    Path: event:/SFX/pills_sfx/pill_5
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -4572,11 +4572,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -663523935
-      Data2: 1114549986
-      Data3: -2006416458
-      Data4: -553516685
-    Path: event:/Sound Effects/sfx_piller_3
+      Data1: 2086812610
+      Data2: 1293841598
+      Data3: -1628118651
+      Data4: 1443217267
+    Path: event:/SFX/pills_sfx/pill_3
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -4775,11 +4775,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -663523935
-      Data2: 1114549986
-      Data3: -2006416458
-      Data4: -553516685
-    Path: event:/Sound Effects/sfx_piller_3
+      Data1: 2086812610
+      Data2: 1293841598
+      Data3: -1628118651
+      Data4: 1443217267
+    Path: event:/SFX/pills_sfx/pill_3
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -4978,11 +4978,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1153102563
-      Data2: 1264107723
-      Data3: 1835427001
-      Data4: -468617351
-    Path: event:/Sound Effects/sfx_piller_5
+      Data1: 1298281779
+      Data2: 1243701619
+      Data3: 958876056
+      Data4: 1273188021
+    Path: event:/SFX/pills_sfx/pill_5
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -5181,11 +5181,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1294918272
-      Data2: 1092311928
-      Data3: -534829430
-      Data4: 801425812
-    Path: event:/Sound Effects/sfx_piller_1
+      Data1: 795528621
+      Data2: 1318812345
+      Data3: -1234420607
+      Data4: -710189133
+    Path: event:/SFX/pills_sfx/pill_1
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -5384,11 +5384,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1901546664
-      Data2: 1273585341
-      Data3: -126100589
-      Data4: -185395736
-    Path: event:/Sound Effects/sfx_piller_2
+      Data1: 1050909311
+      Data2: 1124541840
+      Data3: 1229802626
+      Data4: -742336831
+    Path: event:/SFX/pills_sfx/pill_2
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -5688,11 +5688,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1901546664
-      Data2: 1273585341
-      Data3: -126100589
-      Data4: -185395736
-    Path: event:/Sound Effects/sfx_piller_2
+      Data1: 1050909311
+      Data2: 1124541840
+      Data3: 1229802626
+      Data4: -742336831
+    Path: event:/SFX/pills_sfx/pill_2
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -5902,11 +5902,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -663523935
-      Data2: 1114549986
-      Data3: -2006416458
-      Data4: -553516685
-    Path: event:/Sound Effects/sfx_piller_3
+      Data1: 2086812610
+      Data2: 1293841598
+      Data3: -1628118651
+      Data4: 1443217267
+    Path: event:/SFX/pills_sfx/pill_3
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -6162,11 +6162,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -663523935
-      Data2: 1114549986
-      Data3: -2006416458
-      Data4: -553516685
-    Path: event:/Sound Effects/sfx_piller_3
+      Data1: 2086812610
+      Data2: 1293841598
+      Data3: -1628118651
+      Data4: 1443217267
+    Path: event:/SFX/pills_sfx/pill_3
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -6510,11 +6510,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -111337004
-      Data2: 1099737374
-      Data3: 371044258
-      Data4: 1366997858
-    Path: event:/Sound Effects/sfx_piller_4
+      Data1: -600425408
+      Data2: 1269737676
+      Data3: 1541908126
+      Data4: -1480826269
+    Path: event:/SFX/pills_sfx/pill_4
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -6713,11 +6713,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1153102563
-      Data2: 1264107723
-      Data3: 1835427001
-      Data4: -468617351
-    Path: event:/Sound Effects/sfx_piller_5
+      Data1: 1298281779
+      Data2: 1243701619
+      Data3: 958876056
+      Data4: 1273188021
+    Path: event:/SFX/pills_sfx/pill_5
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -6916,11 +6916,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1153102563
-      Data2: 1264107723
-      Data3: 1835427001
-      Data4: -468617351
-    Path: event:/Sound Effects/sfx_piller_5
+      Data1: 1298281779
+      Data2: 1243701619
+      Data3: 958876056
+      Data4: 1273188021
+    Path: event:/SFX/pills_sfx/pill_5
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -7119,11 +7119,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1901546664
-      Data2: 1273585341
-      Data3: -126100589
-      Data4: -185395736
-    Path: event:/Sound Effects/sfx_piller_2
+      Data1: 1050909311
+      Data2: 1124541840
+      Data3: 1229802626
+      Data4: -742336831
+    Path: event:/SFX/pills_sfx/pill_2
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -7322,11 +7322,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1153102563
-      Data2: 1264107723
-      Data3: 1835427001
-      Data4: -468617351
-    Path: event:/Sound Effects/sfx_piller_5
+      Data1: 1298281779
+      Data2: 1243701619
+      Data3: 958876056
+      Data4: 1273188021
+    Path: event:/SFX/pills_sfx/pill_5
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -7526,11 +7526,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1294918272
-      Data2: 1092311928
-      Data3: -534829430
-      Data4: 801425812
-    Path: event:/Sound Effects/sfx_piller_1
+      Data1: 795528621
+      Data2: 1318812345
+      Data3: -1234420607
+      Data4: -710189133
+    Path: event:/SFX/pills_sfx/pill_1
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -7760,11 +7760,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -111337004
-      Data2: 1099737374
-      Data3: 371044258
-      Data4: 1366997858
-    Path: event:/Sound Effects/sfx_piller_4
+      Data1: -600425408
+      Data2: 1269737676
+      Data3: 1541908126
+      Data4: -1480826269
+    Path: event:/SFX/pills_sfx/pill_4
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -8047,11 +8047,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1153102563
-      Data2: 1264107723
-      Data3: 1835427001
-      Data4: -468617351
-    Path: event:/Sound Effects/sfx_piller_5
+      Data1: 1298281779
+      Data2: 1243701619
+      Data3: 958876056
+      Data4: 1273188021
+    Path: event:/SFX/pills_sfx/pill_5
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -8250,11 +8250,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1901546664
-      Data2: 1273585341
-      Data3: -126100589
-      Data4: -185395736
-    Path: event:/Sound Effects/sfx_piller_2
+      Data1: 1050909311
+      Data2: 1124541840
+      Data3: 1229802626
+      Data4: -742336831
+    Path: event:/SFX/pills_sfx/pill_2
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -8453,11 +8453,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1901546664
-      Data2: 1273585341
-      Data3: -126100589
-      Data4: -185395736
-    Path: event:/Sound Effects/sfx_piller_2
+      Data1: 1050909311
+      Data2: 1124541840
+      Data3: 1229802626
+      Data4: -742336831
+    Path: event:/SFX/pills_sfx/pill_2
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -8740,11 +8740,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -663523935
-      Data2: 1114549986
-      Data3: -2006416458
-      Data4: -553516685
-    Path: event:/Sound Effects/sfx_piller_3
+      Data1: 2086812610
+      Data2: 1293841598
+      Data3: -1628118651
+      Data4: 1443217267
+    Path: event:/SFX/pills_sfx/pill_3
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -9012,11 +9012,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -663523935
-      Data2: 1114549986
-      Data3: -2006416458
-      Data4: -553516685
-    Path: event:/Sound Effects/sfx_piller_3
+      Data1: 2086812610
+      Data2: 1293841598
+      Data3: -1628118651
+      Data4: 1443217267
+    Path: event:/SFX/pills_sfx/pill_3
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -9551,11 +9551,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1294918272
-      Data2: 1092311928
-      Data3: -534829430
-      Data4: 801425812
-    Path: event:/Sound Effects/sfx_piller_1
+      Data1: 795528621
+      Data2: 1318812345
+      Data3: -1234420607
+      Data4: -710189133
+    Path: event:/SFX/pills_sfx/pill_1
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -9754,11 +9754,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1153102563
-      Data2: 1264107723
-      Data3: 1835427001
-      Data4: -468617351
-    Path: event:/Sound Effects/sfx_piller_5
+      Data1: 1298281779
+      Data2: 1243701619
+      Data3: 958876056
+      Data4: 1273188021
+    Path: event:/SFX/pills_sfx/pill_5
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -9957,11 +9957,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1153102563
-      Data2: 1264107723
-      Data3: 1835427001
-      Data4: -468617351
-    Path: event:/Sound Effects/sfx_piller_5
+      Data1: 1298281779
+      Data2: 1243701619
+      Data3: 958876056
+      Data4: 1273188021
+    Path: event:/SFX/pills_sfx/pill_5
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -10160,11 +10160,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -111337004
-      Data2: 1099737374
-      Data3: 371044258
-      Data4: 1366997858
-    Path: event:/Sound Effects/sfx_piller_4
+      Data1: -600425408
+      Data2: 1269737676
+      Data3: 1541908126
+      Data4: -1480826269
+    Path: event:/SFX/pills_sfx/pill_4
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -10418,11 +10418,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -111337004
-      Data2: 1099737374
-      Data3: 371044258
-      Data4: 1366997858
-    Path: event:/Sound Effects/sfx_piller_4
+      Data1: -600425408
+      Data2: 1269737676
+      Data3: 1541908126
+      Data4: -1480826269
+    Path: event:/SFX/pills_sfx/pill_4
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -10621,11 +10621,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -111337004
-      Data2: 1099737374
-      Data3: 371044258
-      Data4: 1366997858
-    Path: event:/Sound Effects/sfx_piller_4
+      Data1: -600425408
+      Data2: 1269737676
+      Data3: 1541908126
+      Data4: -1480826269
+    Path: event:/SFX/pills_sfx/pill_4
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -10824,11 +10824,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -663523935
-      Data2: 1114549986
-      Data3: -2006416458
-      Data4: -553516685
-    Path: event:/Sound Effects/sfx_piller_3
+      Data1: 2086812610
+      Data2: 1293841598
+      Data3: -1628118651
+      Data4: 1443217267
+    Path: event:/SFX/pills_sfx/pill_3
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -11027,11 +11027,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1294918272
-      Data2: 1092311928
-      Data3: -534829430
-      Data4: 801425812
-    Path: event:/Sound Effects/sfx_piller_1
+      Data1: 795528621
+      Data2: 1318812345
+      Data3: -1234420607
+      Data4: -710189133
+    Path: event:/SFX/pills_sfx/pill_1
   Event: 
   PlayEvent: 15
   StopEvent: 16
