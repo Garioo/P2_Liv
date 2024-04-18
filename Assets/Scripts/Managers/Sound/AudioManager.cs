@@ -1,12 +1,23 @@
+/*
+This script is used to manage the audio in the game. It provides methods to play and stop FMOD events by name.
+
+Litterature:
+Link for FMOD: https://www.fmod.com/docs/2.00/unity/integration-tutorial.html
+Link for EventInstance: https://www.fmod.com/resources/documentation-api?version=2.0&page=studio-api-eventinstance.html
+
+ChatGPT
+*/
+
 using UnityEngine;
 using System;
 using System.Collections.Generic;
 
 public class AudioManager : MonoBehaviour
 {
+    // Reference to the AudioManager instance
     public static AudioManager instance;
 
-    // Define a dictionary to map event names to their corresponding instances
+    // Dictionary to store FMOD event instances by name
     private Dictionary<string, FMOD.Studio.EventInstance> eventInstances = new Dictionary<string, FMOD.Studio.EventInstance>();
 
     void Awake()

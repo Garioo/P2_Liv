@@ -7,17 +7,20 @@
           {
             "text": "Jeg har det godt",
             "nextNodeId": 1,
-            "videoClipIdentifier": "Surprised 2"
+            "videoClipIdentifier": "Surprised 2",
+            "soundIdentifier": "event:/GameSound/Minigame 5/Liv_1_Har_Det_Godt"
           },
           {
             "text": "Alt er fint",
             "nextNodeId": 2,
-            "videoClipIdentifier": "Surprised 2"
+            "videoClipIdentifier": "Surprised 2",
+            "soundIdentifier": "event:/GameSound/Minigame 5/Liv_2_Alt_Er_Fint"
           },
           {
             "text": "Jeg har det ikke så godt",
             "nextNodeId": 3,
-            "videoClipIdentifier": "Surprised 2"
+            "videoClipIdentifier": "Surprised 2",
+            "soundIdentifier": "event:/GameSound/Minigame 5/Liv_3_Ikke_Så_Godt"
           }
         ]
       },
@@ -28,12 +31,14 @@
             {
                 "text": "Alt er fint",
                 "nextNodeId": 2,
-                "videoClipIdentifier": "Surprised 2"
+                "videoClipIdentifier": "Surprised 2",
+                "soundIdentifier": "event:/GameSound/Minigame 5/Liv_2_Alt_Er_Fint"
             },
             {
                 "text": "Jeg har det ikke så godt",
                 "nextNodeId": 3,
-                "videoClipIdentifier": "Surprised 2"
+                "videoClipIdentifier": "Surprised 2",
+                "soundIdentifier": "event:/GameSound/Minigame 5/Liv_3_Ikke_Så_Godt"
             },
             {
               "text": "Jeg har selvmordstanker",
@@ -49,7 +54,8 @@
           {
             "text": "Jeg har det ikke så godt",
             "nextNodeId": 3,
-            "videoClipIdentifier": "Surprised 2"
+            "videoClipIdentifier": "Surprised 2",
+            "soundIdentifier": "event:/GameSound/Minigame 5/Liv_3_Ikke_Så_Godt"
           },
             {
                 "text": "Jeg har selvmordstanker",
