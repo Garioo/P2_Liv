@@ -1,10 +1,14 @@
 /*
-This script is used to manage the video in the game. It provides methods to play and stop VideoClips by name.
+------------------------------
+    VideoManager.cs
+Description: A script to manage video playback in the game, including methods to play and stop VideoClips by name.
+------------------------------
 
 Litterature:
-Link for VideoPlayer: https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Video.VideoPlayer.html
-Link For VideoClip: https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Video.VideoClip.html
-
+    * Unity Documentation for VideoPlayer:
+        [VideoPlayer Documentation](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Video.VideoPlayer.html)
+    * Unity Documentation for VideoClip:
+        [VideoClip Documentation](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Video.VideoClip.html)
 */
 
 using System;

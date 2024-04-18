@@ -1,8 +1,21 @@
+/*
+--------------------------  
+    StorylineManager.cs
+ Manages the storyline of the game by loading scenes in sequence.
+--------------------------  
+
+ Litterature:
+    * Tutorial for Scene Manager by RehopeGames: 
+        [Link](https://www.youtube.com/watch?v=4fvQUK2pPds&ab_channel=RehopeGames)
+ */
+
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class StorylineManager : MonoBehaviour
 {
+    // Singleton pattern
   public static StorylineManager instance;
     private void Awake()
     {
@@ -29,8 +42,9 @@ public class StorylineManager : MonoBehaviour
         // Check if there are more scenes in the storyline
         if (currentSceneIndex < storylineScenes.Length)
         {
-            // Load the next scene
+            // Increment the index
             currentSceneIndex++;
+            // Load the scene with the specified index
             SceneManager.LoadScene(storylineScenes[currentSceneIndex]);
         }
         else

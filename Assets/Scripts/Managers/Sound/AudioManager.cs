@@ -1,11 +1,17 @@
 /*
-This script is used to manage the audio in the game. It provides methods to play and stop FMOD events by name.
+------------------------------
+    AudioManager.cs
+Description: A script to manage audio in the game using FMOD events
+------------------------------
 
 Litterature:
-Link for FMOD: https://www.fmod.com/docs/2.00/unity/integration-tutorial.html
-Link for EventInstance: https://www.fmod.com/resources/documentation-api?version=2.0&page=studio-api-eventinstance.html
+    * FMOD Documentation:
+        [FMOD Documentation](https://www.fmod.com/docs/2.00/unity/integration-tutorial.html)
+    * EventInstance Documentation:
+        [EventInstance Documentation](https://www.fmod.com/resources/documentation-api?version=2.0&page=studio-api-eventinstance.html)
+    * ChatGPT:
+        [ChatGPT](https://openai.com/)
 
-ChatGPT
 */
 
 using UnityEngine;
@@ -36,6 +42,7 @@ public class AudioManager : MonoBehaviour
     // Method to play an FMOD event by name
     public void PlayAudio(string eventName)
     {
+        // Check if the event name is empty
         if (string.IsNullOrEmpty(eventName))
         {
             Debug.LogWarning("Audio event name is empty.");
@@ -57,6 +64,7 @@ public class AudioManager : MonoBehaviour
     // Method to stop an FMOD event by name
     public void StopAudio(string eventName)
     {
+        // Check if the event name is empty
         if (string.IsNullOrEmpty(eventName))
         {
             Debug.LogWarning("Audio event name is empty.");
@@ -66,9 +74,11 @@ public class AudioManager : MonoBehaviour
         // Check if the event instance exists
         if (eventInstances.ContainsKey(eventName))
         {
-            // Stop and release the event instance
+            // Stop the event instance
             eventInstances[eventName].stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            // Release the event instance
             eventInstances[eventName].release();
+            // Remove the event instance from the dictionary
             eventInstances.Remove(eventName);
         }
         else

@@ -1,11 +1,25 @@
+/*
+-----------------------
+DelayedAction.cs
+This script is used to transition to a target game state after a delay.
+-----------------------
+    Litterature:
+        * Unity Tutorial  - Coroutines in Unity:
+            [Unity Manual for Coroutines](https://docs.unity3d.com/Manual/Coroutines.html)
+         * Unity Tutorial  - WaitForSeconds in Unity:
+            [Unity Scripting API for WaitForSeconds](https://docs.unity3d.com/ScriptReference/WaitForSeconds.html)
+*/
+
 using UnityEngine;
 
 public class DelayedAction : MonoBehaviour
 {
 
-public GameManager.GameState targetState;
+    // The target game state to transition to
+    public GameManager.GameState targetState;
+    // Reference to the GameManager
     public GameManager gameManager;
-
+    // The time to wait before transitioning to the target game state
     public float delayTime;
 
     // Start is called before the first frame update
@@ -20,6 +34,7 @@ public GameManager.GameState targetState;
         {
             Debug.LogError("GameManager object not found in the scene.");
         }
+        // Start the coroutine to transition to the target game state after a delay
         StartCoroutine(DoActionAfterDelay());
     }
 

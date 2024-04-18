@@ -1,10 +1,19 @@
+/*
+---------------------------
+    phoneScript.cs
+Description: A script to transition to a target game state when the player clicks on the phone
+---------------------------
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PhoneScript : MonoBehaviour
 {
-   public GameManager.GameState targetState;
+    // Changed from GameState to GameManager.GameState
+    public GameManager.GameState targetState; 
+    // Reference to the GameManager
     public GameManager gameManager;
 
     // Start is called before the first frame update
@@ -20,6 +29,7 @@ public class PhoneScript : MonoBehaviour
         }
     }
 
+    // When the player clicks on the toothbrush
     private void OnMouseDown()
     {
         Debug.Log("Toothbrush clicked");
@@ -27,9 +37,11 @@ public class PhoneScript : MonoBehaviour
         // Check if the GameManager object is properly initialized
         if (gameManager != null)
         {
-            // Transition to the target game state
+            // Stop the phone ringing sound
             AudioManager.instance.StopAudio("event:/Cutscenes/Telefon Ringer");
+            // Transition to the target game state
             gameManager.EnterState(targetState);
+            // Play the phone conversation sound
             AudioManager.instance.PlayAudio("event:/Cutscenes/Telefon Samtale");
             Debug.Log("Transitioned to " + targetState);
         }

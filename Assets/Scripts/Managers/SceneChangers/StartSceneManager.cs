@@ -1,13 +1,24 @@
+/*
+------------------------------
+    StartSceneManager.cs
+Description: A script to manage the start scene and transition to the next game state when the start button is pressed
+------------------------------
+*/
+
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class StartSceneManager : MonoBehaviour
 {
-    public Button startButton; // Reference to the start button in the UI
-    public GameManager.GameState nextState; // The next game state to transition to
+    // Reference to the start button in the UI
+    public Button startButton;
+    // The next game state to transition to
+    public GameManager.GameState nextState;
 
+    // Scene index for the game1 scene
     private const int game1SceneIndex = 2;
+    // Scene index for the intro scene
     private const int  introSceneIndex = 1;
 
     public void LoadGame1()
@@ -16,15 +27,11 @@ public class StartSceneManager : MonoBehaviour
         StartGame();
     }
 
+    // Function to load the intro scene
     public void LoadIntro()
     {
+        // Load the intro scene
         SceneManager.LoadScene(introSceneIndex);
-    }
-
-    void Start()
-    {
-        // Add an onClick listener to the start button
-        //startButton.onClick.AddListener(StartGame);
     }
 
     public void StartGame()

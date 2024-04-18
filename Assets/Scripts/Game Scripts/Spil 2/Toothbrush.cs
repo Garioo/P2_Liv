@@ -1,10 +1,19 @@
+/*
+--------------------------  
+    Toothbrush.cs
+Description: Script for the toothbrush object in the second game scene
+--------------------------
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Toothbrush : MonoBehaviour
 {
+    // Target game state to transition to
     public GameManager.GameState targetState;
+    // Reference to the GameManager object
     public GameManager gameManager;
 
     // Start is called before the first frame update
@@ -27,9 +36,11 @@ public class Toothbrush : MonoBehaviour
         // Check if the GameManager object is properly initialized
         if (gameManager != null)
         {
-            // Transition to the target game state
+            // Stop the current audio
             AudioManager.instance.StopAudio("event:/Cutscenes/Liv Vågner");
+            // Transition to the target game state
             gameManager.EnterState(targetState);
+            // Play the phone ringing audio
             AudioManager.instance.PlayAudio("event:/Cutscenes/Telefon Ringer");
             Debug.Log("Transitioned to " + targetState);
         }

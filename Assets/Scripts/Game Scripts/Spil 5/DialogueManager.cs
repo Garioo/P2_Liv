@@ -1,17 +1,19 @@
-/* This script is responsible for managing the dialogue system in the game. 
-It reads the dialogue data from a JSON file, displays the dialogue text, 
-and handles player choices. It also plays video clips and audio based on the choices made by the player.
+/* 
+--------------------------  
+    DialogueManager.cs
+Description: Manages the dialogue system in the game, including reading dialogue data from a JSON file, 
+displaying dialogue text, handling player choices, and playing video clips and audio based on player decisions.
+--------------------------
 
 Litterature:
-Link for buttons: 
-    https://docs.unity3d.com/Manual/UIE-Click-Events.html
-Links for parsing JSON data: 
-    https://pavcreations.com/json-advanced-parsing-in-unity/#Parsing-JSON-Data
-    https://forum.unity.com/threads/how-to-read-json-file.401306/
-
-ChatGPT
-
-
+    * Unity UI Button Click Events:
+        [Unity UI Button Click Events Documentation](https://docs.unity3d.com/Manual/UIE-Click-Events.html)
+    * Parsing JSON Data in Unity:
+        [Parsing JSON Data in Unity Documentation](https://pavcreations.com/json-advanced-parsing-in-unity/#Parsing-JSON-Data)
+    * Unity Forum Thread on Reading JSON File:
+        [Reading JSON File in Unity Forum Thread](https://forum.unity.com/threads/how-to-read-json-file.401306/)
+    * ChatGPT:
+        [ChatGPT](https://openai.com/)
 */
 using UnityEngine;
 using UnityEngine.UI;
@@ -100,6 +102,7 @@ public class DialogueManager : MonoBehaviour
         // Hide all choice buttons
         foreach (Button button in choiceButtons)
         {
+            // Hide the choice button
             button.gameObject.SetActive(false);
         }
 
@@ -163,11 +166,13 @@ public class DialogueManager : MonoBehaviour
         {
             // Find the video clip with the given identifier
             int clipIndex = FindVideoClipIndex(videoClipIdentifier);
+            // Check if the video clip was found
             if (clipIndex != -1)
             {
-                // Play the video clip
+                
                 // Assign the video clip to the VideoPlayer component
                 videoPlayer.clip = DialogVideos[clipIndex]; 
+                // Play the video clip
                 videoPlayer.Play();
             }
             else
@@ -188,8 +193,10 @@ public class DialogueManager : MonoBehaviour
         // Iterate through the video clips array
         for (int i = 0; i < DialogVideos.Length; i++)
         {
+            // Check if the video clip name matches the identifier
             if (DialogVideos[i].name == identifier)
             {
+                // Return the index if found
                 return i;
             }
         }
@@ -200,6 +207,7 @@ public class DialogueManager : MonoBehaviour
     void OnVideoEnd(VideoPlayer vp)
     {
         Debug.Log("Video playback ended.");
+        // Stop the video playback
         videoPlayer.clip = null;
     }
 
@@ -207,6 +215,7 @@ public class DialogueManager : MonoBehaviour
     // Define the structure of the JSON data
     public class DialogueData
     {
+        // Array of dialogue nodes
         public DialogueNode[] nodes;
     }
 
@@ -214,8 +223,11 @@ public class DialogueManager : MonoBehaviour
     // Define the structure of the dialogue node
     public class DialogueNode
     {
+        // Node ID
         public int id;
+        // Dialogue text
         public string text;
+        // Array of dialogue choices
         public DialogueOption[] choices;
     }
 
@@ -223,9 +235,13 @@ public class DialogueManager : MonoBehaviour
     // Define the structure of the dialogue option
     public class DialogueOption
     {
+        // Choice text
         public string text;
+        // Index of the next node
         public int nextNodeId;
+        // Identifier for the video clip to play
         public string videoClipIdentifier;
+        // Identifier for the sound to play
         public string soundIdentifier;
     }
 }
