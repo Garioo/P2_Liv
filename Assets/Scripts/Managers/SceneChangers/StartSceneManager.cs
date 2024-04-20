@@ -20,7 +20,28 @@ public class StartSceneManager : MonoBehaviour
     private const int game1SceneIndex = 2;
     // Scene index for the intro scene
     private const int  introSceneIndex = 1;
+    // Reference to the audio manager
+    AudioManager audioManager;
 
+    public void Start()
+    {
+        // Get the audio manager instance
+        audioManager = FindObjectOfType<AudioManager>();
+
+        // Check if the audio manager instance is found
+        if (audioManager != null)
+        {
+            // Play the background music
+            //AudioManager.instance.PlayAudio("event:/SFX/Noise/White_Noise");
+        }
+        else
+        {
+            Debug.LogError("AudioManager object not found in the scene.");
+        }
+
+        // Add a listener to the start button
+        startButton.onClick.AddListener(StartGame);
+    }
     public void LoadGame1()
     {
         //SceneManager.LoadScene(game1SceneIndex);

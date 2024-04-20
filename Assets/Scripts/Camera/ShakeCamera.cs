@@ -55,7 +55,8 @@ public class ShakeCamera : MonoBehaviour
         }
         // Get the original position of the camera
         originalPos = virtualCamera.transform.localPosition;
-
+        // Play the background music
+        AudioManager.instance.PlayAudio("event:/SFX/Noise/White_Noise");
         // Play the initial video
         if (initialVideoPlayer != null)
         {

@@ -84,6 +84,7 @@ public class GameManager : MonoBehaviour
         {
             case GameState.Game1:
                 LoadSceneWithCutscene("Game1", "Cutscene1");
+                AudioManager.instance.PlayAudio("event:/Cutscenes/Dream");
                 break;
 
             case GameState.MainScene1:
