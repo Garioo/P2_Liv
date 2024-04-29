@@ -185,7 +185,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 2.4901826
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -210,7 +210,7 @@ Transform:
   m_GameObject: {fileID: 59720623}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 3.82, y: 0.8, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -728,7 +728,13 @@ MonoBehaviour:
   - {fileID: 2123211368}
   videoPlayer: {fileID: 59720627}
   DialogVideos:
-  - {fileID: 32900000, guid: c78056c26e57145748ff3ee677cdbd44, type: 3}
+  - {fileID: 32900000, guid: 655438065fabe482ca4aeef91496b044, type: 3}
+  - {fileID: 32900000, guid: 8f4f360610b734e37b75231ceacaa63e, type: 3}
+  - {fileID: 32900000, guid: fbc817efafe214ba2bb784c47de0ea21, type: 3}
+  - {fileID: 32900000, guid: 395a1838cab884f8090e2a450fcacc41, type: 3}
+  - {fileID: 32900000, guid: b7d84f4f5f2c24c8ba3e0c432db78116, type: 3}
+  - {fileID: 32900000, guid: 405115e6933ea4e998e59027d336c772, type: 3}
+  - {fileID: 32900000, guid: 47d370eacc5da49629c190d371a6edea, type: 3}
   targetState: 11
 --- !u!1001 &892610206
 PrefabInstance:
@@ -822,7 +828,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 673.85, y: 2.039978}
+  m_AnchoredPosition: {x: 673.85, y: 2.040039}
   m_SizeDelta: {x: -2161.54, y: -1009.48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1058938195

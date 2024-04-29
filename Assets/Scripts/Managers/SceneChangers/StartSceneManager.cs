@@ -9,7 +9,13 @@ public class StartSceneManager : MonoBehaviour
 
     private const int game1SceneIndex = 2;
     private const int  introSceneIndex = 1;
+    // Reference to the audio manager
 
+    public void Start()
+    {
+        // Add a listener to the start button
+        startButton.onClick.AddListener(StartGame);
+    }
     public void LoadGame1()
     {
         //SceneManager.LoadScene(game1SceneIndex);
@@ -19,12 +25,6 @@ public class StartSceneManager : MonoBehaviour
     public void LoadIntro()
     {
         SceneManager.LoadScene(introSceneIndex);
-    }
-
-    void Start()
-    {
-        // Add an onClick listener to the start button
-        //startButton.onClick.AddListener(StartGame);
     }
 
     public void StartGame()

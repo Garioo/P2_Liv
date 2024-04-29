@@ -2702,7 +2702,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetState: 5
   gameManager: {fileID: 522321101}
-  delayTime: 28.5
+  delayTime: 24
 --- !u!1 &733893221
 GameObject:
   m_ObjectHideFlags: 0
