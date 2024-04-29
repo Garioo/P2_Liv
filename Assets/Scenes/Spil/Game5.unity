@@ -728,13 +728,13 @@ MonoBehaviour:
   - {fileID: 2123211368}
   videoPlayer: {fileID: 59720627}
   DialogVideos:
-  - {fileID: 32900000, guid: 655438065fabe482ca4aeef91496b044, type: 3}
-  - {fileID: 32900000, guid: 8f4f360610b734e37b75231ceacaa63e, type: 3}
-  - {fileID: 32900000, guid: fbc817efafe214ba2bb784c47de0ea21, type: 3}
-  - {fileID: 32900000, guid: 395a1838cab884f8090e2a450fcacc41, type: 3}
-  - {fileID: 32900000, guid: b7d84f4f5f2c24c8ba3e0c432db78116, type: 3}
-  - {fileID: 32900000, guid: 405115e6933ea4e998e59027d336c772, type: 3}
-  - {fileID: 32900000, guid: 47d370eacc5da49629c190d371a6edea, type: 3}
+  - {fileID: 32900000, guid: cd7879cec2144484d8bdf0016689fb1f, type: 3}
+  - {fileID: 32900000, guid: 65d147208416443e18683c77b41bb8bd, type: 3}
+  - {fileID: 32900000, guid: 5e568e194a8bd41248b0e76df29afaf6, type: 3}
+  - {fileID: 32900000, guid: 23cfa7dfb11864e73b70e50924e14a2b, type: 3}
+  - {fileID: 32900000, guid: f8a0238b180504647ac5f253d96aaf07, type: 3}
+  - {fileID: 32900000, guid: 0ef5c65bf0a7d49eea3c0ff68d2433ed, type: 3}
+  - {fileID: 32900000, guid: cf0462b4b9c334e3c90ae375ce40b867, type: 3}
   targetState: 11
 --- !u!1001 &892610206
 PrefabInstance:

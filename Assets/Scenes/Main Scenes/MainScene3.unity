@@ -1048,7 +1048,7 @@ MonoBehaviour:
   - 3
   waitTimes:
   - 5.3
-  - 7
+  - 6.5
 --- !u!212 &1698607653
 SpriteRenderer:
   m_ObjectHideFlags: 0
