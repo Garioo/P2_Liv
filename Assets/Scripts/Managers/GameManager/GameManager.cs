@@ -44,6 +44,7 @@ public class GameManager : MonoBehaviour
     {
         // Start the initial game state
         EnterState(GameState.StartState);
+        AudioManager.instance.PlayAudio("event:/GameSound/title_music");
     }
 
 
@@ -59,6 +60,9 @@ public class GameManager : MonoBehaviour
 
             case GameState.Game1:
                 LoadSceneWithCutscene("Game1", "Cutscene1");
+                AudioManager.instance.StopAudio("event:/GameSound/title_music");
+                AudioManager.instance.PlayAudio("event:/Cutscenes/Dream");
+                AudioManager.instance.PlayAudio("event:/SFX/Noise/white_noise");
                 break;
 
             case GameState.MainScene1:

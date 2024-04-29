@@ -1,72 +1,86 @@
 {
-    "nodes": [
-      {
-        "id": 1,
-        "text": "Hvordan går det egentlig med dig?",
-        "choices": [
-          {
-            "text": "Jeg har det godt",
-            "nextNodeId": 1,
-            "videoClipIdentifier": "Surprised 2"
-          },
-          {
-            "text": "Alt er fint",
-            "nextNodeId": 2,
-            "videoClipIdentifier": "Surprised 2"
-          },
-          {
-            "text": "Jeg har det ikke så godt",
-            "nextNodeId": 3,
-            "videoClipIdentifier": "Surprised 2"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "text": "Jeg synes bare ikke jeg har hørt så meget fra dig på det seneste. Er alt okay",
-        "choices": [
-            {
-                "text": "Alt er fint",
-                "nextNodeId": 2,
-                "videoClipIdentifier": "Surprised 2"
-            },
-            {
-                "text": "Jeg har det ikke så godt",
-                "nextNodeId": 3,
-                "videoClipIdentifier": "Surprised 2"
-            },
-            {
-              "text": "Jeg har selvmordstanker",
-              "nextNodeId": -1
-            }
-            
-        ]
-      },
-      {
-        "id": 3,
-        "text": "Er du sikker?",
-        "choices": [
-          {
-            "text": "Jeg har det ikke så godt",
-            "nextNodeId": 3,
-            "videoClipIdentifier": "Surprised 2"
-          },
-            {
-                "text": "Jeg har selvmordstanker",
-                "nextNodeId": -1
-            }
-        ]
-      },
-      {
-        "id": 4,
-        "text": "Det kan jeg faktisk godt mærke. Da vi snakkede tidligere sagde du også, du var så træt, du bare ville dø. Du må altså gerne sige hvis det er noget galt.",
-        "choices": [
-            {
-                "text": "Jeg har selvmordstanker",
-                "nextNodeId": -1
-            }
-        ]
-      }
-    ]
-  }
-  
+  "nodes": [
+    {
+      "id": 1,
+      "text": "Hvordan går det egentlig med dig?",
+      "videoClipIdentifierFriend": "Ven_1_Hvordan går det",
+      "soundIdentifierFriend": "event:/GameSound/Minigame 5/Ven_1_hvordan_går_det",
+      "choices": [
+        {
+          "text": "Jeg har det godt",
+          "nextNodeId": 1,
+          "videoClipIdentifierLiv": "Liv_1_Har det godt",
+          "soundIdentifierLiv": "event:/GameSound/Minigame 5/Liv_1_jeg_har_det_godt"
+        },
+        {
+          "text": "Alt er fint",
+          "nextNodeId": 2,
+          "videoClipIdentifierLiv": "Liv_2_Alt er fint",
+          "soundIdentifierLiv": "event:/GameSound/Minigame 5/Liv_2_Alt_Er_Fint"
+          
+        },
+        {
+          "text": "Jeg har det ikke så godt",
+          "nextNodeId": 3,
+          "videoClipIdentifierLiv": "Liv_3_Ikke så godt",
+          "soundIdentifierLiv": "event:/GameSound/Minigame 5/Liv_3_Ikke_Så_Godt"
+          
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Jeg synes bare ikke jeg har hørt så meget fra dig på det seneste. Er alt okay",
+      "videoClipIdentifierFriend": "Ven_2_Er alt okay",
+      "soundIdentifierFriend": "event:/GameSound/Minigame 5/Ven_2_er_alt_okay",
+      "choices": [
+        {
+          "text": "Alt er fint",
+          "nextNodeId": 2,
+          "videoClipIdentifierLiv": "Liv_2_Alt er fint",
+          "soundIdentifierLiv": "event:/GameSound/Minigame 5/Liv_2_Alt_Er_Fint"
+        },
+        {
+          "text": "Jeg har det ikke så godt",
+          "nextNodeId": 3,
+          "videoClipIdentifierLiv": "Liv_3_Ikke så godt",
+          "soundIdentifierLiv": "event:/GameSound/Minigame 5/Liv_3_Ikke_Så_Godt"
+        },
+        {
+          "text": "Jeg har selvmordstanker",
+          "nextNodeId": -1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Er du sikker?",
+      "videoClipIdentifierFriend": "Ven_3_Er du sikker",
+      "soundIdentifierFriend": "event:/GameSound/Minigame 5/Ven_3_er_du_sikker",
+      "choices": [
+        {
+          "text": "Jeg har det ikke så godt",
+          "nextNodeId": 3,
+          "videoClipIdentifierLiv": "Liv_3_Ikke så godt",
+          "soundIdentifierLiv": "event:/GameSound/Minigame 5/Liv_3_Ikke_Så_Godt"
+        },
+        {
+          "text": "Jeg har selvmordstanker",
+          "nextNodeId": -1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Det kan jeg faktisk godt mærke. Da vi snakkede tidligere sagde du også, du var så træt, du bare ville dø. Du må altså gerne sige hvis det er noget galt.",
+      "videoClipIdentifierFriend": "Ven_4_Snakkede tidligere",
+      "soundIdentifierFriend": "event:/GameSound/Minigame 5/Ven_4_snakkede_tidligere",
+      "choices": [
+        {
+          "text": "Jeg har selvmordstanker",
+          "nextNodeId": -1
+        }
+      ]
+    }
+  ]
+}
