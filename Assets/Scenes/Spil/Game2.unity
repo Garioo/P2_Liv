@@ -310,11 +310,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -600425408
-      Data2: 1269737676
-      Data3: 1541908126
-      Data4: -1480826269
-    Path: event:/SFX/pills_sfx/pill_4
+      Data1: 2082799146
+      Data2: 1325987561
+      Data3: -754007378
+      Data4: -285629115
+    Path: event:/SFX/pills_sfx/pill_6
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -2137,11 +2137,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -600425408
-      Data2: 1269737676
-      Data3: 1541908126
-      Data4: -1480826269
-    Path: event:/SFX/pills_sfx/pill_4
+      Data1: 2082799146
+      Data2: 1325987561
+      Data3: -754007378
+      Data4: -285629115
+    Path: event:/SFX/pills_sfx/pill_6
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -6478,11 +6478,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -600425408
-      Data2: 1269737676
-      Data3: 1541908126
-      Data4: -1480826269
-    Path: event:/SFX/pills_sfx/pill_4
+      Data1: 2082799146
+      Data2: 1325987561
+      Data3: -754007378
+      Data4: -285629115
+    Path: event:/SFX/pills_sfx/pill_6
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -7696,11 +7696,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -600425408
-      Data2: 1269737676
-      Data3: 1541908126
-      Data4: -1480826269
-    Path: event:/SFX/pills_sfx/pill_4
+      Data1: 2082799146
+      Data2: 1325987561
+      Data3: -754007378
+      Data4: -285629115
+    Path: event:/SFX/pills_sfx/pill_6
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -10096,11 +10096,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -600425408
-      Data2: 1269737676
-      Data3: 1541908126
-      Data4: -1480826269
-    Path: event:/SFX/pills_sfx/pill_4
+      Data1: 2082799146
+      Data2: 1325987561
+      Data3: -754007378
+      Data4: -285629115
+    Path: event:/SFX/pills_sfx/pill_6
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -10354,11 +10354,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -600425408
-      Data2: 1269737676
-      Data3: 1541908126
-      Data4: -1480826269
-    Path: event:/SFX/pills_sfx/pill_4
+      Data1: 2082799146
+      Data2: 1325987561
+      Data3: -754007378
+      Data4: -285629115
+    Path: event:/SFX/pills_sfx/pill_6
   Event: 
   PlayEvent: 15
   StopEvent: 16
@@ -10557,11 +10557,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -600425408
-      Data2: 1269737676
-      Data3: 1541908126
-      Data4: -1480826269
-    Path: event:/SFX/pills_sfx/pill_4
+      Data1: 2082799146
+      Data2: 1325987561
+      Data3: -754007378
+      Data4: -285629115
+    Path: event:/SFX/pills_sfx/pill_6
   Event: 
   PlayEvent: 15
   StopEvent: 16
