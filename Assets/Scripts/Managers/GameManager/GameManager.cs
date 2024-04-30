@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
     {
         // Start the initial game state
         EnterState(GameState.StartState);
-        //AudioManager.instance.PlayAudio("event:/GameSound/title_music");
+        AudioManager.instance.PlayAudio("event:/GameSound/title_music");
     }
 
 
