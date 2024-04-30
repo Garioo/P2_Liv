@@ -630,6 +630,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VideoManager
       objectReference: {fileID: 0}
+    - target: {fileID: 2958286765442897942, guid: 728b47ec370984a3c8a63a51b9078643, type: 3}
+      propertyPath: videoInfos.Array.data[9].videoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: c84f3f01c6f064d86897e9f4eee70202, type: 3}
     - target: {fileID: 6486880500500728264, guid: 728b47ec370984a3c8a63a51b9078643, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.939126
