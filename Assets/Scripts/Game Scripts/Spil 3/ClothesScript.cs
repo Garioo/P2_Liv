@@ -5,6 +5,11 @@ using UnityEngine;
 public class ClothesScript : MonoBehaviour
 {
     private Vector3 offset;
+    private void OnMouseDown()
+    {
+        // Calculate offset between mouse position and pills position
+        offset = transform.position - Camera.main.ScreenToWorldPoint(Input.mousePosition);
+    }
     private void OnMouseDrag()
     {
         // Move the pills based on mouse position
