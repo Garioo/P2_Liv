@@ -3,10 +3,10 @@ using UnityEngine;
 public class DelayedAction : MonoBehaviour
 {
 
-public GameManager.GameState targetState;
+    public GameManager.GameState targetState;
     public GameManager gameManager;
 
-    public float delayTime;
+    private const float delayTime = 10f;
 
     // Start is called before the first frame update
 
@@ -25,7 +25,7 @@ public GameManager.GameState targetState;
 
     System.Collections.IEnumerator DoActionAfterDelay()
     {
-        // Wait for 20 seconds
+        // Wait for 15 seconds
         yield return new WaitForSeconds(delayTime);
 
         if (gameManager != null)
