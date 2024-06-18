@@ -81,7 +81,7 @@ public class ShakeCamera : MonoBehaviour
                 if (gameManager != null)
                 {
                     // Transition to the target game state
-                    AudioManager.instance.PlayAudio("event:/Cutscenes/Liv Vågner");
+                    AudioManager.instance.PlayAudio("event:/Liv Vågner");
                     gameManager.EnterState(targetState);
                     Debug.Log("Transitioned to " + targetState);
                 }

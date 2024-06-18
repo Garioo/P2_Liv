@@ -730,15 +730,12 @@ MonoBehaviour:
   - {fileID: 2132351510}
   - {fileID: 149352586}
   - {fileID: 2123211368}
-  videoPlayer: {fileID: 59720627}
+  videoPlayer: {fileID: 1795479123}
   DialogVideos:
-  - {fileID: 32900000, guid: cd7879cec2144484d8bdf0016689fb1f, type: 3}
-  - {fileID: 32900000, guid: 65d147208416443e18683c77b41bb8bd, type: 3}
-  - {fileID: 32900000, guid: 5e568e194a8bd41248b0e76df29afaf6, type: 3}
-  - {fileID: 32900000, guid: 23cfa7dfb11864e73b70e50924e14a2b, type: 3}
-  - {fileID: 32900000, guid: f8a0238b180504647ac5f253d96aaf07, type: 3}
-  - {fileID: 32900000, guid: 0ef5c65bf0a7d49eea3c0ff68d2433ed, type: 3}
-  - {fileID: 32900000, guid: cf0462b4b9c334e3c90ae375ce40b867, type: 3}
+  - {fileID: 32900000, guid: 5024b800ea35141c5a66cdec6e6ddf08, type: 3}
+  - {fileID: 32900000, guid: 80c0064e89f374757a76df6c205dc5fb, type: 3}
+  - {fileID: 32900000, guid: 8660637c024944ae2b265696e7e85ad7, type: 3}
+  audioSource: {fileID: 0}
   targetState: 11
 --- !u!1001 &892610206
 PrefabInstance:
