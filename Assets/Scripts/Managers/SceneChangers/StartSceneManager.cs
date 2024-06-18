@@ -1,3 +1,9 @@
+/*
+------------------------------
+    StartSceneManager.cs
+Description: A script to manage the start scene and transition to the next game state when the start button is pressed
+------------------------------
+*/
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;

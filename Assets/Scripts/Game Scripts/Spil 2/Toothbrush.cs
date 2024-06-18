@@ -1,3 +1,10 @@
+/*
+--------------------------  
+    Toothbrush.cs
+Description: Script for the toothbrush object in the second game scene
+--------------------------
+ */
+ 
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

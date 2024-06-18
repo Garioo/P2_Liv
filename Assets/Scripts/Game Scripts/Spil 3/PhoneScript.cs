@@ -1,3 +1,10 @@
+/*
+---------------------------
+    phoneScript.cs
+Description: A script to transition to a target game state when the player clicks on the phone
+---------------------------
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

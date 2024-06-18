@@ -1,23 +1,45 @@
+/*
+------------------------------
+    VideoManager.cs
+Description: A script to manage video playback in the game, including methods to play and stop VideoClips by name.
+------------------------------
+
+Litterature:
+    * Unity Documentation for VideoPlayer:
+        [VideoPlayer Documentation](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Video.VideoPlayer.html)
+    * Unity Documentation for VideoClip:
+        [VideoClip Documentation](https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Video.VideoClip.html)
+*/
+
 using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
 
+// VideoManager class to manage video playback
 public class VideoManager : MonoBehaviour
 {
+    // Struct to store video information
     [Serializable]
     public struct VideoInfo
     {
+        // Tag to identify the video
         public string cutsceneTag;
+        // VideoClip to play
         public VideoClip videoClip;
     }
 
-    public static VideoManager instance; // Singleton instance
+    // Singleton instance of the VideoManager
+    public static VideoManager instance;
 
-    public VideoPlayer videoPlayer; // Assign the VideoPlayer component in the Unity Editor
-    public List<VideoInfo> videoInfos; // List of video information (tag and VideoClip)
-    public GameManager gameManager; // Reference to the GameManager script
+    // Reference to the VideoPlayer component in the scene
+    public VideoPlayer videoPlayer;
+    // List of video information to play
+    public List<VideoInfo> videoInfos; 
+    // Reference to the GameManager script
+    public GameManager gameManager;
 
+    // Bool to check if the video has played
     private bool hasPlayed;
 
     void Awake()
@@ -36,10 +58,11 @@ public class VideoManager : MonoBehaviour
 
     void Start()
     {
-            videoPlayer.loopPointReached += OnVideoFinished;
+        // Subscribe to the loopPointReached event
+        videoPlayer.loopPointReached += OnVideoFinished;
     }
 
-   
+   // Method to handle the video finished event
     private void OnVideoFinished(VideoPlayer vp)
 {
     // Null check for gameManager
@@ -51,16 +74,24 @@ public class VideoManager : MonoBehaviour
 
     // Notify the GameManager that the video has finished playing
     Debug.Log("Video finished");
+    // Transition to the next game state
     gameManager.VideoNextState();
+    // Reset the hasPlayed flag
     hasPlayed = false;
 }
 
+    // Method to play a video by cutscene tag   
     public void PlayVideo(string cutsceneTag)
     {
+        // Find the main camera in the scene
         Camera mainCamera = Camera.main;
-        if (mainCamera != null)
+        
+        // Check if the main camera is found
+        if (mainCamera != null) 
         {   
+            // Set the video player render mode to CameraNearPlane
             videoPlayer.renderMode = VideoRenderMode.CameraNearPlane;
+            // Set the target camera for the video player
             videoPlayer.targetCamera = mainCamera;
             
         }
@@ -68,32 +99,42 @@ public class VideoManager : MonoBehaviour
         {
             Debug.LogWarning("Main camera not found. VideoPlayer render mode not set.");
         }
-
+        // Check if the video has played
         if (!hasPlayed)
         {
-                Debug.Log("Tjekker efter video i arrayen 'videoInfos'");
+            Debug.Log("Tjekker efter video i arrayen 'videoInfos'");
+            // Loop through the videoInfos list
             foreach (VideoInfo videoInfo in videoInfos)
             {
+                // Check if the cutscene tag matches
                 if (videoInfo.cutsceneTag == cutsceneTag)
                 {
+                    // Set the video clip and play the video
                     videoPlayer.clip = videoInfo.videoClip;
+                    // Play the video
                     videoPlayer.Play();
                     Debug.Log("Afspiller video");
+                    // Set the hasPlayed flag to true
                     hasPlayed = true;
                     break;
                 }
             }
         }
     }
+    // Method to stop the video playback
     public float GetVideoDuration(string cutsceneTag)
     {
+        // Loop through the videoInfos list
         foreach (VideoInfo videoInfo in videoInfos)
         {
+            // Check if the cutscene tag matches
             if (videoInfo.cutsceneTag == cutsceneTag)
             {
+                // Return the duration of the video clip
                 return (float)videoInfo.videoClip.length;
             }
         }
-        return 0f; // Return 0 if video clip not found
+        // Return 0 if video clip not found
+        return 0f;
     }
 }
